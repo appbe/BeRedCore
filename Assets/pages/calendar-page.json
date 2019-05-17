@@ -1,0 +1,48 @@
+﻿{
+  "id": "calendar-page",
+  "component": [
+    {
+      "type": "navbar",
+      "hairline": "0",
+      "list": [
+        {
+          "type": "left",
+          "icoIos": "icon icon-back",
+          "icoMat": "icon icon-back",
+          "class": "back link",
+          "click": "#"
+        },
+        {
+          "type": "title",
+          "text": "Calendar Page"
+        }
+      ]
+    },
+    {
+      "type": "html",
+      "data": "<div id=\"calendar\" class=\"block block-strong no-padding no-margin no-hairline-top\"></div>"
+    },
+    {
+      "type": "list",
+      "subtype": "title",
+      "list": [
+        {
+          "title": "Meeting with Vladimir",
+          "after": "12:30"
+        },
+        {
+          "title": "Shopping",
+          "after": "18:30"
+        },
+        {
+          "title": "Gym",
+          "after": "21:30"
+        }
+      ]
+    },
+    {
+      "type": "script",
+      "data": "Be.page(\"calendar-page\",function(){var container=$(this).find('div#calendar');container.beDatePicker({container:container,full:true,eventDays:['2018-09-30','2018-09-22','2018-09-23','2018-09-26']}).on('dateSelected',function(e,date){console.log('dateSelected='+date.format('YYYY-MM-DD'));}).on('yearSelected',function(e,date,setEvent){var newYear=date.format('YYYY');var newMonth = date.format('MM');var arrEvent=[newYear+'-09-30',newYear+'-09-22',newYear+'-09-23',newYear+'-09-26'];setEvent(arrEvent);console.log('year=' + newYear + ',month=' + newMonth);}).on('monthSelected', function (e, date) { console.log('monthSelected=' + date.format('YYYY-MM-DD')); });});"
+    }
+  ]
+}

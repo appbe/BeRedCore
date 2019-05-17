@@ -1,0 +1,53 @@
+﻿{
+  "id": "effect-animated-frame3",
+  "component": [
+    {
+      "type": "navbar",
+      "subtype": "cover",
+      "list": [
+        {
+          "type": "left",
+          "icoIos": "icon icon-back",
+          "icoMat": "icon icon-back",
+          "class": "back link",
+          "click": "#"
+        }
+      ]
+    },
+    {
+      "type": "css-effect",
+      "subtype": "animated-frame",
+      "effectIdx": "3",
+      "list": [
+        {
+          "image": "{url}/assets/img/animated17.jpg",
+          "title": "Dazzling",
+          "link": "Discover more",
+          "click": "xApp.alert('Discover more')",
+          "text": "The main challenge is finding the right balance."
+        },
+        {
+          "image": "{url}/assets/img/animated18.jpg",
+          "title": "Brilliant",
+          "link": "Find inspiration",
+          "click": "xApp.alert('Find inspiration')",
+          "text": "Put the right minds together and imagine infinity."
+        },
+        {
+          "image": "{url}/assets/img/animated19.jpg",
+          "title": "Sensational",
+          "link": "Find out more",
+          "click": "xApp.alert('Find out more')",
+          "text": "Extremes are easy. Strive for balance."
+        },
+        {
+          "image": "{url}/assets/img/animated20.jpg",
+          "title": "Vibrant",
+          "link": "Paint your future",
+          "click": "xApp.alert('Paint your future')",
+          "text": "The purest minds are those which love color the most."
+        }
+      ]
+    }
+  ]
+}

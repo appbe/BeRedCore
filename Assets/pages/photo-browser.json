@@ -1,0 +1,53 @@
+﻿{
+  "id": "photo-browser",
+  "component": [
+    {
+      "type": "navbar",
+      "list": [
+        {
+          "type": "left",
+          "icoIos": "icon icon-back",
+          "icoMat": "icon icon-back",
+          "class": "back link",
+          "click": "#"
+        },
+        {
+          "type": "title",
+          "text": "Photo Browser"
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "subtype": "icon",
+      "sortable": "0",
+      "searchBar": "0",
+      "list": [
+        {
+          "title": "Photo View (White background)",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "click": "Be.app.photoView('Assets/data/photo.json', false);"
+        },
+        {
+          "title": "Photo View (Black background)",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "click": "Be.app.photoView('Assets/data/photo.json', true);"
+        },
+        {
+          "title": "Photo Gallery (White background)",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "click": "photo-gallery-1"
+        },
+        {
+          "title": "Photo Gallery (Black background)",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "click": "photo-gallery-2"
+        }
+      ]
+    }
+  ]
+}

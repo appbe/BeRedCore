@@ -1,0 +1,53 @@
+﻿{
+  "id": "effect-animated-frame2",
+  "component": [
+    {
+      "type": "navbar",
+      "subtype": "cover",
+      "list": [
+        {
+          "type": "left",
+          "icoIos": "icon icon-back",
+          "icoMat": "icon icon-back",
+          "class": "back link",
+          "click": "#"
+        }
+      ]
+    },
+    {
+      "type": "css-effect",
+      "subtype": "animated-frame",
+      "effectIdx": "2",
+      "list": [
+        {
+          "image": "{url}/assets/img/animated9.jpg",
+          "title": "Relax",
+          "link": "Explore destinations",
+          "click": "xApp.alert('Explore destinations')",
+          "text": "Find out why so many travelers always come back."
+        },
+        {
+          "image": "{url}/assets/img/animated10.jpg",
+          "title": "Unwind",
+          "link": "Adventure yourself",
+          "click": "xApp.alert('Adventure yourself')",
+          "text": "Untouched natural beauty makes this place unique."
+        },
+        {
+          "image": "{url}/assets/img/animated11.jpg",
+          "title": "Wallow",
+          "link": "Discover calmness",
+          "click": "xApp.alert('Discover calmness')",
+          "text": "Leave society behind and indulge yourself in tranquility."
+        },
+        {
+          "image": "{url}/assets/img/animated12.jpg",
+          "title": "Revel",
+          "link": "Find out more",
+          "click": "xApp.alert('Find out more')",
+          "text": "Discover great activities with breathtaking views."
+        }
+      ]
+    }
+  ]
+}

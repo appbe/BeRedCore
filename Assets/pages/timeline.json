@@ -1,0 +1,39 @@
+﻿{
+  "id": "timeline",
+  "component": [
+    {
+      "type": "navbar",
+      "list": [
+        {
+          "type": "left",
+          "icoIos": "icon icon-back",
+          "icoMat": "icon icon-back",
+          "class": "back link",
+          "click": "#"
+        },
+        {
+          "type": "title",
+          "text": "Timeline"
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "subtype": "title",
+      "list": [
+        {
+          "title": "Vertical Timeline",
+          "click": "timeline-vertical"
+        },
+        {
+          "title": "Horizontal Timeline",
+          "click": "timeline-horizontal"
+        },
+        {
+          "title": "Calendar  Timeline",
+          "click": "timeline-calendar"
+        }
+      ]
+    }
+  ]
+}

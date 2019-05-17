@@ -1,0 +1,84 @@
+﻿{
+  "id": "audio-lists",
+  "component": [
+    {
+      "type": "navbar",
+      "list": [
+        {
+          "type": "left",
+          "icoIos": "icon icon-back",
+          "icoMat": "icon icon-back",
+          "class": "back link",
+          "click": "#"
+        },
+        {
+          "type": "title",
+          "text": "Audio Lists"
+        }
+      ]
+    },
+    {
+      "type": "content",
+      "list": [
+        {
+          "text": "Audio Lists are almost the same as Data Lists, but with a more flexible layout for visualization of more complex data, like products, services, userc, etc."
+        }
+      ]
+    },
+    {
+      "type": "list-audio",
+      "title": "Audio",
+      "list": [
+        {
+          "audio": "{url}/assets/media/heart-spa.mp3",
+          "title": "Heart SPA",
+          "subtitle": "Beatles",
+          "barCls": "color-red",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. "
+        },
+        {
+          "audio": "{url}/assets/media/rain.mp3",
+          "title": "Rain",
+          "subtitle": "Queen",
+          "barCls": "color-green",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sagittis tellus ut turpis condimentum, ut dignissim lacus tincidunt. Cras dolor metus, ultrices condimentum sodales sit amet, pharetra sodales eros. Phasellus vel felis tellus. Mauris rutrum ligula nec dapibus feugiat. In vel dui laoreet, commodo augue id, pulvinar lacus."
+        },
+        {
+          "audio": "{url}/assets/media/bass.mp3",
+          "title": "Bass",
+          "subtitle": "Michael Jackson",
+          "barCls": "color-pink",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sagittis tellus ut turpis condimentum, ut dignissim lacus tincidunt. Cras dolor metus, ultrices condimentum sodales sit amet, pharetra sodales eros. Phasellus vel felis tellus. Mauris rutrum ligula nec dapibus feugiat. In vel dui laoreet, commodo augue id, pulvinar lacus."
+        },
+        {
+          "audio": "{url}/assets/media/ring.wav",
+          "title": "Phone Ring",
+          "subtitle": "Beatles",
+          "barCls": "color-orange",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. "
+        },
+        {
+          "audio": "{url}/assets/media/tomorrowbetter.mp3",
+          "title": "明天会更好",
+          "subtitle": "歌手：卓依婷",
+          "barCls": "color-blue",
+          "text": "轻轻敲醒沉睡的心灵，慢慢张开你的眼睛，看看忙碌的世界，是否依然孤独的转个不停"
+        },
+        {
+          "audio": "{url}/assets/media/jiugantmf.mp3",
+          "title": "酒干倘卖无",
+          "subtitle": "歌手：苏芮",
+          "barCls": "color-blue",
+          "text": "多么熟悉的声音，陪我多少年风和雨，从来不需要想起，永远也不会忘记……"
+        },
+        {
+          "audio": "{url}/assets/media/lovesimple.mp3",
+          "title": "爱很简单",
+          "subtitle": "歌手：陶喆",
+          "barCls": "color-blue",
+          "text": "忘了是怎么开始，也许就是对你，有一种感觉，忽然间发现自己，已深深爱上你。"
+        }
+      ]
+    }
+  ]
+}

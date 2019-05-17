@@ -1,0 +1,195 @@
+﻿{
+  "id": "progressbar",
+  "component": [
+    {
+      "type": "navbar",
+      "list": [
+        {
+          "type": "left",
+          "icoIos": "icon icon-back",
+          "icoMat": "icon icon-back",
+          "class": "back link",
+          "click": "#"
+        },
+        {
+          "type": "title",
+          "text": "Progress Bar"
+        }
+      ]
+    },
+    {
+      "type": "content",
+      "list": [
+        {
+          "text": "<p>In addition to <a href=\"preloader\">Preloader</a>, Framework7 also comes with fancy animated determinate and infinite/indeterminate progress bars to indicate some activity.</p>"
+        },
+        {
+          "text": "<div class=\"content-block-inner\">\r\n<p>When progress bar is determinate it indicates how long an operation will take when the percentage complete is detectable.</p>\r\n<p>Inline determinate progress bar:</p></div>"
+        }
+      ]
+    },
+    {
+      "type": "progressbar",
+      "list": [
+        {
+          "value": "0",
+          "id": "pbar-1"
+        }
+      ]
+    },
+    {
+      "type": "content",
+      "list": [
+        {
+          "text": "<div class=\"content-block-inner\"><p class=\"row ks-demo-progressbar-inline\"><a href=\"#\" data-progress=\"10\" class=\"button button-raised\">10%</a><a href=\"#\" data-progress=\"30\" class=\"button button-raised\">30%</a><a href=\"#\" data-progress=\"50\" class=\"button button-raised\">50%</a><a href=\"#\" data-progress=\"100\" class=\"button button-raised\">100%</a></p></div>"
+        }
+      ]
+    },
+    {
+      "type": "content",
+      "list": [
+        {
+          "text": "<div class=\"content-block-inner\"><p>Overlay with determinate progress bar on top of the app:</p>\r\n<p class=\"ks-demo-progressbar-overlay\"><a href=\"#\" class=\"button button-raised\">Start Loading</a></p><p>Overlay with infinite progress bar on top of the app:</p>\r\n<p class=\"ks-demo-progressbar-infinite-overlay\"><a href=\"#\" class=\"button button-raised\">Start Loading</a></p></div>"
+        }
+      ]
+    },
+    {
+      "type": "content",
+      "list": [
+        {
+          "text": "<div class=\"content-block-inner\">\r\n<p>When progress bar is infinite/indeterminate it requests that the user wait while something finishes when it not necessary to indicate how long it will take.</p>\r\n<p>Inline infinite progress bar and Multi-color infinite progress bar:</p></div>"
+        }
+      ]
+    },
+    {
+      "type": "progressbar",
+      "list": [
+        {
+          "id": "pbar-2"
+        }
+      ]
+    },
+    {
+      "type": "progressbar",
+      "list": [
+        {
+          "id": "pbar-3",
+          "color": "multi"
+        }
+      ]
+    },
+    {
+      "type": "content",
+      "list": [
+        {
+          "text": "<div class=\"content-block-inner\">\r\n<p>more progress bar example:</p></div>"
+        }
+      ]
+    },
+    {
+      "type": "progressbar",
+      "list": [
+        {
+          "value": "5",
+          "id": "pbar-10",
+          "color": "red"
+        },
+        {
+          "value": "10",
+          "id": "pbar-11",
+          "color": "green",
+          "extCls": "split-top"
+        },
+        {
+          "value": "15",
+          "id": "pbar-12",
+          "color": "blue",
+          "extCls": "split-top"
+        },
+        {
+          "value": "20",
+          "id": "pbar-13",
+          "color": "pink",
+          "extCls": "split-top"
+        },
+        {
+          "value": "25",
+          "id": "pbar-14",
+          "color": "yellow",
+          "extCls": "split-top"
+        },
+        {
+          "value": "30",
+          "id": "pbar-15",
+          "color": "gray",
+          "extCls": "split-top"
+        },
+        {
+          "value": "35",
+          "extCls": "split-top"
+        },
+        {
+          "value": "40",
+          "extCls": "split-top"
+        },
+        {
+          "value": "45",
+          "extCls": "split-top"
+        },
+        {
+          "value": "50",
+          "extCls": "split-top"
+        },
+        {
+          "value": "55",
+          "extCls": "split-top"
+        },
+        {
+          "value": "60",
+          "extCls": "split-top"
+        },
+        {
+          "value": "65",
+          "extCls": "split-top"
+        },
+        {
+          "value": "70",
+          "extCls": "split-top"
+        },
+        {
+          "value": "75",
+          "extCls": "split-top"
+        },
+        {
+          "value": "80",
+          "extCls": "split-top"
+        },
+        {
+          "value": "85",
+          "extCls": "split-top"
+        },
+        {
+          "value": "90",
+          "extCls": "split-top"
+        },
+        {
+          "value": "95",
+          "extCls": "split-top"
+        },
+        {
+          "value": "100",
+          "color": "black",
+          "extCls": "split-top"
+        }
+      ]
+    },
+    {
+      "type": "style",
+      "data": ".split-top{margin-top:4px;}"
+    },
+    {
+      "type": "script",
+      "data": "Be.page(\"progressbar\", function () {$('.ks-demo-progressbar-inline .button').on('click', function () {var value = $(this).attr('data-progress');var pbar = $('#pbar-1');Be.app.progressbar.set(pbar, value);});$('.ks-demo-progressbar-overlay .button').on('click', function () {var pbar = Be.app.progressbar.show(0, 'red');var progress = 0;function simulateLoading() {setTimeout(function () {var progressBefore = progress;progress += Math.random() * 20;Be.app.progressbar.set(pbar, progress);if (progressBefore < 100) { simulateLoading(); }else Be.app.progressbar.hide(pbar);}, Math.random() * 200 + 200);}simulateLoading();});var pbar1;$('.ks-demo-progressbar-infinite-overlay .button').on('click', function () {pbar1 = Be.app.progressbar.show('', 'green');});});"
+    }
+  ]
+}

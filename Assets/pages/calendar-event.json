@@ -1,0 +1,45 @@
+﻿{
+  "id": "calendar-event",
+  "component": [
+    {
+      "type": "navbar",
+      "hairline": "0",
+      "list": [
+        {
+          "type": "left",
+          "icoIos": "icon icon-back",
+          "icoMat": "icon icon-back",
+          "class": "back link",
+          "click": "#"
+        },
+        {
+          "type": "title",
+          "text": "Calendar Page"
+        }
+      ]
+    },
+    {
+      "type": "calendar-event",
+      "class": "block block-strong no-padding no-margin no-hairline-top",
+      "eventDays": "2018-09-30,2018-09-22,2018-09-23,2018-09-26"
+    },
+    {
+      "type": "list",
+      "subtype": "title",
+      "list": [
+        {
+          "title": "Meeting with Vladimir",
+          "after": "12:30"
+        },
+        {
+          "title": "Shopping",
+          "after": "18:30"
+        },
+        {
+          "title": "Gym",
+          "after": "21:30"
+        }
+      ]
+    }
+  ]
+}

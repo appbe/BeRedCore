@@ -1,0 +1,257 @@
+﻿{
+  "id": "chips",
+  "component": [
+    {
+      "type": "navbar",
+      "list": [
+        {
+          "type": "left",
+          "icoIos": "icon icon-back",
+          "icoMat": "icon icon-back",
+          "class": "back link",
+          "click": "#"
+        },
+        {
+          "type": "title",
+          "text": "Chips"
+        }
+      ]
+    },
+    {
+      "type": "title",
+      "shape": "sign",
+      "text": "Chips With Text"
+    },
+    {
+      "type": "chip",
+      "list": [
+        {
+          "type": "text",
+          "text": "Example Chip"
+        },
+        {
+          "type": "text",
+          "text": "Another Chip"
+        },
+        {
+          "type": "text",
+          "text": "One More  Chip"
+        },
+        {
+          "type": "text",
+          "text": "Fourth Chip"
+        },
+        {
+          "type": "text",
+          "text": "Last One"
+        }
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Outline Chips"
+    },
+    {
+      "type": "chip",
+      "outline": "1",
+      "list": [
+        {
+          "type": "text",
+          "text": "Example Chip",
+          "del": "0"
+        },
+        {
+          "type": "text",
+          "text": "Another Chip",
+          "del": "0"
+        },
+        {
+          "type": "text",
+          "text": "One More  Chip",
+          "del": "0"
+        },
+        {
+          "type": "text",
+          "text": "Fourth Chip",
+          "del": "0"
+        },
+        {
+          "type": "text",
+          "text": "Last One",
+          "del": "0"
+        }
+      ]
+    },
+    {
+      "type": "title",
+      "shape": "sign",
+      "text": "Chips With Icon"
+    },
+    {
+      "type": "chip",
+      "list": [
+        {
+          "type": "icon",
+          "text": "Set Date",
+          "del": "0",
+          "iconCls": "bg-color-blue",
+          "icoIos": "add_round",
+          "icoMat": "add_circle"
+        },
+        {
+          "type": "icon",
+          "text": "Sent",
+          "del": "0",
+          "iconCls": "bg-color-green",
+          "icoIos": "compass",
+          "icoMat": "location_on"
+        },
+        {
+          "type": "icon",
+          "text": "Uploaded",
+          "del": "0",
+          "iconCls": "bg-color-red",
+          "icoIos": "person",
+          "icoMat": "person"
+        }
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Chips With Image"
+    },
+    {
+      "type": "chip",
+      "list": [
+        {
+          "type": "image",
+          "text": "Jane Doe",
+          "del": "0",
+          "image": "{url}/assets/img/people-1.jpg"
+        },
+        {
+          "type": "image",
+          "text": "Mike Chang",
+          "del": "0",
+          "image": "{url}/assets/img/people-2.jpg"
+        },
+        {
+          "type": "image",
+          "text": "Adam Smith",
+          "del": "0",
+          "image": "{url}/assets/img/people-3.jpg"
+        },
+        {
+          "type": "bg",
+          "text": "Jennifer",
+          "bgCls": "bg-color-pink"
+        }
+      ]
+    },
+    {
+      "type": "title",
+      "shape": "sign",
+      "text": "Chips With Delete"
+    },
+    {
+      "type": "chip",
+      "list": [
+        {
+          "type": "image",
+          "text": "Jane Doe",
+          "del": "1",
+          "image": "{url}/assets/img/people-9.jpg"
+        },
+        {
+          "type": "image",
+          "text": "Mike Chang",
+          "del": "1",
+          "image": "{url}/assets/img/people-8.jpg"
+        },
+        {
+          "type": "image",
+          "text": "Adam Smith",
+          "del": "1",
+          "image": "{url}/assets/img/people-7.jpg"
+        },
+        {
+          "type": "bg",
+          "text": "Jennifer",
+          "del": "1",
+          "bgCls": "bg-color-pink"
+        }
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Color Chips"
+    },
+    {
+      "type": "chip",
+      "list": [
+        {
+          "type": "color",
+          "text": "Red Chip",
+          "bgCls": "color-red"
+        },
+        {
+          "type": "color",
+          "text": "Green Chip",
+          "bgCls": "color-green"
+        },
+        {
+          "type": "color",
+          "text": "Blue Chip",
+          "bgCls": "color-blue"
+        },
+        {
+          "type": "color",
+          "text": "Orange Chip",
+          "bgCls": "color-orange"
+        },
+        {
+          "type": "color",
+          "text": "Pink Chip",
+          "bgCls": "color-pink"
+        }
+      ]
+    },
+    {
+      "type": "title",
+      "shape": "sign",
+      "text": "Outline Color Chips"
+    },
+    {
+      "type": "chip",
+      "outline": "1",
+      "title": "Outline Color Chips",
+      "list": [
+        {
+          "type": "color",
+          "text": "Red Chip",
+          "bgCls": "color-red"
+        },
+        {
+          "type": "color",
+          "text": "Green Chip",
+          "bgCls": "color-green"
+        },
+        {
+          "type": "color",
+          "text": "Blue Chip",
+          "bgCls": "color-blue"
+        },
+        {
+          "type": "color",
+          "text": "Orange Chip",
+          "bgCls": "color-orange"
+        },
+        {
+          "type": "color",
+          "text": "Pink Chip",
+          "bgCls": "color-pink"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,233 @@
+﻿{
+  "id": "timeline-vertical",
+  "component": [
+    {
+      "type": "navbar",
+      "extCls": "no-shadow",
+      "list": [
+        {
+          "type": "left",
+          "icoIos": "icon icon-back",
+          "icoMat": "icon icon-back",
+          "class": "back link",
+          "click": "#"
+        },
+        {
+          "type": "title",
+          "text": "Vertical Timeline"
+        }
+      ]
+    },
+    {
+      "type": "timeline",
+      "title": "Default",
+      "list": [
+        {
+          "type": "",
+          "date": "21 DEC",
+          "text": "Plain text item"
+        },
+        {
+          "type": "",
+          "date": "22 DEC",
+          "text": "Another text goes here"
+        },
+        {
+          "type": "",
+          "date": "23 DEC",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor fugiat ipsam hic porro enim, accusamus perferendis, quas commodi alias quaerat eius nemo deleniti. Odio quasi quos quis iure, aperiam pariatur?"
+        },
+        {
+          "type": "",
+          "date": "24 DEC",
+          "text": "One more text here"
+        }
+      ]
+    },
+    {
+      "type": "timeline",
+      "subtype": "sides",
+      "title": "Side By Side",
+      "list": [
+        {
+          "type": "",
+          "date": "21 DEC",
+          "text": "Some text goes here"
+        },
+        {
+          "type": "",
+          "date": "22 DEC",
+          "text": "Another text goes here"
+        },
+        {
+          "type": "",
+          "date": "23 DEC",
+          "text": "Just plain text"
+        },
+        {
+          "type": "",
+          "date": "24 DEC",
+          "text": "One more text here"
+        }
+      ]
+    },
+    {
+      "type": "timeline",
+      "subtype": "tablet",
+      "title": "Only Tablet Side By Side",
+      "list": [
+        {
+          "type": "",
+          "date": "21 DEC",
+          "text": "Some text goes here"
+        },
+        {
+          "type": "",
+          "date": "22 DEC",
+          "text": "Another text goes here"
+        },
+        {
+          "type": "",
+          "date": "23 DEC",
+          "text": "Just plain text"
+        },
+        {
+          "type": "",
+          "date": "24 DEC",
+          "text": "One more text here"
+        }
+      ]
+    },
+    {
+      "type": "timeline",
+      "subtype": "sides",
+      "title": "Forced Sides",
+      "list": [
+        {
+          "type": "",
+          "date": "21 DEC",
+          "text": "Some text goes here"
+        },
+        {
+          "type": "",
+          "date": "22 DEC",
+          "text": "Another text goes here"
+        },
+        {
+          "type": "",
+          "date": "23 DEC",
+          "text": "Just plain text"
+        },
+        {
+          "type": "",
+          "date": "24 DEC",
+          "text": "One more text here"
+        }
+      ]
+    },
+    {
+      "type": "timeline",
+      "title": "Rich Content",
+      "list": [
+        {
+          "type": "rich",
+          "date": "21 DEC",
+          "item": [
+            {
+              "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor fugiat ipsam hic porro enim, accusamus perferendis, quas commodi alias quaerat eius nemo deleniti. Odio quasi quos quis iure, aperiam pariatur?",
+              "time": "12:56",
+              "subtitle": "Item Subtitle"
+            },
+            {
+              "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor fugiat ipsam hic porro enim, accusamus perferendis, quas commodi alias quaerat eius nemo deleniti. Odio quasi quos quis iure, aperiam pariatur?",
+              "time": "15:07",
+              "subtitle": "Item Subtitle"
+            }
+          ]
+        },
+        {
+          "type": "rich",
+          "date": "22 DEC",
+          "item": [
+            {
+              "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor fugiat ipsam hic porro enim, accusamus perferendis, quas commodi alias quaerat eius nemo deleniti. Odio quasi quos quis iure, aperiam pariatur?",
+              "time": "12:56",
+              "subtitle": "Item Subtitle"
+            },
+            {
+              "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor fugiat ipsam hic porro enim, accusamus perferendis, quas commodi alias quaerat eius nemo deleniti. Odio quasi quos quis iure, aperiam pariatur?",
+              "time": "15:07",
+              "subtitle": "Item Subtitle"
+            }
+          ]
+        },
+        {
+          "type": "card",
+          "date": "23 DEC",
+          "item": [
+            {
+              "text": "Card content",
+              "header": "Card header",
+              "footer": "Card footer"
+            },
+            {
+              "text": "Another card content"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "date": "24 DEC",
+          "inner": "24 DEC",
+          "item": [
+            {
+              "title": "Item Title 1",
+              "click": "#"
+            },
+            {
+              "title": "Item Title 2",
+              "click": "#"
+            },
+            {
+              "title": "Item Title 3",
+              "click": "#"
+            }
+          ]
+        },
+        {
+          "type": "",
+          "date": "25 DEC",
+          "inner": "25 DEC",
+          "text": "Plain text"
+        }
+      ]
+    },
+    {
+      "type": "timeline",
+      "title": "Inside Content Block",
+      "inside": "1",
+      "list": [
+        {
+          "type": "",
+          "date": "21 DEC",
+          "text": "Plain text item"
+        },
+        {
+          "type": "",
+          "date": "22 DEC",
+          "text": "Another text goes here"
+        },
+        {
+          "type": "",
+          "date": "23 DEC",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor fugiat ipsam hic porro enim, accusamus perferendis, quas commodi alias quaerat eius nemo deleniti. Odio quasi quos quis iure, aperiam pariatur?"
+        },
+        {
+          "type": "",
+          "date": "24 DEC",
+          "text": "One more text here"
+        }
+      ]
+    }
+  ]
+}

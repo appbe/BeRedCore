@@ -1,0 +1,58 @@
+﻿{
+  "id": "forms-md5",
+  "component": [
+    {
+      "type": "navbar",
+      "list": [
+        {
+          "type": "left",
+          "icoIos": "icon icon-back",
+          "icoMat": "icon icon-back",
+          "class": "back link",
+          "click": "#"
+        },
+        {
+          "type": "title",
+          "text": "Form MD5"
+        }
+      ]
+    },
+    {
+      "type": "input",
+      "subtype": "form",
+      "title": "MD5 Encrypt",
+      "id": "forms-md5-form",
+      "lblFloating": "0",
+      "list": [
+        {
+          "input": "text",
+          "name": "txtOrg",
+          "icoIos": "data",
+          "icoMat": "brightness_low",
+          "label": "Cear text",
+          "placeholder": "Cear text"
+        },
+        {
+          "input": "text",
+          "name": "txtEncypt",
+          "icoIos": "data_fill",
+          "icoMat": "brightness_high",
+          "label": "Ciphertext",
+          "placeholder": "Ciphertext"
+        }
+      ]
+    },
+    {
+      "type": "button",
+      "subtype": "grid",
+      "list": [
+        {
+          "text": "Encrypt",
+          "click": "doMD5()",
+          "clsIos": "button col",
+          "clsMat": "button col button-fill button-raised"
+        }
+      ]
+    }
+  ]
+}

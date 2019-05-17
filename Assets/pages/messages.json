@@ -1,0 +1,220 @@
+﻿{
+  "id": "messages",
+  "contentCls": "messages-content",
+  "component": [
+    {
+      "type": "navbar",
+      "list": [
+        {
+          "type": "left",
+          "icoIos": "icon icon-back",
+          "icoMat": "icon icon-back",
+          "class": "back link",
+          "click": "#"
+        },
+        {
+          "type": "title",
+          "text": "Messages"
+        }
+      ]
+    },
+    {
+      "type": "toolbar",
+      "subtype": "messagebar",
+      "list": [
+        {
+          "type": "icon",
+          "icoIos": "camera_fill",
+          "icoMat": "camera_alt",
+          "click": "#"
+        },
+        {
+          "type": "textarea",
+          "id": "txtMsg"
+        },
+        {
+          "type": "icon",
+          "icoIos": "arrow_up_fill",
+          "icoMat": "send",
+          "click": "#"
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "list": [
+        {
+          "type": "sent",
+          "date": "Feb 9, 12:58",
+          "avatar": "{url}/assets/img/people-6.jpg",
+          "item": [
+            {
+              "text": "Hi, Kate"
+            }
+          ]
+        },
+        {
+          "type": "sent",
+          "date": "Feb 9, 12:59",
+          "avatar": "{url}/assets/img/people-6.jpg",
+          "item": [
+            {
+              "text": "How are you?"
+            }
+          ]
+        },
+        {
+          "type": "received",
+          "date": "Feb 9, 13:11",
+          "avatar": "{url}/assets/img/people-7.jpg",
+          "item": [
+            {
+              "text": "Hi,I am good"
+            }
+          ]
+        },
+        {
+          "type": "received",
+          "date": "Feb 9, 13:23",
+          "avatar": "{url}/assets/img/people-7.jpg",
+          "item": [
+            {
+              "text": "Hi there, I am also fine, thanks! And how are you?"
+            }
+          ]
+        },
+        {
+          "type": "sent",
+          "date": "Feb 9, 13:28",
+          "avatar": "{url}/assets/img/people-6.jpg",
+          "item": [
+            {
+              "text": "Hey, Blue Ninja! Glad to see you ;)"
+            }
+          ]
+        },
+        {
+          "type": "sent",
+          "date": "Feb 9, 13:30",
+          "avatar": "{url}/assets/img/people-6.jpg",
+          "item": [
+            {
+              "text": "What do you think about my new logo?"
+            }
+          ]
+        },
+        {
+          "type": "sent",
+          "date": "Feb 11, 9:21",
+          "avatar": "{url}/assets/img/people-6.jpg",
+          "item": [
+            {
+              "text": "Hey? Any thoughts about my new logo?"
+            }
+          ]
+        },
+        {
+          "type": "sent",
+          "date": "Feb 12, 19:55",
+          "avatar": "{url}/assets/img/people-6.jpg",
+          "item": [
+            {
+              "text": "Alo..."
+            }
+          ]
+        },
+        {
+          "type": "sent",
+          "date": "Feb 12, 20:07",
+          "avatar": "{url}/assets/img/people-6.jpg",
+          "item": [
+            {
+              "text": "Are you there?"
+            }
+          ]
+        },
+        {
+          "type": "received",
+          "date": "Feb 13, 11:24",
+          "avatar": "{url}/assets/img/people-7.jpg",
+          "item": [
+            {
+              "text": "Hi, i am here"
+            }
+          ]
+        },
+        {
+          "type": "received",
+          "date": "Feb 13, 11:30",
+          "avatar": "{url}/assets/img/people-7.jpg",
+          "item": [
+            {
+              "text": "Your logo is great"
+            }
+          ]
+        },
+        {
+          "type": "received",
+          "date": "Feb 13, 15:57",
+          "avatar": "{url}/assets/img/people-7.jpg",
+          "item": [
+            {
+              "text": "Leave me alone!"
+            }
+          ]
+        },
+        {
+          "type": "sent",
+          "date": "Feb 13, 16:02",
+          "avatar": "{url}/assets/img/people-6.jpg",
+          "item": [
+            {
+              "text": ":("
+            }
+          ]
+        },
+        {
+          "type": "sent",
+          "date": "Feb 13, 16:10",
+          "avatar": "{url}/assets/img/people-6.jpg",
+          "item": [
+            {
+              "text": "Hey, look, cutest kitten ever!"
+            }
+          ]
+        },
+        {
+          "type": "sent",
+          "date": "Feb 13, 16:10",
+          "avatar": "{url}/assets/img/people-6.jpg",
+          "item": [
+            {
+              "type": "image",
+              "text": "{url}/assets/img/cats-4.jpg"
+            }
+          ]
+        },
+        {
+          "type": "received",
+          "date": "Feb 14, 8:45",
+          "avatar": "{url}/assets/img/people-7.jpg",
+          "item": [
+            {
+              "text": "Yep"
+            }
+          ]
+        },
+        {
+          "type": "sent",
+          "date": "Feb 14, 12:31",
+          "avatar": "{url}/assets/img/people-6.jpg",
+          "item": [
+            {
+              "text": "Cool!"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

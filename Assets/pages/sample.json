@@ -1,0 +1,113 @@
+﻿{
+  "id": "sample",
+  "component": [
+    {
+      "type": "navbar",
+      "list": [
+        {
+          "type": "left",
+          "icoIos": "icon icon-back",
+          "icoMat": "icon icon-back",
+          "class": "back link",
+          "click": "#"
+        },
+        {
+          "type": "title",
+          "text": "Page Effect Sample"
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "subtype": "icon",
+      "sortable": "0",
+      "searchBar": "0",
+      "list": [
+        {
+          "title": "Transparent navbar",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "click": "bar-transparent"
+        },
+        {
+          "title": "Page wallpaper",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "click": "wallpaper"
+        },
+        {
+          "title": "Photo cover navbar",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "click": "bar-cover"
+        },
+        {
+          "title": "Four Boxes Slideshow 1",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "click": "effect-four-box"
+        },
+        {
+          "title": "Four Boxes Slideshow 2",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "click": "effect-four-box2"
+        },
+        {
+          "title": "Four Boxes Slideshow 3",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "click": "effect-four-box3"
+        },
+        {
+          "title": "Animated Frame Slideshow 1",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "click": "effect-animated-frame"
+        },
+        {
+          "title": "Animated Frame Slideshow 2",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "click": "effect-animated-frame2"
+        },
+        {
+          "title": "Animated Frame Slideshow 3",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "click": "effect-animated-frame3"
+        },
+        {
+          "title": "Animated Frame Slideshow 4",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "click": "effect-animated-frame4"
+        },
+        {
+          "title": "Animated Frame Slideshow 5",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "click": "effect-animated-frame5"
+        },
+        {
+          "title": "CSS Mask Transition 1",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "click": "effect-mask-transition"
+        },
+        {
+          "title": "CSS Mask Transition 2",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "click": "effect-mask-transition2"
+        },
+        {
+          "title": "CSS Mask Transition 3",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "click": "effect-mask-transition3"
+        }
+      ]
+    }
+  ]
+}

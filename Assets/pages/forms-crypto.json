@@ -1,0 +1,72 @@
+﻿{
+  "id": "forms-crypto",
+  "component": [
+    {
+      "type": "navbar",
+      "list": [
+        {
+          "type": "left",
+          "icoIos": "icon icon-back",
+          "icoMat": "icon icon-back",
+          "class": "back link",
+          "click": "#"
+        },
+        {
+          "type": "title",
+          "text": "Form Crypto"
+        }
+      ]
+    },
+    {
+      "type": "input",
+      "subtype": "form",
+      "title": "Encrypt & Decrypt",
+      "id": "forms-crypto-form",
+      "lblFloating": "0",
+      "list": [
+        {
+          "input": "text",
+          "name": "clear",
+          "icoIos": "data",
+          "icoMat": "brightness_low",
+          "label": "Cear text",
+          "placeholder": "Cear text"
+        },
+        {
+          "input": "text",
+          "name": "cipher",
+          "icoIos": "data_fill",
+          "icoMat": "brightness_high",
+          "label": "Ciphertext",
+          "placeholder": "Ciphertext"
+        },
+        {
+          "input": "text",
+          "name": "clear1",
+          "icoIos": "data",
+          "icoMat": "brightness_low",
+          "label": "Cear text",
+          "placeholder": "Cear text"
+        }
+      ]
+    },
+    {
+      "type": "button",
+      "subtype": "grid",
+      "list": [
+        {
+          "text": "Encrypt",
+          "click": "doEncrypt()",
+          "clsIos": "button col",
+          "clsMat": "button col button-fill button-raised"
+        },
+        {
+          "text": "Decrypt",
+          "click": "doDecrypt()",
+          "clsIos": "button col",
+          "clsMat": "button col button-fill button-raised"
+        }
+      ]
+    }
+  ]
+}

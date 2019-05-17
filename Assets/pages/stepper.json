@@ -1,0 +1,62 @@
+﻿{
+  "id": "stepper",
+  "component": [
+    {
+      "type": "navbar",
+      "list": [
+        {
+          "type": "left",
+          "icoIos": "icon icon-back",
+          "icoMat": "icon icon-back",
+          "class": "back link",
+          "click": "#"
+        },
+        {
+          "type": "title",
+          "text": "Stepper"
+        }
+      ]
+    },
+    {
+      "type": "stepper",
+      "list": [
+        {
+          "name": "txtStepper1",
+          "value": "10",
+          "step": "1",
+          "min": "0",
+          "max": "100",
+          "text": "<div class=\"block block-strong text-align-center\">{{stepper}}</div>"
+        }
+      ]
+    },
+    {
+      "type": "stepper",
+      "list": [
+        {
+          "name": "txtStepper2",
+          "value": "5",
+          "step": "1",
+          "extCls": "stepper-fill stepper-round",
+          "min": "0",
+          "max": "10",
+          "text": "<div class=\"block block-strong text-align-center\">{{stepper}}</div>"
+        }
+      ]
+    },
+    {
+      "type": "stepper",
+      "list": [
+        {
+          "name": "txtStepper3",
+          "value": "5",
+          "step": "1",
+          "extCls": "stepper-small stepper-fill stepper-round color-pink",
+          "min": "0",
+          "max": "10",
+          "text": "<div class=\"block block-strong text-align-center\">{{stepper}}</div>"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+﻿{
+  "id": "photo-cover-1",
+  "component": [
+    {
+      "type": "navbar",
+      "subtype": "cover",
+      "list": [
+        {
+          "type": "left",
+          "icoIos": "icon icon-back",
+          "icoMat": "icon icon-back",
+          "class": "back link",
+          "click": "#"
+        },
+        {
+          "type": "right",
+          "icoIos": "share",
+          "icoMat": "share",
+          "class": "link",
+          "click": "#"
+        }
+      ]
+    },
+    {
+      "type": "photo-cover",
+      "title": "Essential Feelings One",
+      "image": "{url}/Assets/img/header01.jpg",
+      "desc": "A layout with a sliding header and an image grid. Photo courtesy of Dan Rubin.",
+      "nav": {
+        "currIdx": "0",
+        "item": [
+          {
+            "text": "One",
+            "click": "photo-cover-1?same=true"
+          },
+          {
+            "text": "Two",
+            "click": "photo-cover-2?same=true"
+          },
+          {
+            "text": "Three",
+            "click": "photo-cover-3?same=true"
+          }
+        ]
+      },
+      "list": [
+        {
+          "image": "{url}/Assets/img/item01.jpg",
+          "title": "Magnificence",
+          "click": "Be.app.photoZoom('{url}/Assets/img/item01.jpg','Magnificence',true)"
+        },
+        {
+          "image": "{url}/Assets/img/item02.jpg",
+          "title": "Electrifying",
+          "click": "Be.app.photoZoom('{url}/Assets/img/item02.jpg','Electrifying',true)"
+        },
+        {
+          "image": "{url}/Assets/img/item03.jpg",
+          "title": "Dynamic",
+          "click": "Be.app.photoZoom('{url}/Assets/img/item03.jpg','Dynamic',true)"
+        },
+        {
+          "image": "{url}/Assets/img/item04.jpg",
+          "title": "Crucial",
+          "click": "Be.app.photoZoom('{url}/Assets/img/item04.jpg','Crucial',true)"
+        },
+        {
+          "image": "{url}/Assets/img/item05.jpg",
+          "title": "Awe-inspiring",
+          "click": "Be.app.photoZoom('{url}/Assets/img/item05.jpg','Awe-inspiring',true)"
+        },
+        {
+          "image": "{url}/Assets/img/item06.jpg",
+          "title": "Serene",
+          "click": "Be.app.photoZoom('{url}/Assets/img/item06.jpg','Serene',true)"
+        },
+        {
+          "image": "{url}/Assets/img/item07.jpg",
+          "title": "Vulnerable",
+          "click": "Be.app.photoZoom('{url}/Assets/img/item07.jpg','Vulnerable',true)"
+        },
+        {
+          "image": "{url}/Assets/img/item08.jpg",
+          "title": "Bountiful",
+          "click": "Be.app.photoZoom('{url}/Assets/img/item08.jpg','Bountiful',true)"
+        },
+        {
+          "image": "{url}/Assets/img/item09.jpg",
+          "title": "Endangered",
+          "click": "Be.app.photoZoom('{url}/Assets/img/item09.jpg','Endangered',true)"
+        },
+        {
+          "image": "{url}/Assets/img/item10.jpg",
+          "title": "Beautiful",
+          "click": "Be.app.photoZoom('{url}/Assets/img/item10.jpg','Beautiful',true)"
+        },
+        {
+          "image": "{url}/Assets/img/item11.jpg",
+          "title": "Inspiring",
+          "click": "Be.app.photoZoom('{url}/Assets/img/item11.jpg','Inspiring',true)"
+        },
+        {
+          "image": "{url}/Assets/img/item12.jpg",
+          "title": "Refreshing",
+          "click": "Be.app.photoZoom('{url}/Assets/img/item12.jpg','Refreshing',true)"
+        }
+      ]
+    }
+  ]
+}

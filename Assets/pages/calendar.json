@@ -1,0 +1,79 @@
+﻿{
+  "id": "calendar",
+  "component": [
+    {
+      "type": "navbar",
+      "list": [
+        {
+          "type": "left",
+          "icoIos": "icon icon-back",
+          "icoMat": "icon icon-back",
+          "class": "back link",
+          "click": "#"
+        },
+        {
+          "type": "title",
+          "text": "Calendar"
+        }
+      ]
+    },
+    {
+      "type": "content",
+      "list": [
+        {
+          "text": "Calendar is a touch optimized component that provides an easy way to handle dates."
+        },
+        {
+          "text": "Calendar could be used as inline component or as overlay. Overlay Calendar will be automatically converted to Popover on tablets."
+        }
+      ]
+    },
+    {
+      "type": "title",
+      "shape": "pillar",
+      "fill": "1",
+      "text": "Calendar & Time"
+    },
+    {
+      "type": "input",
+      "subtype": "form",
+      "id": "calendar-form",
+      "lblFloating": "0",
+      "list": [
+        {
+          "input": "date-picker",
+          "name": "ks-calendar-default",
+          "lang": "en",
+          "placeholder": "Select birth date"
+        },
+        {
+          "input": "date-picker",
+          "name": "ks-calendar-date-format",
+          "format": "ddddDDMMMMYYYY-HH:mm",
+          "label": "Custom date format",
+          "placeholder": "Select date"
+        },
+        {
+          "input": "date-picker",
+          "name": "ks-calendar-multiple",
+          "select": "multi",
+          "label": "Multiple Values",
+          "placeholder": "Select multiple dates"
+        },
+        {
+          "input": "date-picker",
+          "name": "ks-calendar-range",
+          "select": "range",
+          "label": "Range Picker <span class='badge bg-green'>NEW</span>",
+          "placeholder": "Select date range"
+        },
+        {
+          "input": "time-picker",
+          "name": "ks-calendar-modal",
+          "label": "Time picker",
+          "placeholder": "Select time"
+        }
+      ]
+    }
+  ]
+}

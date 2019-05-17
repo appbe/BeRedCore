@@ -1,0 +1,57 @@
+﻿{
+  "id": "notifications",
+  "component": [
+    {
+      "type": "navbar",
+      "list": [
+        {
+          "type": "left",
+          "icoIos": "icon icon-back",
+          "icoMat": "icon icon-back",
+          "class": "back link",
+          "click": "#"
+        },
+        {
+          "type": "title",
+          "text": "Notifications"
+        }
+      ]
+    },
+    {
+      "type": "content",
+      "list": [
+        {
+          "text": "AppBe comes with simple Notifications component that allows you to show some useful messages to user and request basic actions."
+        }
+      ]
+    },
+    {
+      "type": "button",
+      "subtype": "usual",
+      "list": [
+        {
+          "text": "Full layout notification",
+          "click": "",
+          "clsIos": "button open-full",
+          "clsMat": "button button-raised open-full"
+        },
+        {
+          "text": "With close button",
+          "click": "",
+          "clsIos": "button open-with-button",
+          "clsMat": "button button-raised open-with-button"
+        },
+        {
+          "text": "Callback on close",
+          "click": "",
+          "clsIos": "button open-callback-on-close",
+          "clsMat": "button button-raised open-callback-on-close"
+        }
+      ]
+    },
+    {
+      "type": "script",
+      "data": "Be.page(\"notifications\",function(){var oPage=$(this);var notiFull = {icon: '<i class=\"icon icon-be-18\"></i>',title: 'AppBe',titleRightText: 'now',subtitle: 'This is a subtitle',text: 'This is a simple notification message',closeTimeout: 3000};var notiWithButton = {icon: '<i class=\"icon icon-be-18\"></i>',title: 'AppBe',subtitle: 'Notification with close button',text: 'Click (x) button to close me',closeButton: true};var notiCallbackOnClose = {icon: '<i class=\"icon icon-be-18\"></i>',title: 'AppBe',titleRightText: 'now',subtitle: 'Notification with close on click',text: 'Click me to close',closeButton: true,onClick: function () {Be.app.alert('Notification closed');}};oPage.on('click','.open-full', function (e) { Be.app.notification(notiFull); });oPage.on('click','.open-with-button', function (e) { Be.app.notification(notiWithButton); });oPage.on('click','.open-callback-on-close', function () { Be.app.notification(notiCallbackOnClose); });});"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+﻿{
+  "id": "compass",
+  "component": [
+    {
+      "type": "navbar",
+      "list": [
+        {
+          "type": "left",
+          "icoIos": "icon icon-back",
+          "icoMat": "icon icon-back",
+          "class": "back link",
+          "click": "#"
+        },
+        {
+          "type": "title",
+          "text": "Compass"
+        }
+      ]
+    },
+    {
+      "type": "button",
+      "subtype": "usual",
+      "list": [
+        {
+          "text": "读取方向数据",
+          "click": "Be.native.compass.get()",
+          "clsIos": "button",
+          "clsMat": "button button-fill"
+        }
+      ]
+    },
+    {
+      "type": "button",
+      "subtype": "usual",
+      "list": [
+        {
+          "text": "订阅方向数据",
+          "click": "Be.native.compass.subscribe()",
+          "clsIos": "button",
+          "clsMat": "button button-fill"
+        }
+      ]
+    },
+    {
+      "type": "button",
+      "subtype": "usual",
+      "list": [
+        {
+          "text": "取消订阅",
+          "click": "Be.native.compass.unsubscribe()",
+          "clsIos": "button",
+          "clsMat": "button button-fill"
+        }
+      ]
+    },
+    {
+      "type": "content",
+      "list": [
+        {
+          "text": "<br /><div style=\"text-align:center;\" id=\"index-div-compass\"></div>"
+        }
+      ]
+    }
+  ]
+}

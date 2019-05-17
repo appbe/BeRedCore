@@ -1,0 +1,33 @@
+﻿{
+  "id": "popover-menu",
+  "type": "popover",
+  "component": [
+    {
+      "type": "list",
+      "subtype": "title",
+      "title": "Links, no icons",
+      "list": [
+        {
+          "title": "Modals",
+          "click": "#"
+        },
+        {
+          "title": "Tabs",
+          "click": "#"
+        },
+        {
+          "title": "Side Panels",
+          "click": "#"
+        },
+        {
+          "title": "List View",
+          "click": "#"
+        },
+        {
+          "title": "Forms",
+          "click": "#"
+        }
+      ]
+    }
+  ]
+}

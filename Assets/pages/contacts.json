@@ -1,0 +1,140 @@
+﻿{
+  "id": "contacts",
+  "themeColor": "orange",
+  "component": [
+    {
+      "type": "navbar",
+      "list": [
+        {
+          "type": "left",
+          "icoIos": "icon icon-back",
+          "icoMat": "icon icon-back",
+          "class": "back link",
+          "click": "#"
+        },
+        {
+          "type": "title",
+          "text": "Contacts"
+        }
+      ]
+    },
+    {
+      "type": "list-contact",
+      "subtype": "contact",
+      "sortable": "0",
+      "searchBar": "0",
+      "list": [
+        {
+          "label": "A",
+          "item": [
+            {
+              "title": "Aaron"
+            },
+            {
+              "title": "Abbie"
+            },
+            {
+              "title": "Abbie"
+            },
+            {
+              "title": "Adam"
+            },
+            {
+              "title": "Adele"
+            },
+            {
+              "title": "Agatha"
+            },
+            {
+              "title": "Agnes"
+            },
+            {
+              "title": "Albert"
+            },
+            {
+              "title": "Alexander"
+            }
+          ]
+        },
+        {
+          "label": "B",
+          "item": [
+            {
+              "title": "Bailey",
+              "after": "1",
+              "click": "/page/personal/"
+            },
+            {
+              "title": "Barclay",
+              "after": "2",
+              "click": "/page/personal/"
+            },
+            {
+              "title": "Bartolo",
+              "after": "3",
+              "click": "/page/personal/"
+            },
+            {
+              "title": "Bellamy",
+              "after": "4",
+              "click": "/page/personal/"
+            },
+            {
+              "title": "Belle",
+              "after": "5",
+              "click": "/page/personal/"
+            },
+            {
+              "title": "Benjamin",
+              "after": "6",
+              "click": "/page/personal/"
+            }
+          ]
+        },
+        {
+          "label": "C",
+          "item": [
+            {
+              "title": "Caiden"
+            },
+            {
+              "title": "Calvin"
+            },
+            {
+              "title": "Candy"
+            },
+            {
+              "title": "Carl"
+            },
+            {
+              "title": "Cherilyn"
+            },
+            {
+              "title": "Chester"
+            },
+            {
+              "title": "Chloe"
+            }
+          ]
+        },
+        {
+          "label": "V",
+          "item": [
+            {
+              "title": "Vladimir",
+              "after": "A"
+            },
+            {
+              "title": "Vadimir",
+              "after": "B"
+            },
+            {
+              "title": "Vimir",
+              "after": "C"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

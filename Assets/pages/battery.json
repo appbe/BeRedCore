@@ -1,0 +1,73 @@
+﻿{
+  "id": "battery",
+  "component": [
+    {
+      "type": "navbar",
+      "list": [
+        {
+          "type": "left",
+          "icoIos": "icon icon-back",
+          "icoMat": "icon icon-back",
+          "class": "back link",
+          "click": "#"
+        },
+        {
+          "type": "title",
+          "text": "Battery"
+        }
+      ]
+    },
+    {
+      "type": "button",
+      "subtype": "usual",
+      "list": [
+        {
+          "text": "获取电池状态",
+          "click": "Be.native.battery.get()",
+          "clsIos": "button",
+          "clsMat": "button button-fill"
+        }
+      ]
+    },
+    {
+      "type": "button",
+      "subtype": "usual",
+      "list": [
+        {
+          "text": "订阅电池状态",
+          "click": "Be.native.battery.subscribe()",
+          "clsIos": "button",
+          "clsMat": "button button-fill"
+        }
+      ]
+    },
+    {
+      "type": "button",
+      "subtype": "usual",
+      "list": [
+        {
+          "text": "取消订阅",
+          "click": "Be.native.battery.unsubscribe()",
+          "clsIos": "button",
+          "clsMat": "button button-fill"
+        }
+      ]
+    },
+    {
+      "type": "content",
+      "list": [
+        {
+          "text": "<br /><div style=\"text-align:center;\"><img id=\"imgApp\" src=\"{url}/assets/img/app-charge.gif\" /></div>"
+        }
+      ]
+    },
+    {
+      "type": "content",
+      "list": [
+        {
+          "text": "<br /><div style=\"text-align:center;\" id=\"index-div-alert\"></div>"
+        }
+      ]
+    }
+  ]
+}

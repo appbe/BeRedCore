@@ -1,0 +1,156 @@
+﻿{
+  "id": "forms-checkboxes",
+  "component": [
+    {
+      "type": "navbar",
+      "list": [
+        {
+          "type": "left",
+          "icoIos": "icon icon-back",
+          "icoMat": "icon icon-back",
+          "class": "back link",
+          "click": "#"
+        },
+        {
+          "type": "title",
+          "text": "Checkboxes And Radios"
+        }
+      ]
+    },
+    {
+      "type": "title",
+      "shape": "pillar",
+      "fill": "1",
+      "text": "Checkbox group"
+    },
+    {
+      "type": "checkboxs",
+      "name": "ks-check",
+      "checkedIdx": "0",
+      "list": [
+        {
+          "value": "Books",
+          "text": "Books"
+        },
+        {
+          "value": "Movies",
+          "text": "Movies"
+        },
+        {
+          "value": "Food",
+          "text": "Food"
+        },
+        {
+          "value": "Drinks",
+          "text": "Drinks"
+        }
+      ]
+    },
+    {
+      "type": "title",
+      "shape": "pillar",
+      "fill": "1",
+      "text": "Radio buttons group"
+    },
+    {
+      "type": "radios",
+      "name": "ks-radio",
+      "checkedIdx": "0",
+      "list": [
+        {
+          "value": "Books",
+          "text": "Books"
+        },
+        {
+          "value": "Movies",
+          "text": "Movies"
+        },
+        {
+          "value": "Food",
+          "text": "Food"
+        },
+        {
+          "value": "Drinks",
+          "text": "Drinks"
+        }
+      ]
+    },
+    {
+      "type": "title",
+      "shape": "pillar",
+      "fill": "1",
+      "text": "With Media Lists"
+    },
+    {
+      "type": "checkboxs",
+      "subtype": "media",
+      "name": "my-check",
+      "checkedIdx": "0",
+      "list": [
+        {
+          "value": "0",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sagittis tellus ut turpis condimentum, ut dignissim lacus tincidunt. ",
+          "image": "http://be.a60.com.cn/assets/img/fashion-1.jpg",
+          "title": "Facebook",
+          "subtitle": "New messages from John Doe"
+        },
+        {
+          "value": "1",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sagittis tellus ut turpis condimentum, ut dignissim lacus tincidunt. ",
+          "image": "http://be.a60.com.cn/assets/img/fashion-2.jpg",
+          "title": "John Doe (via Twitter)",
+          "subtitle": "John Doe (@_johndoe) mentioned you on Twitter!"
+        },
+        {
+          "value": "2",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sagittis tellus ut turpis condimentum, ut dignissim lacus tincidunt. ",
+          "image": "http://be.a60.com.cn/assets/img/fashion-3.jpg",
+          "title": "Facebook",
+          "subtitle": "New messages from John Doe"
+        },
+        {
+          "value": "3",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sagittis tellus ut turpis condimentum, ut dignissim lacus tincidunt. ",
+          "image": "http://be.a60.com.cn/assets/img/fashion-4.jpg",
+          "title": "John Doe (via Twitter)",
+          "subtitle": "John Doe (@_johndoe) mentioned you on Twitter!"
+        }
+      ]
+    },
+    {
+      "type": "title",
+      "shape": "pillar",
+      "fill": "1",
+      "text": "What is your favourite song?"
+    },
+    {
+      "type": "radios",
+      "subtype": "media",
+      "name": "my-radio",
+      "checkedIdx": "0",
+      "list": [
+        {
+          "value": "0",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sagittis tellus ut turpis condimentum, ut dignissim lacus tincidunt. Cras dolor metus, ultrices condimentum sodales sit amet, pharetra sodales eros. Phasellus vel felis tellus. Mauris rutrum ligula nec dapibus feugiat. In vel dui laoreet, commodo augue id, pulvinar lacus. ",
+          "image": "http://be.a60.com.cn/assets/img/fashion-1.jpg",
+          "title": "Yellow Submarine",
+          "subtitle": "Beatles"
+        },
+        {
+          "value": "1",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sagittis tellus ut turpis condimentum, ut dignissim lacus tincidunt. Cras dolor metus, ultrices condimentum sodales sit amet, pharetra sodales eros. Phasellus vel felis tellus. Mauris rutrum ligula nec dapibus feugiat. In vel dui laoreet, commodo augue id, pulvinar lacus. ",
+          "image": "http://be.a60.com.cn/assets/img/fashion-2.jpg",
+          "title": "Don't Stop Me Now",
+          "subtitle": "Queen"
+        },
+        {
+          "value": "2",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sagittis tellus ut turpis condimentum, ut dignissim lacus tincidunt. Cras dolor metus, ultrices condimentum sodales sit amet, pharetra sodales eros. Phasellus vel felis tellus. Mauris rutrum ligula nec dapibus feugiat. In vel dui laoreet, commodo augue id, pulvinar lacus.",
+          "image": "http://be.a60.com.cn/assets/img/fashion-3.jpg",
+          "title": "Billie Jean",
+          "subtitle": "Michael Jackson"
+        }
+      ]
+    }
+  ]
+}

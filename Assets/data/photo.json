@@ -1,0 +1,24 @@
+﻿[{
+    "html": "<h1>Any HTML <a href=\"http://example.com\">content</a></h1>"
+}, {
+    "src": "http://demo.appbe.net/Assets/img/5186867718_06b2e9e551_b.jpg",
+    "title": "[1]-caption 1"
+}, {
+    "src": "http://demo.appbe.net/Assets/img/beach.jpg",
+    "title": "[2]-caption beach"
+}, {
+    "src": "http://demo.appbe.net/Assets/img/lock.jpg",
+    "title": "[3]-caption lock"
+}, {
+    "src": "http://demo.appbe.net/Assets/img/monkey.jpg",
+    "title": "[4]-caption monkey"
+}, {
+    "src": "http://demo.appbe.net/Assets/img/mountains.jpg",
+    "title": "[5]-caption mountains"
+}, {
+    "src": "http://demo.appbe.net/Assets/img/6176698785_7dee72237e_b.jpg",
+    "title": "[6]-caption 6"
+}, {
+    "src": "http://demo.appbe.net/Assets/img/3d-slider-1-1.jpg",
+    "title": "[7]-caption 7"
+}]

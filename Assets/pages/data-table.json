@@ -1,0 +1,1066 @@
+﻿{
+  "id": "data-table",
+  "component": [
+    {
+      "type": "navbar",
+      "list": [
+        {
+          "type": "left",
+          "icoIos": "icon icon-back",
+          "icoMat": "icon icon-back",
+          "class": "back link",
+          "click": "#"
+        },
+        {
+          "type": "title",
+          "text": "Data Tables"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Data Table",
+      "list": [
+        {
+          "item": [
+            {
+              "class": "label-cell",
+              "text": "Desert (100g serving)"
+            },
+            {
+              "class": "numeric-cell",
+              "text": "Calories"
+            },
+            {
+              "class": "numeric-cell",
+              "text": "Fat(g)"
+            },
+            {
+              "class": "numeric-cell",
+              "text": "Carbs"
+            },
+            {
+              "class": "numeric-cell",
+              "text": "Protein(g)"
+            },
+            {
+              "class": "tablet-only",
+              "text": "Comment"
+            }
+          ]
+        },
+        {
+          "item": [
+            {
+              "class": "label-cell",
+              "text": "Frozen  yogurt"
+            },
+            {
+              "class": "numeric-cell",
+              "text": "159"
+            },
+            {
+              "class": "numeric-cell",
+              "text": "6.0"
+            },
+            {
+              "class": "numeric-cell",
+              "text": "24"
+            },
+            {
+              "class": "numeric-cell",
+              "text": "4.0"
+            },
+            {
+              "class": "tablet-only",
+              "text": "I like it!"
+            }
+          ]
+        },
+        {
+          "item": [
+            {
+              "class": "label-cell",
+              "text": "Ice cream sandwich"
+            },
+            {
+              "class": "numeric-cell",
+              "text": "237"
+            },
+            {
+              "class": "numeric-cell",
+              "text": "9.0"
+            },
+            {
+              "class": "numeric-cell",
+              "text": "37"
+            },
+            {
+              "class": "numeric-cell",
+              "text": "4.4"
+            },
+            {
+              "class": "tablet-only",
+              "text": "I like it!"
+            }
+          ]
+        },
+        {
+          "item": [
+            {
+              "class": "label-cell",
+              "text": "Eclair"
+            },
+            {
+              "class": "numeric-cell",
+              "text": "262"
+            },
+            {
+              "class": "numeric-cell",
+              "text": "16.0"
+            },
+            {
+              "class": "numeric-cell",
+              "text": "24"
+            },
+            {
+              "class": "numeric-cell",
+              "text": "6.0"
+            },
+            {
+              "class": "tablet-only",
+              "text": "I like it!"
+            }
+          ]
+        },
+        {
+          "item": [
+            {
+              "class": "label-cell",
+              "text": "Cupcake"
+            },
+            {
+              "class": "numeric-cell",
+              "text": "305"
+            },
+            {
+              "class": "numeric-cell",
+              "text": "3.7"
+            },
+            {
+              "class": "numeric-cell",
+              "text": "67"
+            },
+            {
+              "class": "numeric-cell",
+              "text": "4.3"
+            },
+            {
+              "class": "tablet-only",
+              "text": "I like it!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Data Table Selectable",
+      "extCls": "card",
+      "list": [
+        {
+          "item": [
+            {
+              "class": "checkbox-cell",
+              "text": ""
+            },
+            {
+              "class": "label-cell",
+              "text": "Desert (100g serving)"
+            },
+            {
+              "class": "numeric-cell",
+              "text": "Calories"
+            },
+            {
+              "class": "numeric-cell",
+              "text": "Fat(g)"
+            },
+            {
+              "class": "numeric-cell",
+              "text": "Carbs"
+            },
+            {
+              "class": "numeric-cell",
+              "text": "Protein(g)"
+            },
+            {
+              "class": "tablet-only",
+              "text": "Comment"
+            }
+          ]
+        },
+        {
+          "item": [
+            {
+              "class": "checkbox-cell",
+              "text": "0"
+            },
+            {
+              "class": "label-cell",
+              "text": "Frozen  yogurt"
+            },
+            {
+              "class": "numeric-cell",
+              "text": "159"
+            },
+            {
+              "class": "numeric-cell",
+              "text": "6.0"
+            },
+            {
+              "class": "numeric-cell",
+              "text": "24"
+            },
+            {
+              "class": "numeric-cell",
+              "text": "4.0"
+            },
+            {
+              "class": "tablet-only",
+              "text": "I like it!"
+            }
+          ]
+        },
+        {
+          "item": [
+            {
+              "class": "checkbox-cell",
+              "text": "1"
+            },
+            {
+              "class": "label-cell",
+              "text": "Ice cream sandwich"
+            },
+            {
+              "class": "numeric-cell",
+              "text": "237"
+            },
+            {
+              "class": "numeric-cell",
+              "text": "9.0"
+            },
+            {
+              "class": "numeric-cell",
+              "text": "37"
+            },
+            {
+              "class": "numeric-cell",
+              "text": "4.4"
+            },
+            {
+              "class": "tablet-only",
+              "text": "I like it!"
+            }
+          ]
+        },
+        {
+          "item": [
+            {
+              "class": "checkbox-cell",
+              "text": "2"
+            },
+            {
+              "class": "label-cell",
+              "text": "Eclair"
+            },
+            {
+              "class": "numeric-cell",
+              "text": "262"
+            },
+            {
+              "class": "numeric-cell",
+              "text": "16.0"
+            },
+            {
+              "class": "numeric-cell",
+              "text": "24"
+            },
+            {
+              "class": "numeric-cell",
+              "text": "6.0"
+            },
+            {
+              "class": "tablet-only",
+              "text": "I like it!"
+            }
+          ]
+        },
+        {
+          "item": [
+            {
+              "class": "checkbox-cell",
+              "text": "3"
+            },
+            {
+              "class": "label-cell",
+              "text": "Cupcake"
+            },
+            {
+              "class": "numeric-cell",
+              "text": "305"
+            },
+            {
+              "class": "numeric-cell",
+              "text": "3.7"
+            },
+            {
+              "class": "numeric-cell",
+              "text": "67"
+            },
+            {
+              "class": "numeric-cell",
+              "text": "4.3"
+            },
+            {
+              "class": "tablet-only",
+              "text": "I like it!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "subtype": "bar",
+      "title": "Data Table Selectable With Sort",
+      "extCls": "card",
+      "header": {
+        "title": "Nutrition",
+        "action": [
+          {
+            "icoIos": "sort",
+            "icoMat": "sort",
+            "click": "xApp.dialog.alert('sort')"
+          },
+          {
+            "icoIos": "more_vertical_round",
+            "icoMat": "info",
+            "click": "xApp.dialog.alert('info')"
+          }
+        ]
+      },
+      "list": [
+        {
+          "item": [
+            {
+              "class": "checkbox-cell",
+              "text": ""
+            },
+            {
+              "class": "label-cell sortable-cell",
+              "text": "Desert (100g serving)"
+            },
+            {
+              "class": "numeric-cell sortable-cell",
+              "text": "Calories"
+            },
+            {
+              "class": "numeric-cell sortable-cell",
+              "text": "Fat(g)"
+            },
+            {
+              "class": "numeric-cell sortable-cell",
+              "text": "Carbs"
+            },
+            {
+              "class": "numeric-cell sortable-cell",
+              "text": "Protein(g)"
+            },
+            {
+              "class": "tablet-only sortable-cell",
+              "text": "Comment"
+            }
+          ]
+        },
+        {
+          "item": [
+            {
+              "class": "checkbox-cell",
+              "text": "0"
+            },
+            {
+              "class": "label-cell",
+              "text": "Frozen  yogurt"
+            },
+            {
+              "class": "numeric-cell",
+              "text": "159"
+            },
+            {
+              "class": "numeric-cell",
+              "text": "6.0"
+            },
+            {
+              "class": "numeric-cell",
+              "text": "24"
+            },
+            {
+              "class": "numeric-cell",
+              "text": "4.0"
+            },
+            {
+              "class": "tablet-only",
+              "text": "I like it!"
+            }
+          ]
+        },
+        {
+          "item": [
+            {
+              "class": "checkbox-cell",
+              "text": "1"
+            },
+            {
+              "class": "label-cell",
+              "text": "Ice cream sandwich"
+            },
+            {
+              "class": "numeric-cell",
+              "text": "237"
+            },
+            {
+              "class": "numeric-cell",
+              "text": "9.0"
+            },
+            {
+              "class": "numeric-cell",
+              "text": "37"
+            },
+            {
+              "class": "numeric-cell",
+              "text": "4.4"
+            },
+            {
+              "class": "tablet-only",
+              "text": "I like it!"
+            }
+          ]
+        },
+        {
+          "item": [
+            {
+              "class": "checkbox-cell",
+              "text": "2"
+            },
+            {
+              "class": "label-cell",
+              "text": "Eclair"
+            },
+            {
+              "class": "numeric-cell",
+              "text": "262"
+            },
+            {
+              "class": "numeric-cell",
+              "text": "16.0"
+            },
+            {
+              "class": "numeric-cell",
+              "text": "24"
+            },
+            {
+              "class": "numeric-cell",
+              "text": "4.2"
+            },
+            {
+              "class": "tablet-only",
+              "text": "I like it!"
+            }
+          ]
+        },
+        {
+          "item": [
+            {
+              "class": "checkbox-cell",
+              "text": "3"
+            },
+            {
+              "class": "label-cell",
+              "text": "Cupcake"
+            },
+            {
+              "class": "numeric-cell",
+              "text": "305"
+            },
+            {
+              "class": "numeric-cell",
+              "text": "3.7"
+            },
+            {
+              "class": "numeric-cell",
+              "text": "67"
+            },
+            {
+              "class": "numeric-cell",
+              "text": "4.3"
+            },
+            {
+              "class": "tablet-only",
+              "text": "I like it!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "subtype": "bar-selected",
+      "title": "Data Table Selectable",
+      "extCls": "card",
+      "header": {
+        "title": "Nutrition",
+        "action": [
+          {
+            "icoIos": "sort",
+            "icoMat": "sort",
+            "click": "xApp.dialog.alert('sort')"
+          },
+          {
+            "icoIos": "more_vertical_round",
+            "icoMat": "info",
+            "click": "xApp.dialog.alert('info')"
+          }
+        ],
+        "select": [
+          {
+            "icoIos": "trash",
+            "icoMat": "link",
+            "click": "xApp.dialog.alert('sort selected')"
+          },
+          {
+            "icoIos": "more_vertical_round",
+            "icoMat": "flash_on",
+            "click": "xApp.dialog.alert('info selected')"
+          }
+        ]
+      },
+      "list": [
+        {
+          "item": [
+            {
+              "class": "checkbox-cell",
+              "text": ""
+            },
+            {
+              "class": "label-cell",
+              "text": "Desert (100g serving)"
+            },
+            {
+              "class": "numeric-cell",
+              "text": "Calories"
+            },
+            {
+              "class": "numeric-cell",
+              "text": "Fat(g)"
+            },
+            {
+              "class": "numeric-cell",
+              "text": "Carbs"
+            },
+            {
+              "class": "numeric-cell",
+              "text": "Protein(g)"
+            },
+            {
+              "class": "tablet-only",
+              "text": "Comment"
+            }
+          ]
+        },
+        {
+          "item": [
+            {
+              "class": "checkbox-cell",
+              "text": "0"
+            },
+            {
+              "class": "label-cell",
+              "text": "Frozen  yogurt"
+            },
+            {
+              "class": "numeric-cell",
+              "text": "159"
+            },
+            {
+              "class": "numeric-cell",
+              "text": "6.0"
+            },
+            {
+              "class": "numeric-cell",
+              "text": "24"
+            },
+            {
+              "class": "numeric-cell",
+              "text": "4.0"
+            },
+            {
+              "class": "tablet-only",
+              "text": "I like it!"
+            }
+          ]
+        },
+        {
+          "item": [
+            {
+              "class": "checkbox-cell",
+              "text": "1"
+            },
+            {
+              "class": "label-cell",
+              "text": "Ice cream sandwich"
+            },
+            {
+              "class": "numeric-cell",
+              "text": "237"
+            },
+            {
+              "class": "numeric-cell",
+              "text": "9.0"
+            },
+            {
+              "class": "numeric-cell",
+              "text": "37"
+            },
+            {
+              "class": "numeric-cell",
+              "text": "4.4"
+            },
+            {
+              "class": "tablet-only",
+              "text": "I like it!"
+            }
+          ]
+        },
+        {
+          "item": [
+            {
+              "class": "checkbox-cell",
+              "text": "2"
+            },
+            {
+              "class": "label-cell",
+              "text": "Eclair"
+            },
+            {
+              "class": "numeric-cell",
+              "text": "262"
+            },
+            {
+              "class": "numeric-cell",
+              "text": "16.0"
+            },
+            {
+              "class": "numeric-cell",
+              "text": "24"
+            },
+            {
+              "class": "numeric-cell",
+              "text": "4.2"
+            },
+            {
+              "class": "tablet-only",
+              "text": "I like it!"
+            }
+          ]
+        },
+        {
+          "item": [
+            {
+              "class": "checkbox-cell",
+              "text": "3"
+            },
+            {
+              "class": "label-cell",
+              "text": "Cupcake"
+            },
+            {
+              "class": "numeric-cell",
+              "text": "305"
+            },
+            {
+              "class": "numeric-cell",
+              "text": "3.7"
+            },
+            {
+              "class": "numeric-cell",
+              "text": "67"
+            },
+            {
+              "class": "numeric-cell",
+              "text": "4.3"
+            },
+            {
+              "class": "tablet-only",
+              "text": "I like it!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "subtype": "bar-alternate",
+      "title": "Data Table Selectable",
+      "header": {
+        "link": [
+          {
+            "click": "xApp.dialog.alert('Add')",
+            "link": "Add"
+          },
+          {
+            "click": "xApp.dialog.alert('Move')",
+            "link": "Move"
+          }
+        ],
+        "action": [
+          {
+            "click": "xApp.dialog.alert('sort')",
+            "icoIos": "sort",
+            "icoMat": "sort"
+          },
+          {
+            "click": "xApp.dialog.alert('info')",
+            "icoIos": "more_vertical_round",
+            "icoMat": "info"
+          }
+        ]
+      },
+      "list": [
+        {
+          "item": [
+            {
+              "class": "checkbox-cell",
+              "text": ""
+            },
+            {
+              "class": "label-cell",
+              "text": "Desert (100g serving)"
+            },
+            {
+              "class": "numeric-cell",
+              "text": "Calories"
+            },
+            {
+              "class": "numeric-cell",
+              "text": "Fat(g)"
+            },
+            {
+              "class": "numeric-cell",
+              "text": "Carbs"
+            },
+            {
+              "class": "numeric-cell",
+              "text": "Protein(g)"
+            },
+            {
+              "class": "tablet-only",
+              "text": "Comment"
+            }
+          ]
+        },
+        {
+          "item": [
+            {
+              "class": "checkbox-cell",
+              "text": "0"
+            },
+            {
+              "class": "label-cell",
+              "text": "Frozen  yogurt"
+            },
+            {
+              "class": "numeric-cell",
+              "text": "159"
+            },
+            {
+              "class": "numeric-cell",
+              "text": "6.0"
+            },
+            {
+              "class": "numeric-cell",
+              "text": "24"
+            },
+            {
+              "class": "numeric-cell",
+              "text": "4.0"
+            },
+            {
+              "class": "tablet-only",
+              "text": "I like it!"
+            }
+          ]
+        },
+        {
+          "item": [
+            {
+              "class": "checkbox-cell",
+              "text": "1"
+            },
+            {
+              "class": "label-cell",
+              "text": "Ice cream sandwich"
+            },
+            {
+              "class": "numeric-cell",
+              "text": "237"
+            },
+            {
+              "class": "numeric-cell",
+              "text": "9.0"
+            },
+            {
+              "class": "numeric-cell",
+              "text": "37"
+            },
+            {
+              "class": "numeric-cell",
+              "text": "4.4"
+            },
+            {
+              "class": "tablet-only",
+              "text": "I like it!"
+            }
+          ]
+        },
+        {
+          "item": [
+            {
+              "class": "checkbox-cell",
+              "text": "2"
+            },
+            {
+              "class": "label-cell",
+              "text": "Eclair"
+            },
+            {
+              "class": "numeric-cell",
+              "text": "262"
+            },
+            {
+              "class": "numeric-cell",
+              "text": "16.0"
+            },
+            {
+              "class": "numeric-cell",
+              "text": "24"
+            },
+            {
+              "class": "numeric-cell",
+              "text": "4.2"
+            },
+            {
+              "class": "tablet-only",
+              "text": "I like it!"
+            }
+          ]
+        },
+        {
+          "item": [
+            {
+              "class": "checkbox-cell",
+              "text": "3"
+            },
+            {
+              "class": "label-cell",
+              "text": "Cupcake"
+            },
+            {
+              "class": "numeric-cell",
+              "text": "305"
+            },
+            {
+              "class": "numeric-cell",
+              "text": "3.7"
+            },
+            {
+              "class": "numeric-cell",
+              "text": "67"
+            },
+            {
+              "class": "numeric-cell",
+              "text": "4.3"
+            },
+            {
+              "class": "tablet-only",
+              "text": "I like it!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "subtype": "bar",
+      "title": "Data Table Collapsible",
+      "extCls": "data-table-collapsible",
+      "header": {
+        "title": "Nutrition",
+        "action": [
+          {
+            "icoIos": "sort",
+            "icoMat": "sort",
+            "click": "xApp.dialog.alert('sort')"
+          },
+          {
+            "icoIos": "more_vertical_round",
+            "icoMat": "info",
+            "click": "xApp.dialog.alert('info')"
+          }
+        ]
+      },
+      "list": [
+        {
+          "item": [
+            {
+              "class": "label-cell",
+              "text": "Desert (100g serving)"
+            },
+            {
+              "class": "numeric-cell",
+              "text": "Calories"
+            },
+            {
+              "class": "numeric-cell",
+              "text": "Fat(g)"
+            },
+            {
+              "class": "numeric-cell",
+              "text": "Carbs"
+            },
+            {
+              "class": "numeric-cell",
+              "text": "Protein(g)"
+            },
+            {
+              "class": "tablet-only",
+              "text": "Comment"
+            }
+          ]
+        },
+        {
+          "item": [
+            {
+              "class": "label-cell",
+              "text": "Frozen  yogurt"
+            },
+            {
+              "class": "numeric-cell",
+              "text": "159"
+            },
+            {
+              "class": "numeric-cell",
+              "text": "6.0"
+            },
+            {
+              "class": "numeric-cell",
+              "text": "24"
+            },
+            {
+              "class": "numeric-cell",
+              "text": "4.0"
+            },
+            {
+              "class": "tablet-only",
+              "text": "I like it!"
+            }
+          ]
+        },
+        {
+          "item": [
+            {
+              "class": "label-cell",
+              "text": "Ice cream sandwich"
+            },
+            {
+              "class": "numeric-cell",
+              "text": "237"
+            },
+            {
+              "class": "numeric-cell",
+              "text": "9.0"
+            },
+            {
+              "class": "numeric-cell",
+              "text": "37"
+            },
+            {
+              "class": "numeric-cell",
+              "text": "4.4"
+            },
+            {
+              "class": "tablet-only",
+              "text": "I like it!"
+            }
+          ]
+        },
+        {
+          "item": [
+            {
+              "class": "label-cell",
+              "text": "Eclair"
+            },
+            {
+              "class": "numeric-cell",
+              "text": "262"
+            },
+            {
+              "class": "numeric-cell",
+              "text": "16.0"
+            },
+            {
+              "class": "numeric-cell",
+              "text": "24"
+            },
+            {
+              "class": "numeric-cell",
+              "text": "4.2"
+            },
+            {
+              "class": "tablet-only",
+              "text": "I like it!"
+            }
+          ]
+        },
+        {
+          "item": [
+            {
+              "class": "label-cell",
+              "text": "Cupcake"
+            },
+            {
+              "class": "numeric-cell",
+              "text": "305"
+            },
+            {
+              "class": "numeric-cell",
+              "text": "3.7"
+            },
+            {
+              "class": "numeric-cell",
+              "text": "67"
+            },
+            {
+              "class": "numeric-cell",
+              "text": "4.3"
+            },
+            {
+              "class": "tablet-only",
+              "text": "I like it!"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

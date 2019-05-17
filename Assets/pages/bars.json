@@ -1,0 +1,69 @@
+﻿{
+  "id": "bars",
+  "component": [
+    {
+      "type": "navbar",
+      "list": [
+        {
+          "type": "left",
+          "icoIos": "icon icon-back",
+          "icoMat": "icon icon-back",
+          "class": "back link",
+          "click": "#"
+        },
+        {
+          "type": "title",
+          "text": "Navbars/Toolbars/Tab bar"
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "subtype": "icon",
+      "list": [
+        {
+          "title": "Hide Navbar On Scroll",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "click": "bars-hide-on-scroll?static=1"
+        },
+        {
+          "title": "Navbar with Icon",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "click": "bars-navbar-icon?static=1"
+        },
+        {
+          "title": "Sub Navbar",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "click": "bars-sub-navbar?static=1"
+        },
+        {
+          "title": "Bottom Toolbar",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "click": "bars-toolbar-bottom?static=1"
+        },
+        {
+          "title": "Tab Bar",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "click": "bars-tabbar"
+        },
+        {
+          "title": "Tab Bar With Labels",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "click": "bars-tabbar-labels?static=1"
+        },
+        {
+          "title": "Tab Bar Scrollable",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "click": "bars-tabbar-scrollable?static=1"
+        }
+      ]
+    }
+  ]
+}

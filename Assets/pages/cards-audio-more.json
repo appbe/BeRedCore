@@ -1,0 +1,136 @@
+﻿{
+  "id": "cards-audio-more",
+  "component": [
+    {
+      "type": "navbar",
+      "list": [
+        {
+          "type": "left",
+          "icoIos": "icon icon-back",
+          "icoMat": "icon icon-back",
+          "class": "back link",
+          "click": "#"
+        },
+        {
+          "type": "title",
+          "text": "Cards Audio More"
+        }
+      ]
+    },
+    {
+      "type": "card-audio",
+      "subtype": "more",
+      "title": "Styled Cards Audio",
+      "list": [
+        {
+          "image": "{url}/assets/img/mountain_blue.jpg",
+          "title": "Journey To Mountains",
+          "subtitle": "Posted on January 21, 2015",
+          "audio": "{url}/assets/media/heart-spa.mp3",
+          "item": [
+            {
+              "click": "#",
+              "class": "button color-red",
+              "icoIos": "share",
+              "icoMat": "share"
+            },
+            {
+              "click": "#",
+              "text": "<span class=\"color-green\">Read more</span>"
+            }
+          ]
+        },
+        {
+          "image": "{url}/assets/img/win-bottle.jpg",
+          "title": "酒干倘卖无",
+          "subtitle": "歌手：苏芮",
+          "audio": "{url}/assets/media/jiugantmf.mp3",
+          "item": [
+            {
+              "click": "#",
+              "class": "button color-red",
+              "icoIos": "share",
+              "icoMat": "share"
+            },
+            {
+              "click": "#",
+              "text": "<span class=\"color-green\">Read more</span>"
+            }
+          ]
+        },
+        {
+          "image": "{url}/assets/img/donuts.png",
+          "title": "爱很简单",
+          "subtitle": "歌手：陶喆",
+          "audio": "{url}/assets/media/lovesimple.mp3",
+          "item": [
+            {
+              "click": "#",
+              "class": "button color-red",
+              "icoIos": "share",
+              "icoMat": "share"
+            },
+            {
+              "click": "#",
+              "text": "<span class=\"color-green\">Read more</span>"
+            }
+          ]
+        },
+        {
+          "image": "{url}/assets/img/wineAndCoffe.jpg",
+          "title": "美酒加咖啡",
+          "subtitle": "歌手：邓丽君",
+          "audio": "{url}/assets/media/wineAndCoffe.mp3",
+          "item": [
+            {
+              "click": "#",
+              "class": "button color-red",
+              "icoIos": "share",
+              "icoMat": "share"
+            },
+            {
+              "click": "#",
+              "text": "<span class=\"color-green\">Read more</span>"
+            }
+          ]
+        },
+        {
+          "image": "{url}/assets/img/northSprite.jpg",
+          "title": "北国之春",
+          "subtitle": "歌手：蒋大为",
+          "audio": "{url}/assets/media/northSprite.mp3",
+          "item": [
+            {
+              "click": "#",
+              "class": "button color-red",
+              "icoIos": "share",
+              "icoMat": "share"
+            },
+            {
+              "click": "#",
+              "text": "<span class=\"color-green\">Read more</span>"
+            }
+          ]
+        },
+        {
+          "image": "{url}/assets/img/drawing.jpg",
+          "title": "画",
+          "subtitle": "歌手：赵雷",
+          "audio": "{url}/assets/media/drawing.mp3",
+          "item": [
+            {
+              "click": "#",
+              "class": "button color-red",
+              "icoIos": "share",
+              "icoMat": "share"
+            },
+            {
+              "click": "#",
+              "text": "<span class=\"color-green\">Read more</span>"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

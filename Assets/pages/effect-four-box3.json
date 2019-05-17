@@ -1,0 +1,37 @@
+﻿{
+  "id": "effect-four-box3",
+  "component": [
+    {
+      "type": "navbar",
+      "subtype": "cover",
+      "list": [
+        {
+          "type": "left",
+          "icoIos": "icon icon-back",
+          "icoMat": "icon icon-back",
+          "class": "back link",
+          "click": "#"
+        }
+      ]
+    },
+    {
+      "type": "css-effect",
+      "subtype": "four-box",
+      "effectIdx": "3",
+      "list": [
+        {
+          "image": "{url}/assets/img/four1-1.jpg"
+        },
+        {
+          "image": "{url}/assets/img/four2-1.jpg"
+        },
+        {
+          "image": "{url}/assets/img/four3-1.jpg"
+        },
+        {
+          "image": "{url}/assets/img/four4-1.jpg"
+        }
+      ]
+    }
+  ]
+}

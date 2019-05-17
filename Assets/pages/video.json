@@ -1,0 +1,60 @@
+﻿{
+  "id": "video",
+  "component": [
+    {
+      "type": "navbar",
+      "list": [
+        {
+          "type": "left",
+          "icoIos": "icon icon-back",
+          "icoMat": "icon icon-back",
+          "class": "back link",
+          "click": "#"
+        },
+        {
+          "type": "title",
+          "text": "Video Player"
+        }
+      ]
+    },
+    {
+      "type": "video",
+      "poster": "{url}/assets/media/View_From_A_Blue_Moon_Trailer-HD.jpg",
+      "download": "https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-576p.mp4",
+      "video": [
+        {
+          "type": "mp4",
+          "size": "576",
+          "url": "https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-576p.mp4"
+        },
+        {
+          "type": "mp4",
+          "size": "720",
+          "url": "https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-720p.mp4"
+        },
+        {
+          "type": "mp4",
+          "size": "1080",
+          "url": "https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-1080p.mp4"
+        }
+      ],
+      "caption": [
+        {
+          "label": "中文",
+          "lang": "cn",
+          "url": "{url}/Assets/media/View_From_A_Blue_Moon_Trailer-HD.cn.vtt"
+        },
+        {
+          "label": "English",
+          "lang": "en",
+          "url": "{url}/Assets/media/View_From_A_Blue_Moon_Trailer-HD.en.vtt"
+        },
+        {
+          "label": "Français",
+          "lang": "fr",
+          "url": "{url}/Assets/media/View_From_A_Blue_Moon_Trailer-HD.fr.vtt"
+        }
+      ]
+    }
+  ]
+}

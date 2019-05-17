@@ -1,0 +1,22 @@
+﻿{
+  "id": "panel-right",
+  "component": [
+    {
+      "type": "navbar",
+      "list": [
+        {
+          "type": "title",
+          "text": "Panel Right"
+        }
+      ]
+    },
+    {
+      "type": "content",
+      "list": [
+        {
+          "text": "\r\n        <p>Right Panel content here</p>\r\n        <p><a class=\"panel-close\" href=\"#\">Close me</a></p>\r\n        <p><a class=\"panel-open\" href=\"#\" data-panel=\"left\">Open Left Panel</a></p>"
+        }
+      ]
+    }
+  ]
+}

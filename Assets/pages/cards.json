@@ -1,0 +1,207 @@
+﻿{
+  "id": "cards",
+  "component": [
+    {
+      "type": "navbar",
+      "list": [
+        {
+          "type": "left",
+          "icoIos": "icon icon-back",
+          "icoMat": "icon icon-back",
+          "class": "back link",
+          "click": "#"
+        },
+        {
+          "type": "title",
+          "text": "Cards"
+        }
+      ]
+    },
+    {
+      "type": "content",
+      "list": [
+        {
+          "text": "<p>Cards, along with List View, is a one more great way to contain and orginize your information. Cards contains unique related data, for example, a photo, text, and link all about a single subject. Cards are typically an entry point to more complex and detailed information.</p>"
+        }
+      ]
+    },
+    {
+      "type": "card",
+      "subtype": "simple",
+      "title": "Simple Cards",
+      "list": [
+        {
+          "text": "This is simple card with plain text. But card could contain its own header, footer, list view, image, and any elements inside."
+        },
+        {
+          "text": "Card with header and footer. Card header is used to display card title and footer for some additional information or for custom actions.",
+          "header": "Card header",
+          "footer": "Card footer"
+        },
+        {
+          "text": "Another card. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse feugiat sem est, non tincidunt ligula volutpat sit amet. Mauris aliquet magna justo."
+        }
+      ]
+    },
+    {
+      "type": "card",
+      "subtype": "outline",
+      "title": "Outline Cards",
+      "list": [
+        {
+          "text": "This is simple card with plain text. But card could contain its own header, footer, list view, image, and any elements inside."
+        },
+        {
+          "text": "Card with header and footer. Card header is used to display card title and footer for some additional information or for custom actions.",
+          "header": "Card header",
+          "footer": "Card footer"
+        },
+        {
+          "text": "Another card. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse feugiat sem est, non tincidunt ligula volutpat sit amet. Mauris aliquet magna justo."
+        }
+      ]
+    },
+    {
+      "type": "card",
+      "subtype": "style",
+      "title": "Styled Cards",
+      "list": [
+        {
+          "image": "http://be.a60.com.cn/assets/img/nature-3.jpg",
+          "title": "Journey To Mountains",
+          "subtitle": "Posted on January 21, 2015",
+          "text": "This is simple card with plain text. But card could contain its own header, footer, list view, image, and any elements inside.",
+          "item": [
+            {
+              "click": "#",
+              "text": "Like"
+            },
+            {
+              "click": "#",
+              "text": "Read more"
+            }
+          ]
+        },
+        {
+          "image": "http://be.a60.com.cn/assets/img/people-6.jpg",
+          "title": "Lorem Ipsum",
+          "subtitle": "Posted on January 21, 2015",
+          "text": "Card with header and footer. Card header is used to display card title and footer for some additional information or for custom actions.",
+          "item": [
+            {
+              "click": "#",
+              "text": "Like"
+            },
+            {
+              "click": "#",
+              "text": "Read more"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "card",
+      "subtype": "facebook",
+      "title": "Facebook Cards",
+      "list": [
+        {
+          "avatar": "http://be.a60.com.cn/assets/img/avatar-1.jpg",
+          "name": "John Doe",
+          "date": "Monday at 3:47 PM",
+          "image": "http://be.a60.com.cn/assets/img/nature-8.jpg",
+          "title": "What a nice photo i took yesterday!",
+          "subtitle": "Likes: 112  Comments: 43",
+          "item": [
+            {
+              "click": "#",
+              "text": "Like"
+            },
+            {
+              "click": "#",
+              "text": "Comment"
+            },
+            {
+              "click": "#",
+              "text": "Share"
+            }
+          ]
+        },
+        {
+          "avatar": "http://be.a60.com.cn/assets/img/avatar-1.jpg",
+          "name": "Mike Chang",
+          "date": "Monday at 2:15 PM",
+          "image": "http://be.a60.com.cn/assets/img/nature-8.jpg",
+          "item": [
+            {
+              "click": "#",
+              "text": "Like"
+            },
+            {
+              "click": "#",
+              "text": "Comment"
+            },
+            {
+              "click": "#",
+              "text": "Share"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "card",
+      "subtype": "link",
+      "title": "Cards With List View",
+      "list": [
+        {
+          "text": "Link 1",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be"
+        },
+        {
+          "text": "Link 2",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be"
+        },
+        {
+          "text": "Link 3",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be"
+        },
+        {
+          "text": "Link 4",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be"
+        }
+      ]
+    },
+    {
+      "type": "card",
+      "subtype": "release",
+      "title": "New Releases:",
+      "footerLeft": "January 20, 2015",
+      "footerRight": "5 comments",
+      "list": [
+        {
+          "image": "http://be.a60.com.cn/assets/img/fashion-4.jpg",
+          "title": "Yellow Submarine",
+          "subtitle": "Beatles",
+          "click": "#"
+        },
+        {
+          "image": "http://be.a60.com.cn/assets/img/fashion-5.jpg",
+          "title": "Don't Stop Me Now",
+          "subtitle": "Quee",
+          "click": "#"
+        },
+        {
+          "image": "http://be.a60.com.cn/assets/img/fashion-6.jpg",
+          "title": "Billie Jean",
+          "subtitle": "Michael Jackson",
+          "click": "#"
+        }
+      ]
+    }
+  ]
+}

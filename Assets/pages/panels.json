@@ -1,0 +1,47 @@
+﻿{
+  "id": "panels",
+  "component": [
+    {
+      "type": "navbar",
+      "list": [
+        {
+          "type": "left",
+          "icoIos": "icon icon-back",
+          "icoMat": "icon icon-back",
+          "class": "back link",
+          "click": "#"
+        },
+        {
+          "type": "title",
+          "text": "Side Panels"
+        }
+      ]
+    },
+    {
+      "type": "content",
+      "list": [
+        {
+          "text": "AppBe comes with 2 panels (on left and on right), both are optional. They have two different layouts/effects - <b>cover</b> above the content (like left panel here) and <b>reveal</b> (like right panel). You can put absolutely anything inside: data lists, forms, custom content, and even other isolated app view (like in right panel now) with its own dynamic navbar. Checkout panels:"
+        }
+      ]
+    },
+    {
+      "type": "button",
+      "subtype": "grid",
+      "list": [
+        {
+          "text": "Left Panel",
+          "click": "Be.app.panel.open('panel-left')",
+          "clsIos": "col button open-panel",
+          "clsMat": "col button button-raised open-panel"
+        },
+        {
+          "text": "Right Panel",
+          "click": "Be.app.panel.open('panel-right','right')",
+          "clsIos": "col button",
+          "clsMat": "col button button-raised"
+        }
+      ]
+    }
+  ]
+}

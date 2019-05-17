@@ -1,0 +1,388 @@
+﻿{
+  "id": "forms-buttons",
+  "component": [
+    {
+      "type": "navbar",
+      "list": [
+        {
+          "type": "left",
+          "icoIos": "icon icon-back",
+          "icoMat": "icon icon-back",
+          "class": "back link",
+          "click": ""
+        },
+        {
+          "type": "title",
+          "text": "Buttons"
+        }
+      ]
+    },
+    {
+      "type": "title",
+      "shape": "pillar",
+      "fill": "1",
+      "text": "Normal Buttons"
+    },
+    {
+      "type": "button",
+      "subtype": "usual",
+      "list": [
+        {
+          "text": "Button",
+          "click": "",
+          "clsIos": "button col",
+          "clsMat": "button col"
+        },
+        {
+          "text": "Button",
+          "click": "",
+          "clsIos": "button col",
+          "clsMat": "button col"
+        },
+        {
+          "text": "Button",
+          "click": "",
+          "clsIos": "button col button-round",
+          "clsMat": "button col"
+        }
+      ]
+    },
+    {
+      "type": "title",
+      "shape": "pillar",
+      "fill": "1",
+      "text": "Raised Buttons"
+    },
+    {
+      "type": "button",
+      "subtype": "grid",
+      "list": [
+        {
+          "text": "Button",
+          "click": "",
+          "clsIos": "button col",
+          "clsMat": "button col button-raised"
+        },
+        {
+          "text": "Button",
+          "click": "",
+          "clsIos": "button col",
+          "clsMat": "button col button-raised"
+        },
+        {
+          "text": "Button",
+          "click": "",
+          "clsIos": "button col",
+          "clsMat": "button col button-raised"
+        }
+      ]
+    },
+   {
+      "type": "title",
+      "shape": "pillar",
+      "fill": "1",
+      "text": "Raised Fill Buttons"
+    },
+    {
+      "type": "button",
+      "subtype": "grid",
+      "list": [
+        {
+          "text": "Button",
+          "click": "",
+          "clsIos": "button col",
+          "clsMat": "button col button-fill button-raised"
+        },
+        {
+          "text": "Button",
+          "click": "",
+          "clsIos": "button col",
+          "clsMat": "button col button-fill button-raised"
+        },
+        {
+          "text": "Button",
+          "click": "",
+          "clsIos": "button col",
+          "clsMat": "button col button-fill button-raised"
+        }
+      ]
+    },
+   {
+      "type": "title",
+      "shape": "pillar",
+      "fill": "1",
+      "text": "Color Buttons"
+    },
+    {
+      "type": "button",
+      "subtype": "grid",
+      "list": [
+        {
+          "text": "Red",
+          "click": "",
+          "clsIos": "button col",
+          "clsMat": "button col color-red"
+        },
+        {
+          "text": "Green",
+          "click": "",
+          "clsIos": "button col",
+          "clsMat": "button col color-green"
+        },
+        {
+          "text": "Blue",
+          "click": "",
+          "clsIos": "button col",
+          "clsMat": "button col color-blue"
+        }
+      ]
+    },
+    {
+      "type": "button",
+      "subtype": "grid",
+      "list": [
+        {
+          "text": "Orange",
+          "click": "",
+          "clsIos": "button col",
+          "clsMat": "button col color-orange"
+        },
+        {
+          "text": "Pink",
+          "click": "",
+          "clsIos": "button col",
+          "clsMat": "button col color-pink"
+        },
+        {
+          "text": "Purple",
+          "click": "",
+          "clsIos": "button col",
+          "clsMat": "button col color-purple"
+        }
+      ]
+    },
+    {
+      "type": "button",
+      "subtype": "grid",
+      "list": [
+        {
+          "text": "Cyan",
+          "click": "",
+          "clsIos": "button col",
+          "clsMat": "button col color-cyan"
+        },
+        {
+          "text": "Teal",
+          "click": "",
+          "clsIos": "button col",
+          "clsMat": "button col color-teal"
+        },
+        {
+          "text": "Indigo",
+          "click": "",
+          "clsIos": "button col",
+          "clsMat": "button col color-indigo"
+        }
+      ]
+    },
+   {
+      "type": "title",
+      "shape": "pillar",
+      "fill": "1",
+      "text": "Color Fill Buttons"
+    },
+    {
+      "type": "button",
+      "subtype": "grid",
+      "list": [
+        {
+          "text": "Red",
+          "click": "",
+          "clsIos": "button col",
+          "clsMat": "button col button-fill color-red"
+        },
+        {
+          "text": "Green",
+          "click": "",
+          "clsIos": "button col",
+          "clsMat": "button col button-fill color-green"
+        },
+        {
+          "text": "Blue",
+          "click": "",
+          "clsIos": "button col",
+          "clsMat": "button col button-fill color-blue"
+        }
+      ]
+    },
+   {
+      "type": "title",
+      "shape": "pillar",
+      "fill": "1",
+      "text": "Segmented Buttons"
+    },
+    {
+      "type": "button",
+      "subtype": "segmented",
+      "list": [
+        {
+          "text": "Red",
+          "click": "",
+          "clsIos": "button",
+          "clsMat": "button button-round button-fill color-red"
+        },
+        {
+          "text": "Green",
+          "click": "",
+          "clsIos": "button",
+          "clsMat": "button button-round button-fill color-green"
+        },
+        {
+          "text": "Blue",
+          "click": "",
+          "clsIos": "button",
+          "clsMat": "button button-round button-fill color-blue"
+        }
+      ]
+    },
+    {
+      "type": "button",
+      "subtype": "segmented",
+      "list": [
+        {
+          "text": "Orange",
+          "click": "",
+          "clsIos": "button",
+          "clsMat": "button button-raised button-fill color-orange"
+        },
+        {
+          "text": "Pink",
+          "click": "",
+          "clsIos": "button",
+          "clsMat": "button button-raised button-fill color-pink"
+        },
+        {
+          "text": "Purple",
+          "click": "",
+          "clsIos": "button",
+          "clsMat": "button button-raised button-fill color-purple"
+        }
+      ]
+    },
+    {
+      "type": "button",
+      "subtype": "segmented",
+      "list": [
+        {
+          "text": "Cyan",
+          "click": "",
+          "clsIos": "button",
+          "clsMat": "button button-raised button-fill color-cyan"
+        },
+        {
+          "text": "Teal",
+          "click": "",
+          "clsIos": "button",
+          "clsMat": "button button-raised button-fill color-teal"
+        },
+        {
+          "text": "Indigo",
+          "click": "",
+          "clsIos": "button",
+          "clsMat": "button button-raised button-fill color-indigo"
+        }
+      ]
+    },
+    {
+      "type": "button",
+      "subtype": "segmented",
+      "title": "Color Ripple Buttons",
+      "list": [
+        {
+          "text": "Button",
+          "click": "",
+          "clsIos": "button",
+          "clsMat": "button ripple-blue"
+        },
+        {
+          "text": "Button",
+          "click": "",
+          "clsIos": "button",
+          "clsMat": "button color-green ripple-pink"
+        },
+        {
+          "text": "Button",
+          "click": "",
+          "clsIos": "button",
+          "clsMat": "button color-teal ripple-amber"
+        }
+      ]
+    },
+    {
+      "type": "button",
+      "subtype": "segmented",
+      "list": [
+        {
+          "text": "Button",
+          "click": "",
+          "clsIos": "button",
+          "clsMat": "button button-raised button-fill color-orange ripple-green"
+        },
+        {
+          "text": "Button",
+          "click": "",
+          "clsIos": "button",
+          "clsMat": "button button-raised button-fill color-pink ripple-blue"
+        },
+        {
+          "text": "Button",
+          "click": "",
+          "clsIos": "button",
+          "clsMat": "button button-raised button-fill color-purple ripple-yellow"
+        }
+      ]
+    },
+   {
+      "type": "title",
+      "shape": "pillar",
+      "fill": "1",
+      "text": "Big Buttons"
+    },
+    {
+      "type": "button",
+      "subtype": "segmented",
+      "list": [
+        {
+          "text": "Button",
+          "click": "",
+          "clsIos": "button",
+          "clsMat": "button button-big color-green"
+        },
+        {
+          "text": "Button",
+          "click": "",
+          "clsIos": "button",
+          "clsMat": "button button-big color-red"
+        }
+      ]
+    },
+    {
+      "type": "button",
+      "subtype": "segmented",
+      "list": [
+        {
+          "text": "Button",
+          "click": "",
+          "clsIos": "button",
+          "clsMat": "button button-big button-fill button-raised color-pink"
+        },
+        {
+          "text": "Button",
+          "click": "",
+          "clsIos": "button",
+          "clsMat": "button button-big button-fill button-raised color-teal"
+        }
+      ]
+    }
+  ]
+}

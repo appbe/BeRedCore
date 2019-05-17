@@ -1,0 +1,93 @@
+﻿{
+  "id": "ble",
+  "component": [
+    {
+      "type": "navbar",
+      "list": [
+        {
+          "type": "left",
+          "icoIos": "icon icon-back",
+          "icoMat": "icon icon-back",
+          "class": "back link",
+          "click": "#"
+        },
+        {
+          "type": "title",
+          "text": "BLE"
+        }
+      ]
+    },
+    {
+      "type": "button",
+      "subtype": "usual",
+      "list": [
+        {
+          "text": "查找BLE设备",
+          "click": "Be.native.ble.find('name','MiniBeacon_03387')",
+          "clsIos": "button",
+          "clsMat": "button button-fill"
+        }
+      ]
+    },
+    {
+      "type": "button",
+      "subtype": "usual",
+      "list": [
+        {
+          "text": "连接BLE设备",
+          "click": "#Be.native.ble.connect('name','MiniBeacon_03387')",
+          "clsIos": "button",
+          "clsMat": "button button-fill color-gray"
+        }
+      ]
+    },
+    {
+      "type": "button",
+      "subtype": "usual",
+      "list": [
+        {
+          "text": "读取characteristic",
+          "click": "#Be.native.ble.read('name','MiniBeacon_03387')",
+          "clsIos": "button",
+          "clsMat": "button button-fill color-gray"
+        }
+      ]
+    },
+    {
+      "type": "button",
+      "subtype": "usual",
+      "list": [
+        {
+          "text": "写入characteristic",
+          "click": "#Be.native.ble.write('name','MiniBeacon_03387','MyCharacteristic')",
+          "clsIos": "button",
+          "clsMat": "button button-fill color-gray"
+        }
+      ]
+    },
+    {
+      "type": "button",
+      "subtype": "usual",
+      "list": [
+        {
+          "text": "读取descriptor",
+          "click": "#Be.native.ble.read('name','MiniBeacon_03387','descriptor')",
+          "clsIos": "button",
+          "clsMat": "button button-fill color-gray"
+        }
+      ]
+    },
+    {
+      "type": "button",
+      "subtype": "usual",
+      "list": [
+        {
+          "text": "写入descriptor",
+          "click": "#Be.native.ble.write('name','MiniBeacon_03387','MyDescriptor','descriptor')",
+          "clsIos": "button",
+          "clsMat": "button button-fill color-gray"
+        }
+      ]
+    }
+  ]
+}

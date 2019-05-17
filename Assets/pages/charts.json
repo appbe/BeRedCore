@@ -1,0 +1,211 @@
+﻿{
+  "id": "charts",
+  "component": [
+    {
+      "type": "navbar",
+      "list": [
+        {
+          "type": "left",
+          "icoIos": "icon icon-back",
+          "icoMat": "icon icon-back",
+          "class": "back link",
+          "click": "#"
+        },
+        {
+          "type": "title",
+          "text": "Charts"
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "subtype": "icon",
+      "title": "Column & Bar",
+      "list": [
+        {
+          "title": "Simple Column Chart",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "click": "chart-simple-column?type=html&static=1"
+        },
+        {
+          "title": "Column With Rotated Series",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "click": "chart-column-with-rotated-series?type=html&static=1"
+        },
+        {
+          "title": "Column and Line mix",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "click": "chart-column-and-line-mix?type=html&static=1"
+        },
+        {
+          "title": "3D Column Chart",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "click": "chart-3d-column?type=html&static=1"
+        },
+        {
+          "title": "Clustered Bar Chart",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "click": "chart-clustered-bar?type=html&static=1"
+        },
+        {
+          "title": "3D Bar Chart",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "click": "chart-3d-bar?type=html&static=1"
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "subtype": "icon",
+      "title": "Line & Area",
+      "list": [
+        {
+          "title": "Line Chart with Scroll and Zoom",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "click": "charts/line-chart-with-scroll-and-zoom"
+        },
+        {
+          "title": "Line with different colors for ups and downs",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "click": "charts/line-different-colors-ups-downs"
+        },
+        {
+          "title": "Smoothed Line Chart",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "click": "charts/smoothed-line-chart"
+        },
+        {
+          "title": "Zoomable Value Axis",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "click": "charts/zoomable-value-axis"
+        },
+        {
+          "title": "Line With Changing Color",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "click": "charts/line-with-changing-color"
+        },
+        {
+          "title": "Area With Time Based Data",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "click": "charts/area-with-time-based-data"
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "subtype": "icon",
+      "title": "Pie & Funnel",
+      "list": [
+        {
+          "title": "Simple Pie Chart",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "click": "charts/simple-pie-chart"
+        },
+        {
+          "title": "Animated Time-Line Pie Chart",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "click": "charts/animated-time-line-pie-chart"
+        },
+        {
+          "title": "3D Pie Chart",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "click": "charts/3d-pie-chart"
+        },
+        {
+          "title": "Donut Chart",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "click": "charts/donut-chart"
+        },
+        {
+          "title": "3D Donut Chart",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "click": "charts/3d-donut-chart"
+        },
+        {
+          "title": "Donut with radial gradient",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "click": "charts/donut-with-radial-gradient"
+        },
+        {
+          "title": "Pyramid Chart",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "click": "charts/pyramid-chart"
+        },
+        {
+          "title": "Funnel Chart",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "click": "charts/funnel-chart"
+        },
+        {
+          "title": "3D Funnel Chart",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "click": "charts/3d-funnel-chart"
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "subtype": "icon",
+      "title": "Gauges & Radar",
+      "list": [
+        {
+          "title": "Angular Gauge",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "click": "charts/angular-gauge"
+        },
+        {
+          "title": "Animated gauge",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "click": "charts/animated-gauge"
+        },
+        {
+          "title": "Angular Gauge With Two Axes",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "click": "charts/angular-gauge-with-two-axes"
+        },
+        {
+          "title": "Radar Chart",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "click": "charts/radar-chart"
+        },
+        {
+          "title": "Polar Chart",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "click": "charts/polar-chart"
+        },
+        {
+          "title": "Polar Scatter",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "click": "charts/polar-scatter"
+        }
+      ]
+    }
+  ]
+}

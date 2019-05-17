@@ -1,0 +1,77 @@
+﻿{
+  "id": "bar-cart",
+  "component": [
+    {
+      "type": "navbar",
+      "list": [
+        {
+          "type": "left",
+          "icoIos": "icon icon-back",
+          "icoMat": "icon icon-back",
+          "class": "back link",
+          "click": "#"
+        },
+        {
+          "type": "title",
+          "text": "Bar with cart"
+        },
+        {
+          "type": "right",
+          "icoIos": "add",
+          "icoMat": "add",
+          "class": "link product-menu",
+          "click": "addToCart()"
+        }
+      ]
+    },
+    {
+      "type": "cart-bar",
+      "bgcolor": "orange",
+      "cartBgcolor": "#b00000",
+      "activeIdx": "0",
+      "cartClick": "#",
+      "list": [
+        {
+          "icoIos": "home",
+          "icoMat": "home",
+          "label": "",
+          "click": "#"
+        },
+        {
+          "icoIos": "home",
+          "icoMat": "local_activity",
+          "label": "",
+          "click": "#"
+        },
+        {
+          "icoIos": "home",
+          "icoMat": "local_drink",
+          "label": "",
+          "click": "#"
+        },
+        {
+          "icoIos": "home",
+          "icoMat": "local_mall",
+          "label": "",
+          "click": "#"
+        },
+        {
+          "icoIos": "home",
+          "icoMat": "local_pizza",
+          "label": "",
+          "click": "#"
+        },
+        {
+          "icoIos": "home",
+          "icoMat": "local_library",
+          "label": "",
+          "click": "#"
+        }
+      ]
+    },
+    {
+      "type": "style",
+      "data": ".bar-action-item {color:dodgerblue;}.bar-action-item-selected {color: #fff;}"
+    }
+  ]
+}

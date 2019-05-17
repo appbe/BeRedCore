@@ -1,0 +1,90 @@
+﻿{
+  "id": "photo-gallery-1",
+  "component": [
+    {
+      "type": "navbar",
+      "list": [
+        {
+          "type": "left",
+          "icoIos": "icon icon-back",
+          "icoMat": "icon icon-back",
+          "class": "back link",
+          "click": "#"
+        },
+        {
+          "type": "title",
+          "text": "Grid Gallery 1"
+        }
+      ]
+    },
+    {
+      "type": "gallery",
+      "list": [
+        {
+          "image": "{url}/Assets/img/set1/1.jpg",
+          "click": "Be.app.photoZoom('{url}/Assets/img/set1/frog.jpg','A Frog')"
+        },
+        {
+          "image": "{url}/Assets/img/set1/2.jpg",
+          "click": "Be.app.photoZoom('{url}/Assets/img/set1/frog.jpg','A Frog',true)"
+        },
+        {
+          "image": "{url}/Assets/img/set1/3.jpg",
+          "click": "#"
+        },
+        {
+          "image": "{url}/Assets/img/set1/4.jpg",
+          "click": "#"
+        },
+        {
+          "image": "{url}/Assets/img/set1/5.jpg",
+          "click": "#"
+        },
+        {
+          "image": "{url}/Assets/img/set1/6.jpg",
+          "click": "#"
+        },
+        {
+          "image": "{url}/Assets/img/set1/7.jpg",
+          "click": "#"
+        },
+        {
+          "image": "{url}/Assets/img/set1/8.jpg",
+          "click": "#"
+        },
+        {
+          "image": "{url}/Assets/img/set1/9.jpg",
+          "click": "#"
+        },
+        {
+          "image": "{url}/Assets/img/set1/10.jpg",
+          "click": "#"
+        },
+        {
+          "image": "{url}/Assets/img/set1/11.jpg",
+          "click": "#"
+        },
+        {
+          "image": "{url}/Assets/img/set1/2.jpg",
+          "click": "#"
+        },
+        {
+          "image": "{url}/Assets/img/set1/4.jpg",
+          "click": "#"
+        },
+        {
+          "image": "{url}/Assets/img/set1/8.jpg",
+          "click": "#"
+        },
+        {
+          "image": "{url}/Assets/img/set1/11.jpg",
+          "click": "#"
+        },
+        {
+          "image": "{url}/Assets/img/set1/1.jpg",
+          "click": "#"
+        }
+      ]
+    }
+  ]
+}

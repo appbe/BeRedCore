@@ -1,0 +1,41 @@
+﻿{
+  "id": "effect-mask-transition3",
+  "component": [
+    {
+      "type": "navbar",
+      "subtype": "cover",
+      "list": [
+        {
+          "type": "left",
+          "icoIos": "icon icon-back",
+          "icoMat": "icon icon-back",
+          "class": "back link",
+          "click": "#"
+        }
+      ]
+    },
+    {
+      "type": "css-effect",
+      "subtype": "mask-transition",
+      "effectIdx": "3",
+      "list": [
+        {
+          "image": "{url}/assets/img/urban-1.jpg",
+          "subtitle": "Photo by Hans M"
+        },
+        {
+          "image": "{url}/assets/img/urban-2.jpg",
+          "subtitle": "Photo by Alex Read"
+        },
+        {
+          "image": "{url}/assets/img/urban-3.jpg",
+          "subtitle": "Photo by Gemma Evans"
+        },
+        {
+          "image": "{url}/assets/img/urban-4.jpg",
+          "subtitle": "Volkan Olmez"
+        }
+      ]
+    }
+  ]
+}

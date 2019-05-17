@@ -1,0 +1,47 @@
+﻿{
+  "id": "popover",
+  "component": [
+    {
+      "type": "navbar",
+      "list": [
+        {
+          "type": "left",
+          "icoIos": "icon icon-back",
+          "icoMat": "icon icon-back",
+          "class": "back link",
+          "click": "#"
+        },
+        {
+          "type": "title",
+          "text": "Popover"
+        }
+      ]
+    },
+    {
+      "type": "content",
+      "subtype": "format",
+      "list": [
+        {
+          "type": "text",
+          "text": "Of course, Framework7 has Popovers. Popovers may be called on absolutely any element with dynamic positioning. It is recommended to use <a href=\"modals\">actions and modals</a> on small screen phones instead. Try the \"bars\" icon on the navbar, \"menu\" link on the bottom toolbar, links and buttons in the text below:"
+        },
+        {
+          "type": "text",
+          "text": "<a onclick=\"Be.app.popover('popover-menu','.popover-1')\" class=\"button button-raised popover-1\">Open popover on me(1)</a>"
+        },
+        {
+          "type": "text",
+          "text": "Mauris fermentum neque et luctus venenatis. Vivamus a sem rhoncus, ornare tellus eu, euismod mauris. In porta turpis at semper convallis. Duis adipiscing leo eu nulla lacinia, quis rhoncus metus condimentum. Etiam nec malesuada nibh. Maecenas quis lacinia nisl, vel posuere dolor. Vestibulum condimentum, nisl ac vulputate egestas, neque enim dignissim elit, rhoncus volutpat magna enim a est. Aenean sit amet ligula neque. Cras suscipit rutrum enim. Nam a odio facilisis, elementum tellus non, <a onclick=\"Be.app.popover('popover-menu','.popover-2')\" class=\"open-popover popover-2\">popover(2)</a> tortor. Pellentesque felis eros, dictum vitae lacinia quis, lobortis vitae ipsum. Cras vehicula bibendum lorem quis imperdiet."
+        },
+        {
+          "type": "text",
+          "text": "In hac habitasse platea dictumst. Etiam varius, ante vel ornare facilisis, velit massa rutrum dolor, ac porta magna magna lacinia nunc. Curabitur <a onclick=\"Be.app.popover('popover-menu','.popover-3')\" class=\"open-popover popover-3\">popover(3)</a> cursus laoreet. Aenean vel tempus augue. Pellentesque in imperdiet nibh. Mauris rhoncus nulla id sem suscipit volutpat. Pellentesque ac arcu in nisi viverra pulvinar. Nullam nulla orci, bibendum sed ligula non, ullamcorper iaculis mi. In hac habitasse platea dictumst. Praesent varius at nisl eu luctus. Cras aliquet porta est. Quisque elementum quis dui et consectetur. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed sed laoreet purus. Pellentesque eget ante ante."
+        },
+        {
+          "type": "text",
+          "text": "Duis et ultricies nibh. Sed facilisis turpis urna, ac imperdiet erat venenatis eu. Proin sit amet faucibus tortor, et varius sem. Etiam vitae lacinia neque. Aliquam nisi purus, interdum in arcu sed, ultrices rutrum arcu. Nulla mi turpis, consectetur vel enim quis, facilisis viverra dui. Aliquam quis convallis tortor, quis semper ligula. Morbi ullamcorper <a onclick=\"Be.app.popover('popover-menu','.popover-4')\" class=\"open-popover popover-4\">one more popover(4)</a> massa at accumsan. Etiam purus odio, posuere in ligula vitae, viverra ultricies justo. Vestibulum nec interdum nisi. Aenean ac consectetur velit, non malesuada magna. Sed pharetra vehicula augue, vel venenatis lectus gravida eget. Curabitur lacus tellus, venenatis eu arcu in, interdum auctor nunc. Nunc non metus neque. Suspendisse viverra lectus sed risus aliquet, vel accumsan dolor feugiat."
+        }
+      ]
+    }
+  ]
+}

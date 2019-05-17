@@ -1,0 +1,436 @@
+﻿{
+  "id": "home",
+  "component": [
+    {
+      "type": "navbar",
+      "subtype": "cover",
+      "list": [
+        {
+          "type": "left",
+          "icoIos": "icon icon-app",
+          "icoMat": "icon icon-app",
+          "class": "link icon-only",
+          "click": "Be.app.alert('让应用更简单！')"
+        },
+        {
+          "type": "title",
+          "text": "应用贝"
+        },
+        {
+          "type": "right",
+          "icoIos": "data",
+          "icoMat": "apps",
+          "class": "link icon-only",
+          "click": "#"
+        },
+        {
+          "type": "right",
+          "icoIos": "camera",
+          "icoMat": "camera_alt",
+          "class": "link icon-only open-panel",
+          "click": "doQr()"
+        },
+        {
+          "type": "right",
+          "icoIos": "person",
+          "icoMat": "account_circle",
+          "class": "link icon-only",
+          "click": "#"
+        }
+      ]
+    },
+    {
+      "type": "card-menu",
+      "title": "应用贝欢迎您",
+      "image": "{url}/assets/img/cover-home.jpg"
+    },
+    {
+      "type": "title",
+      "shape": "pillar",
+      "fill": "1",
+      "text": "标准组件"
+    },
+    {
+      "type": "list",
+      "subtype": "icon",
+      "list": [
+        {
+          "title": "Content Block & Title",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "click": "core-features"
+        },
+        {
+          "title": "Accordion",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "click": "accordion"
+        },
+        {
+          "title": "Page Picker",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "click": "autocomplete"
+        },
+        {
+          "title": "Modal Picker",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "click": "picker"
+        },
+        {
+          "title": "Calendar / Datepicker",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "click": "calendar"
+        },
+        {
+          "title": "Calendar Event",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "click": "calendar-event"
+        },
+        {
+          "title": "Cards",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "click": "cards"
+        },
+        {
+          "title": "Cards Audio",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "after": "NEW",
+          "badgeCls": "badge bg-color-green",
+          "click": "cards-audio"
+        },
+        {
+          "title": "Cards Audio More",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "after": "NEW",
+          "badgeCls": "badge bg-color-green",
+          "click": "cards-audio-more"
+        },
+        {
+          "title": "Chips",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "click": "chips"
+        },
+        {
+          "title": "Contacts List",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "click": "contacts"
+        },
+        {
+          "title": "Data Tables",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "click": "data-table"
+        },
+        {
+          "title": "Elevation",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "click": "elevation"
+        },
+        {
+          "title": "Floating Action Button",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "click": "floating-button"
+        },
+        {
+          "title": "Forms",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "click": "forms"
+        },
+        {
+          "title": "Grid",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "click": "grid"
+        },
+        {
+          "title": "Icons MD",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "click": "icons-md"
+        },
+        {
+          "title": "Icons iOS",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "click": "icons-ios"
+        },
+        {
+          "title": "Index for Group",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "after": "NEW",
+          "badgeCls": "badge bg-color-green",
+          "click": "list-idx-contacts"
+        },
+        {
+          "title": "Index for List view",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "after": "NEW",
+          "badgeCls": "badge bg-color-green",
+          "click": "list-idx-list-view"
+        },
+        {
+          "title": "Index for List media",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "after": "NEW",
+          "badgeCls": "badge bg-color-green",
+          "click": "list-idx-list-media"
+        },
+        {
+          "title": "Infinite Scroll",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "click": "infinite-scroll"
+        },
+        {
+          "title": "Lazy Load Images",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "click": "lazy-load"
+        },
+        {
+          "title": "List View",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "click": "list-view"
+        },
+        {
+          "title": "Media Lists",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "click": "media-lists"
+        },
+        {
+          "title": "Audio Lists",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "after": "NEW",
+          "badgeCls": "badge bg-color-green",
+          "click": "audio-lists"
+        },
+        {
+          "title": "Messages",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "click": "messages"
+        },
+        {
+          "title": "Modals",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "click": "modals"
+        },
+        {
+          "title": "Navbars/Toolbars/Tab bar",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "click": "bars"
+        },
+        {
+          "title": "Notifications",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "click": "notifications"
+        },
+        {
+          "title": "Photo Browser",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "after": "NEW",
+          "badgeCls": "badge bg-color-green",
+          "click": "photo-browser"
+        },
+        {
+          "title": "Popover",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "click": "popover"
+        },
+        {
+          "title": "Popup",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "click": "popup"
+        },
+        {
+          "title": "Preloader",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "click": "preloader"
+        },
+        {
+          "title": "Progress Bar",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "click": "progressbar"
+        },
+        {
+          "title": "Pull To Refresh",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "click": "pull-to-refresh"
+        },
+        {
+          "title": "Search Bar",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "click": "searchbar"
+        },
+        {
+          "title": "Side Panels",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "click": "panels"
+        },
+        {
+          "title": "Sortable List",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "click": "sortable-list"
+        },
+        {
+          "title": "Stepper",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "click": "stepper"
+        },
+        {
+          "title": "Swipe To Delete",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "click": "swipe-delete"
+        },
+        {
+          "title": "Timeline",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "click": "timeline"
+        },
+        {
+          "title": "Toast",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "click": "toast"
+        },
+        {
+          "title": "Virtual List",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "after": "NEW",
+          "badgeCls": "badge bg-color-green",
+          "click": "list-virtual"
+        }
+      ]
+    },
+    {
+      "type": "title",
+      "shape": "pillar",
+      "fill": "1",
+      "text": "扩展组件"
+    },
+    {
+      "type": "list",
+      "subtype": "icon",
+      "list": [
+        {
+          "title": "Charts",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "after": "NEW",
+          "badgeCls": "badge bg-color-green",
+          "click": "charts"
+        },
+        {
+          "title": "Page Effect Sample",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "after": "NEW",
+          "badgeCls": "badge bg-color-green",
+          "click": "sample"
+        },
+        {
+          "title": "Video Player",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "after": "NEW",
+          "badgeCls": "badge bg-color-green",
+          "click": "video"
+        },
+        {
+          "title": "e-Shopping",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "after": "NEW",
+          "badgeCls": "badge bg-color-green",
+          "click": "e-shopping"
+        },
+        {
+          "title": "Photo Cover",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "after": "NEW",
+          "badgeCls": "badge bg-color-green",
+          "click": "photo-cover-1"
+        },
+        {
+          "title": "Encrypt & Decrypt",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "after": "NEW",
+          "badgeCls": "badge bg-color-green",
+          "click": "forms-crypto"
+        },
+        {
+          "title": "MD5 Encrypt",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "after": "NEW",
+          "badgeCls": "badge bg-color-green",
+          "click": "forms-md5"
+        },
+        {
+          "title": "Payment",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "after": "NEW",
+          "badgeCls": "badge bg-color-green",
+          "click": "Be.app.payment('0.02','http://demo.appbe.net');Be.app.alert('应用贝支持微信和支付宝付款，需要您先开通支付权限。')"
+        }
+      ]
+    },
+    {
+      "type": "title",
+      "shape": "pillar",
+      "fill": "1",
+      "text": "本地能力"
+    },
+    {
+      "type": "list",
+      "subtype": "icon",
+      "list": [
+        {
+          "title": "Native API",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "after": "NEW",
+          "badgeCls": "badge bg-color-green",
+          "click": "native"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta http-equiv="Content-Security-Policy" content="default-src * 'self' 'unsafe-inline' 'unsafe-eval' data: gap:" />
+    <title>应用贝</title>
+    <link rel="apple-touch-icon" href="Assets/img/app-icon.png">
+    <link rel="icon" href="Assets/img/app-icon.png">
+    <link rel="stylesheet" href="Assets/css/appbe-ext.min.css" />
+    <script type="text/javascript">
+        function getUrlParam (name) {
+            var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
+            var r = window.location.search.substr(1).match(reg);
+            if (r !== null) return unescape(r[2]);
+            return null;
+        }
+        function loadCss (url) {
+            var head = document.getElementsByTagName('head')[0];
+            var link = document.createElement('link');
+            link.href = url;
+            link.rel = 'stylesheet';
+            link.type = 'text/css';
+            head.appendChild(link);
+        }
+        var appTheme = getUrlParam('theme') || 'md';
+        loadCss('Assets/css/appbe-core.' + appTheme + '.min.css');
+    </script>
+</head>
+<body>
+    <div id="app">
+        <div class="statusbar"></div>
+        <div class="panel-backdrop"></div>
+        <div class="panel panel-left panel-cover"></div>
+        <div class="panel panel-right panel-reveal"></div>
+        <div class="view view-main ios-edges"></div>
+    </div>
+    <script src="Assets/js/jquery.min.js"></script>
+    <script src="Assets/js/appbe-core.min.js"></script>
+    <script src="Assets/js/appbe-ext.min.js"></script>
+    <script type="text/javascript">
+        var timestamp = Be.util.getTimestamp();
+        var appUrl = Be.util.getUrlParam('url') || 'http://be2.dev.com';
+        Be.config.type = 'web';
+        Be.config.url = appUrl;
+        Be.config.theme = appTheme;
+        Be.util.loadScript(appUrl + '/Assets/js/my.js?' + timestamp);
+    </script>
+</body>
+</html>

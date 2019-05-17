@@ -1,0 +1,25 @@
+﻿{
+  "id": "alipay",
+  "component": [
+    {
+      "type": "navbar",
+      "list": [
+        {
+          "type": "left",
+          "icoIos": "icon icon-back",
+          "icoMat": "icon icon-back",
+          "class": "back link",
+          "click": "#"
+        },
+        {
+          "type": "title",
+          "text": "AliPay"
+        }
+      ]
+    },
+    {
+      "type": "html",
+      "data": "<iframe src=\"\" scrolling=\"auto\" frameborder=\"0\" style=\"padding: 0px; width: 100%; height:100%;\"></iframe>"
+    }
+  ]
+}

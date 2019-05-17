@@ -1,0 +1,50 @@
+﻿{
+  "id": "bars-sub-navbar",
+  "hideNavbarOnScroll": "1",
+  "component": [
+    {
+      "type": "navbar",
+      "list": [
+        {
+          "type": "left",
+          "icoIos": "icon icon-back",
+          "icoMat": "icon icon-back",
+          "class": "back link",
+          "click": "#"
+        },
+        {
+          "type": "title",
+          "text": "Sub Navbar"
+        },
+        {
+          "type": "subbar",
+          "tabIdPrefix": "tab",
+          "item": [
+            {
+              "text": "Link 1",
+              "click": "tabs-page-1"
+            },
+            {
+              "text": "Link 2",
+              "click": "tabs-page-2"
+            },
+            {
+              "text": "Link 3",
+              "click": "tabs-page-3"
+            },
+            {
+              "text": "Link 4",
+              "click": "tabs-page-4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "tabs",
+      "tabIdPrefix": "tab",
+      "activeIdx": "0",
+      "tabCount": "4"
+    }
+  ]
+}

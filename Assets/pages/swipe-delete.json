@@ -1,0 +1,233 @@
+﻿{
+  "id": "swipe-delete",
+  "component": [
+    {
+      "type": "navbar",
+      "list": [
+        {
+          "type": "left",
+          "icoIos": "icon icon-back",
+          "icoMat": "icon icon-back",
+          "class": "back link",
+          "click": "#"
+        },
+        {
+          "type": "title",
+          "text": "Swipe To Delete"
+        }
+      ]
+    },
+    {
+      "type": "content",
+      "list": [
+        {
+          "text": "Swipe out actions on list elements is one of the most awesome F7 features. It allows you to call hidden menu for each list element where you can put default ready-to use delete button or any other buttons for some required actions. "
+        }
+      ]
+    },
+    {
+      "type": "list-swipe",
+      "subtype": "icon",
+      "title": "Swipe to delete with confirm modal",
+      "rowPrefix": "row1",
+      "list": [
+        {
+          "title": "Swipe left on me please",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "direction": "right",
+          "item": [
+            {
+              "class": "delete bg-color-red",
+              "text": "Delete"
+            }
+          ]
+        },
+        {
+          "title": "Swipe left on me too",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "direction": "right",
+          "item": [
+            {
+              "class": "delete bg-color-red",
+              "text": "Delete"
+            }
+          ]
+        },
+        {
+          "title": "I am not removable",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "item": [
+          ]
+        }
+      ]
+    },
+    {
+      "type": "list-swipe",
+      "subtype": "title",
+      "title": "Swipe to delete without confirm",
+      "rowPrefix": "row2",
+      "list": [
+        {
+          "title": "Swipe left on me please",
+          "direction": "right",
+          "item": [
+            {
+              "class": "delete bg-color-red",
+              "text": "Delete"
+            }
+          ]
+        },
+        {
+          "title": "Swipe left on me too",
+          "direction": "right",
+          "item": [
+            {
+              "class": "delete bg-color-red",
+              "text": "Delete"
+            }
+          ]
+        },
+        {
+          "title": "I am not removable",
+          "item": [
+          ]
+        }
+      ]
+    },
+    {
+      "type": "list-swipe",
+      "subtype": "icon",
+      "title": "Swipe for actions",
+      "rowPrefix": "row3",
+      "list": [
+        {
+          "title": "Swipe left on me please",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "direction": "right",
+          "item": [
+            {
+              "class": "bg-color-blue emo-actions",
+              "text": "More",
+              "click": "#"
+            },
+            {
+              "class": "delete bg-color-red",
+              "text": "Delete"
+            }
+          ]
+        },
+        {
+          "title": "Swipe left on me too",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "direction": "right",
+          "item": [
+            {
+              "class": "bg-color-blue demo-actions",
+              "text": "More",
+              "click": "#"
+            },
+            {
+              "class": "delete bg-color-red",
+              "text": "Delete"
+            }
+          ]
+        },
+        {
+          "title": "You can't delete me",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "direction": "right",
+          "item": [
+            {
+              "class": "bg-color-blue demo-actions",
+              "text": "More",
+              "click": "#"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "list-swipe",
+      "subtype": "title",
+      "title": "With callback on remove",
+      "rowPrefix": "row4",
+      "list": [
+        {
+          "title": "Swipe left on me please",
+          "direction": "right",
+          "item": [
+            {
+              "class": "delete bg-color-red",
+              "text": "Delete"
+            }
+          ]
+        },
+        {
+          "title": "Swipe left on me too",
+          "direction": "right",
+          "item": [
+            {
+              "class": "delete bg-color-red",
+              "text": "Delete"
+            }
+          ]
+        },
+        {
+          "title": "I am not removable",
+          "item": [
+          ]
+        }
+      ]
+    },
+    {
+      "type": "list-swipe",
+      "subtype": "icon",
+      "title": "With actions on left side (swipe to right)",
+      "rowPrefix": "row5",
+      "list": [
+        {
+          "title": "Swipe right on me please",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "direction": "left",
+          "item": [
+            {
+              "class": "bg-color-green demo-reply",
+              "text": "Reply",
+              "click": "doSwipeReply('{rid}')"
+            },
+            {
+              "class": "bg-color-blue demo-forward",
+              "text": "Forward",
+              "click": "doSwipeForward('{rid}')"
+            }
+          ]
+        },
+        {
+          "title": "Swipe right on me too",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "direction": "left",
+          "item": [
+            {
+              "class": "bg-color-green demo-reply",
+              "text": "Reply",
+              "click": "doSwipeReply('{rid}')"
+            },
+            {
+              "class": "bg-color-blue demo-forward",
+              "text": "Forward",
+              "click": "doSwipeForward('{rid}')"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

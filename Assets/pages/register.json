@@ -1,0 +1,86 @@
+﻿{
+  "id": "register",
+  "component": [
+    {
+      "type": "navbar",
+      "list": [
+        {
+          "type": "left",
+          "icoIos": "icon icon-back",
+          "icoMat": "icon icon-back",
+          "class": "back link",
+          "click": "#"
+        },
+        {
+          "type": "title",
+          "text": "免费注册"
+        }
+      ]
+    },
+    {
+      "type": "content",
+      "list": [
+        {
+          "text": "<br /><br /><div style=\"text-align:center;\"><img src=\"http://appbe.a60.com.cn/assets/img/app-icon.png\" /></div><br />"
+        }
+      ]
+    },
+    {
+      "type": "input",
+      "subtype": "form",
+      "id": "form-register",
+      "list": [
+        {
+          "input": "text",
+          "name": "name",
+          "icoMat": "perm_identity",
+          "placeholder": "姓名或网名",
+          "valid": {
+            "range": "1-10",
+            "pattern": "a-zA-Z{CN}",
+            "alert": "姓名或网名|请输入1~10位的英文字母、汉字。"
+          }
+        },
+        {
+          "input": "text",
+          "name": "email",
+          "icoMat": "perm_identity",
+          "placeholder": "登录名（4~30位英文字母、数字）",
+          "valid": {
+            "range": "4-30",
+            "alert": "登录名|请输入4~30位的英文字母、数字。"
+          }
+        },
+        {
+          "input": "password",
+          "name": "password1",
+          "icoMat": "lock_outline",
+          "placeholder": "登录密码（6~10位英文字母、数字）",
+          "valid": {
+            "range": "6-10",
+            "pattern": "a-zA-Z0-9",
+            "alert": "登录密码|请输入6~10位的英文字母、数字。"
+          }
+        },
+        {
+          "input": "password",
+          "name": "password2",
+          "icoMat": "lock_outline",
+          "placeholder": "请再次输入登录密码"
+        }
+      ]
+    },
+    {
+      "type": "button",
+      "subtype": "usual",
+      "list": [
+        {
+          "text": "注册",
+          "click": "doRegister()",
+          "clsIos": "button",
+          "clsMat": "button button-fill"
+        }
+      ]
+    }
+  ]
+}

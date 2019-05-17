@@ -1,0 +1,50 @@
+﻿{
+  "id": "payment",
+  "type": "picker",
+  "component": [
+    {
+      "type": "toolbar",
+      "list": [
+        {
+          "text": "请先选择付款方式"
+        },
+        {
+          "class": "link sheet-close",
+          "text": "取消",
+          "click": "#"
+        }
+      ]
+    },
+    {
+      "type": "radios",
+      "name": "payment-radio",
+      "list": [
+        {
+          "value": "alipay",
+          "text": "支付宝"
+        },
+        {
+          "value": "weipay",
+          "text": "微信"
+        }
+      ]
+    },
+    {
+      "type": "content",
+      "extCls": "payment-button",
+      "list": [
+        {
+          "text": "<a style='display:none' class='button col button-fill button-raised external' id='_be_button_payment' target='_system'>立即付款</button>"
+        }
+      ]
+    },
+    {
+      "type": "style",
+      "data": ".payment-button{margin-top:-16px !important;}"
+    },
+    {
+      "type": "script",
+      "data": "$('input[name=\"payment-radio\"]').on('click', function (e) { Be.native.payment('0.01',$('input[name=\"payment-radio\"]:checked').val());})"
+    }
+  ]
+}

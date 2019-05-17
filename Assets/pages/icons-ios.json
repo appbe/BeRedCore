@@ -1,0 +1,1590 @@
+﻿{
+  "id": "icons-ios",
+  "contentCls": "grid-demo",
+  "component": [
+    {
+      "type": "navbar",
+      "list": [
+        {
+          "type": "left",
+          "icoIos": "icon icon-back",
+          "icoMat": "icon icon-back",
+          "class": "back link",
+          "click": "#"
+        },
+        {
+          "type": "title",
+          "text": "Icons iOS"
+        }
+      ]
+    },
+    {
+      "type": "content",
+      "subtype": "text",
+      "list": [
+        {
+          "type": "format",
+          "text": "It’s easy to incorporate icons into your app. Here’s a small example:"
+        },
+        {
+          "type": "format",
+          "text": "&lt;i class=\"material-icons\"&gt;home&lt;/i&gt;<i class=\"material-icons\">home</i>"
+        },
+        {
+          "type": "format",
+          "text": "&lt;i class=\"material-icons\"&gt;person&lt;sup&gt;add&lt;/sup&gt;&lt;/i&gt;<i class=\"material-icons\">person<sup>add</sup></i>"
+        }
+      ]
+    },
+    {
+      "type": "grid",
+      "extCls": "grid-demo",
+      "list": [
+        {
+          "item": [
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">abc</i></div><div class=\"icon-name\">abc</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">abc_square</i></div><div class=\"icon-name\">abc_square</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">abc_square_fill</i></div><div class=\"icon-name\">abc_square_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">add</i></div><div class=\"icon-name\">add</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">add_round</i></div><div class=\"icon-name\">add_round</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">add_round_fill</i></div><div class=\"icon-name\">add_round_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">alarm</i></div><div class=\"icon-name\">alarm</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">alarm_fill</i></div><div class=\"icon-name\">alarm_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">albums</i></div><div class=\"icon-name\">albums</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">albums_fill</i></div><div class=\"icon-name\">albums_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">alert</i></div><div class=\"icon-name\">alert</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">alert_fill</i></div><div class=\"icon-name\">alert_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">arrow_down</i></div><div class=\"icon-name\">arrow_down</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">arrow_down_round_fill</i></div><div class=\"icon-name\">arrow_down_round_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">arrow_left</i></div><div class=\"icon-name\">arrow_left</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">arrow_left_round_fill</i></div><div class=\"icon-name\">arrow_left_round_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">arrow_right</i></div><div class=\"icon-name\">arrow_right</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">arrow_right_round_fill</i></div><div class=\"icon-name\">arrow_right_round_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">arrow_up</i></div><div class=\"icon-name\">arrow_up</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">at</i></div><div class=\"icon-name\">at</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">at_round</i></div><div class=\"icon-name\">at_round</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">at_round_fill</i></div><div class=\"icon-name\">at_round_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">attachment</i></div><div class=\"icon-name\">attachment</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">bag</i></div><div class=\"icon-name\">bag</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">bag_fill</i></div><div class=\"icon-name\">bag_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">barcode</i></div><div class=\"icon-name\">barcode</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">barcode_fill</i></div><div class=\"icon-name\">barcode_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">bars</i></div><div class=\"icon-name\">bars</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">bars_chart</i></div><div class=\"icon-name\">bars_chart</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">bars_chart_round</i></div><div class=\"icon-name\">bars_chart_round</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"material-icons\">airline_seat_recline_extra</i></div><div class=\"icon-name\">airline_seat_recline_extra</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">bars_chart_round_fill</i></div><div class=\"icon-name\">bars_chart_round_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">bars_chart_square</i></div><div class=\"icon-name\">bars_chart_square</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">bars_chart_square_fill</i></div><div class=\"icon-name\">bars_chart_square_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">bell</i></div><div class=\"icon-name\">bell</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">bell_fill</i></div><div class=\"icon-name\">bell_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">bell_off</i></div><div class=\"icon-name\">bell_off</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">bitcoin</i></div><div class=\"icon-name\">bitcoin</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">bitcoin_round</i></div><div class=\"icon-name\">bitcoin_round</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">bitcoin_round_fill</i></div><div class=\"icon-name\">bitcoin_round_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">bolt</i></div><div class=\"icon-name\">bolt</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">bolt_fill</i></div><div class=\"icon-name\">bolt_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">bolt_round</i></div><div class=\"icon-name\">bolt_round</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">bolt_round_fill</i></div><div class=\"icon-name\">bolt_round_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">book</i></div><div class=\"icon-name\">book</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">book_fill</i></div><div class=\"icon-name\">book_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">bookmark</i></div><div class=\"icon-name\">bookmark</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">bookmark_fill</i></div><div class=\"icon-name\">bookmark_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">box</i></div><div class=\"icon-name\">box</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">box_fill</i></div><div class=\"icon-name\">box_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">briefcase</i></div><div class=\"icon-name\">briefcase</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">briefcase_fill</i></div><div class=\"icon-name\">briefcase_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">bulb</i></div><div class=\"icon-name\">bulb</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">bulb_fill</i></div><div class=\"icon-name\">bulb_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">business</i></div><div class=\"icon-name\">business</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">business_fill</i></div><div class=\"icon-name\">business_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">calendar</i></div><div class=\"icon-name\">calendar</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">calendar_fill</i></div><div class=\"icon-name\">calendar_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">calendar_today</i></div><div class=\"icon-name\">calendar_today</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">calendar_today_fill</i></div><div class=\"icon-name\">calendar_today_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">camera</i></div><div class=\"icon-name\">camera</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">camera_fill</i></div><div class=\"icon-name\">camera_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">camera_round</i></div><div class=\"icon-name\">camera_round</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">camera_round_fill</i></div><div class=\"icon-name\">camera_round_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">card</i></div><div class=\"icon-name\">card</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">card_fill</i></div><div class=\"icon-name\">card_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">cat</i></div><div class=\"icon-name\">cat</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">chat</i></div><div class=\"icon-name\">chat</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">chat_bubble</i></div><div class=\"icon-name\">chat_bubble</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">chat_bubble_fill</i></div><div class=\"icon-name\">chat_bubble_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">chat_fill</i></div><div class=\"icon-name\">chat_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">check</i></div><div class=\"icon-name\">check</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">check_round</i></div><div class=\"icon-name\">check_round</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">check_round_fill</i></div><div class=\"icon-name\">check_round_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">chevron_down</i></div><div class=\"icon-name\">chevron_down</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">chevron_down_round</i></div><div class=\"icon-name\">chevron_down_round</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">chevron_down_round_fill</i></div><div class=\"icon-name\">chevron_down_round_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">chevron_left</i></div><div class=\"icon-name\">chevron_left</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">chevron_left_round</i></div><div class=\"icon-name\">chevron_left_round</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">chevron_left_round_fill</i></div><div class=\"icon-name\">chevron_left_round_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">chevron_right</i></div><div class=\"icon-name\">chevron_right</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">chevron_right_round</i></div><div class=\"icon-name\">chevron_right_round</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">chevron_right_round_fill</i></div><div class=\"icon-name\">chevron_right_round_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">chevron_up</i></div><div class=\"icon-name\">chevron_up</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">chevron_up_round</i></div><div class=\"icon-name\">chevron_up_round</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">chevron_up_round_fill</i></div><div class=\"icon-name\">chevron_up_round_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">circle</i></div><div class=\"icon-name\">circle</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">circle_fill</i></div><div class=\"icon-name\">circle_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">circle_half</i></div><div class=\"icon-name\">circle_half</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">close</i></div><div class=\"icon-name\">close</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">close_round</i></div><div class=\"icon-name\">close_round</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">close_round_fill</i></div><div class=\"icon-name\">close_round_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">cloud</i></div><div class=\"icon-name\">cloud</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">cloud_download</i></div><div class=\"icon-name\">cloud_download</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">cloud_download_fill</i></div><div class=\"icon-name\">cloud_download_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">cloud_fill</i></div><div class=\"icon-name\">cloud_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">cloud_upload</i></div><div class=\"icon-name\">cloud_upload</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">cloud_upload_fill</i></div><div class=\"icon-name\">cloud_upload_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">collection</i></div><div class=\"icon-name\">collection</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">collection_fill</i></div><div class=\"icon-name\">collection_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">color_filter</i></div><div class=\"icon-name\">color_filter</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">color_filter_fill</i></div><div class=\"icon-name\">color_filter_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">compass</i></div><div class=\"icon-name\">compass</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">compass_fill</i></div><div class=\"icon-name\">compass_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">border_vertical</i></div><div class=\"icon-name\">border_vertical</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">compose</i></div><div class=\"icon-name\">compose</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">compose_fill</i></div><div class=\"icon-name\">compose_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">data</i></div><div class=\"icon-name\">data</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">data_fill</i></div><div class=\"icon-name\">data_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">brightness_4</i></div><div class=\"icon-name\">brightness_4</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">delete</i></div><div class=\"icon-name\">delete</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">delete_round</i></div><div class=\"icon-name\">delete_round</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">delete_round_fill</i></div><div class=\"icon-name\">delete_round_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">desktop</i></div><div class=\"icon-name\">desktop</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">document</i></div><div class=\"icon-name\">document</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">document_chart</i></div><div class=\"icon-name\">document_chart</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">document_chart_fill</i></div><div class=\"icon-name\">document_chart_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">document_check</i></div><div class=\"icon-name\">document_check</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">document_check_fill</i></div><div class=\"icon-name\">document_check_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">document_fill</i></div><div class=\"icon-name\">document_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">document_person</i></div><div class=\"icon-name\">document_person</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">document_person_fill</i></div><div class=\"icon-name\">document_person_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">document_text</i></div><div class=\"icon-name\">document_text</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">document_text_fill</i></div><div class=\"icon-name\">document_text_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">dog</i></div><div class=\"icon-name\">dog</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">download</i></div><div class=\"icon-name\">download</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">download_fill</i></div><div class=\"icon-name\">download_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">download_round</i></div><div class=\"icon-name\">download_round</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">download_round_fill</i></div><div class=\"icon-name\">download_round_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">drawer</i></div><div class=\"icon-name\">drawer</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">drawer_fill</i></div><div class=\"icon-name\">drawer_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">drawers</i></div><div class=\"icon-name\">drawers</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">drawers_fill</i></div><div class=\"icon-name\">drawers_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">edit</i></div><div class=\"icon-name\">edit</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">email</i></div><div class=\"icon-name\">email</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">email_fill</i></div><div class=\"icon-name\">email_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">enter</i></div><div class=\"icon-name\">enter</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">enter_fill</i></div><div class=\"icon-name\">enter_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">enter_round</i></div><div class=\"icon-name\">enter_round</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">enter_round_fill</i></div><div class=\"icon-name\">enter_round_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">exit</i></div><div class=\"icon-name\">exit</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">exit_fill</i></div><div class=\"icon-name\">exit_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">exit_round</i></div><div class=\"icon-name\">exit_round</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">exit_round_fill</i></div><div class=\"icon-name\">exit_round_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">expand</i></div><div class=\"icon-name\">expand</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">eye</i></div><div class=\"icon-name\">eye</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">eye_fill</i></div><div class=\"icon-name\">eye_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">eye_off</i></div><div class=\"icon-name\">eye_off</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">fastforward</i></div><div class=\"icon-name\">fastforward</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">fastforward_fill</i></div><div class=\"icon-name\">fastforward_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">fastforward_round</i></div><div class=\"icon-name\">fastforward_round</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">fastforward_round_fill</i></div><div class=\"icon-name\">fastforward_round_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">favorites</i></div><div class=\"icon-name\">favorites</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">favorites_alt</i></div><div class=\"icon-name\">favorites_alt</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">favorites_alt_fill</i></div><div class=\"icon-name\">favorites_alt_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">favorites_fill</i></div><div class=\"icon-name\">favorites_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">film</i></div><div class=\"icon-name\">film</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">film_fill</i></div><div class=\"icon-name\">film_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">filter</i></div><div class=\"icon-name\">filter</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">fire</i></div><div class=\"icon-name\">fire</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">fire_fill</i></div><div class=\"icon-name\">fire_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">flag</i></div><div class=\"icon-name\">flag</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">flag_fill</i></div><div class=\"icon-name\">flag_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">folder</i></div><div class=\"icon-name\">folder</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">folder_fill</i></div><div class=\"icon-name\">folder_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">forward</i></div><div class=\"icon-name\">forward</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">forward_fill</i></div><div class=\"icon-name\">forward_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">gamepad</i></div><div class=\"icon-name\">gamepad</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">gear</i></div><div class=\"icon-name\">gear</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">gear_fill</i></div><div class=\"icon-name\">gear_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">gift</i></div><div class=\"icon-name\">gift</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">gift_fill</i></div><div class=\"icon-name\">gift_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">graph_round</i></div><div class=\"icon-name\">graph_round</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">graph_round_fill</i></div><div class=\"icon-name\">graph_round_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">graph_square</i></div><div class=\"icon-name\">graph_square</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">graph_square_fill</i></div><div class=\"icon-name\">graph_square_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">hand</i></div><div class=\"icon-name\">hand</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">hand_alt</i></div><div class=\"icon-name\">hand_alt</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">heart</i></div><div class=\"icon-name\">heart</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">heart_fill</i></div><div class=\"icon-name\">heart_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">help</i></div><div class=\"icon-name\">help</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">help_round</i></div><div class=\"icon-name\">help_round</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">help_round_fill</i></div><div class=\"icon-name\">help_round_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">home</i></div><div class=\"icon-name\">home</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">home_fill</i></div><div class=\"icon-name\">home_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">images</i></div><div class=\"icon-name\">images</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">images_fill</i></div><div class=\"icon-name\">images_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">infinite</i></div><div class=\"icon-name\">infinite</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">info</i></div><div class=\"icon-name\">info</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">info_round</i></div><div class=\"icon-name\">info_round</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">info_round_fill</i></div><div class=\"icon-name\">info_round_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">keyboard</i></div><div class=\"icon-name\">keyboard</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">keyboard_fill</i></div><div class=\"icon-name\">keyboard_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">laptop</i></div><div class=\"icon-name\">laptop</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">layers</i></div><div class=\"icon-name\">layers</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">layers_alt</i></div><div class=\"icon-name\">layers_alt</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">layers_alt_fill</i></div><div class=\"icon-name\">layers_alt_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">layers_fill</i></div><div class=\"icon-name\">layers_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">library</i></div><div class=\"icon-name\">library</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">library_fill</i></div><div class=\"icon-name\">library_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">link</i></div><div class=\"icon-name\">link</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">list</i></div><div class=\"icon-name\">list</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">list_fill</i></div><div class=\"icon-name\">list_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">lock</i></div><div class=\"icon-name\">lock</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">lock_fill</i></div><div class=\"icon-name\">lock_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">logo_android</i></div><div class=\"icon-name\">logo_android</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">logo_android_text</i></div><div class=\"icon-name\">logo_android_text</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">logo_apple</i></div><div class=\"icon-name\">logo_apple</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">logo_facebook</i></div><div class=\"icon-name\">logo_facebook</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">logo_github</i></div><div class=\"icon-name\">logo_github</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">logo_google</i></div><div class=\"icon-name\">logo_google</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">logo_google_text</i></div><div class=\"icon-name\">logo_google_text</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">logo_googleplus</i></div><div class=\"icon-name\">logo_googleplus</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">logo_instagram</i></div><div class=\"icon-name\">logo_instagram</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">logo_ios</i></div><div class=\"icon-name\">logo_ios</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">logo_linkedin</i></div><div class=\"icon-name\">logo_linkedin</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">logo_macos</i></div><div class=\"icon-name\">logo_macos</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">logo_microsoft</i></div><div class=\"icon-name\">logo_microsoft</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">logo_rss</i></div><div class=\"icon-name\">logo_rss</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">logo_twitter</i></div><div class=\"icon-name\">logo_twitter</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">logo_windows</i></div><div class=\"icon-name\">logo_windows</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">map</i></div><div class=\"icon-name\">map</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">menu</i></div><div class=\"icon-name\">menu</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">message</i></div><div class=\"icon-name\">message</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">message_fill</i></div><div class=\"icon-name\">message_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">mic</i></div><div class=\"icon-name\">mic</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">mic_fill</i></div><div class=\"icon-name\">mic_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">mic_off</i></div><div class=\"icon-name\">mic_off</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">mic_round</i></div><div class=\"icon-name\">mic_round</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">mic_round_fill</i></div><div class=\"icon-name\">mic_round_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">money_dollar</i></div><div class=\"icon-name\">money_dollar</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">money_dollar_round</i></div><div class=\"icon-name\">money_dollar_round</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">money_dollar_round_fill</i></div><div class=\"icon-name\">money_dollar_round_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">money_euro</i></div><div class=\"icon-name\">money_euro</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">money_euro_round</i></div><div class=\"icon-name\">money_euro_round</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">money_euro_round_fill</i></div><div class=\"icon-name\">money_euro_round_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">money_pound</i></div><div class=\"icon-name\">money_pound</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">money_pound_round</i></div><div class=\"icon-name\">money_pound_round</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">money_pound_round_fill</i></div><div class=\"icon-name\">money_pound_round_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">money_rubl</i></div><div class=\"icon-name\">money_rubl</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">money_rubl_round</i></div><div class=\"icon-name\">money_rubl_round</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">money_rubl_round_fill</i></div><div class=\"icon-name\">money_rubl_round_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">money_yen</i></div><div class=\"icon-name\">money_yen</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">money_yen_round</i></div><div class=\"icon-name\">money_yen_round</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">money_yen_round_fill</i></div><div class=\"icon-name\">money_yen_round_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">more</i></div><div class=\"icon-name\">more</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">more_fill</i></div><div class=\"icon-name\">more_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">more_round</i></div><div class=\"icon-name\">more_round</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">more_round_fill</i></div><div class=\"icon-name\">more_round_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">more_vertical</i></div><div class=\"icon-name\">more_vertical</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">more_vertical_fill</i></div><div class=\"icon-name\">more_vertical_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">more_vertical_round</i></div><div class=\"icon-name\">more_vertical_round</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">more_vertical_round_fill</i></div><div class=\"icon-name\">more_vertical_round_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">move</i></div><div class=\"icon-name\">move</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">navigation</i></div><div class=\"icon-name\">navigation</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">navigation_fill</i></div><div class=\"icon-name\">navigation_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">navigation_round</i></div><div class=\"icon-name\">navigation_round</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">navigation_round_fill</i></div><div class=\"icon-name\">navigation_round_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">numbers</i></div><div class=\"icon-name\">numbers</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">numbers_square</i></div><div class=\"icon-name\">numbers_square</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">numbers_square_fill</i></div><div class=\"icon-name\">numbers_square_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">paper_plane</i></div><div class=\"icon-name\">paper_plane</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">paper_plane_fill</i></div><div class=\"icon-name\">paper_plane_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">pause</i></div><div class=\"icon-name\">pause</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">pause_fill</i></div><div class=\"icon-name\">pause_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">pause_round</i></div><div class=\"icon-name\">pause_round</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">pause_round_fill</i></div><div class=\"icon-name\">pause_round_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">paw</i></div><div class=\"icon-name\">paw</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">person</i></div><div class=\"icon-name\">person</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">person_round</i></div><div class=\"icon-name\">person_round</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">person_round_fill</i></div><div class=\"icon-name\">person_round_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">persons</i></div><div class=\"icon-name\">persons</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">persons_round</i></div><div class=\"icon-name\">persons_round</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">persons_round_fill</i></div><div class=\"icon-name\">persons_round_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">phone</i></div><div class=\"icon-name\">phone</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">phone_fill</i></div><div class=\"icon-name\">phone_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">phone_landscape</i></div><div class=\"icon-name\">phone_landscape</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">phone_portrait</i></div><div class=\"icon-name\">phone_portrait</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">phone_round</i></div><div class=\"icon-name\">phone_round</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">phone_round_fill</i></div><div class=\"icon-name\">phone_round_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">photos</i></div><div class=\"icon-name\">photos</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">photos_fill</i></div><div class=\"icon-name\">photos_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">piano</i></div><div class=\"icon-name\">piano</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">pie_chart</i></div><div class=\"icon-name\">pie_chart</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">pie_chart_fill</i></div><div class=\"icon-name\">pie_chart_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">placemark</i></div><div class=\"icon-name\">placemark</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">placemark_fill</i></div><div class=\"icon-name\">placemark_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">play</i></div><div class=\"icon-name\">play</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">play_fill</i></div><div class=\"icon-name\">play_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">play_round</i></div><div class=\"icon-name\">play_round</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">play_round_fill</i></div><div class=\"icon-name\">play_round_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">poultry_leg</i></div><div class=\"icon-name\">poultry_leg</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">print</i></div><div class=\"icon-name\">print</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">qrcode</i></div><div class=\"icon-name\">qrcode</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">radio</i></div><div class=\"icon-name\">radio</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">redo</i></div><div class=\"icon-name\">redo</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">refresh</i></div><div class=\"icon-name\">refresh</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">refresh_round</i></div><div class=\"icon-name\">refresh_round</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">refresh_round_fill</i></div><div class=\"icon-name\">refresh_round_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">reload</i></div><div class=\"icon-name\">reload</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">reload_round</i></div><div class=\"icon-name\">reload_round</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">reload_round_fill</i></div><div class=\"icon-name\">reload_round_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">reply</i></div><div class=\"icon-name\">reply</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">reply_fill</i></div><div class=\"icon-name\">reply_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">resize</i></div><div class=\"icon-name\">resize</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">resize_h</i></div><div class=\"icon-name\">resize_h</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">resize_v</i></div><div class=\"icon-name\">resize_v</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">rewind</i></div><div class=\"icon-name\">rewind</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">rewind_fill</i></div><div class=\"icon-name\">rewind_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">rewind_round</i></div><div class=\"icon-name\">rewind_round</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">rewind_round_fill</i></div><div class=\"icon-name\">rewind_round_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">rocket</i></div><div class=\"icon-name\">rocket</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">rocket_fill</i></div><div class=\"icon-name\">rocket_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">save</i></div><div class=\"icon-name\">save</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">scissors</i></div><div class=\"icon-name\">scissors</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">search</i></div><div class=\"icon-name\">search</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">settings</i></div><div class=\"icon-name\">settings</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">settings_fill</i></div><div class=\"icon-name\">settings_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">share</i></div><div class=\"icon-name\">share</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">share_fill</i></div><div class=\"icon-name\">share_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">shopping_cart</i></div><div class=\"icon-name\">shopping_cart</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">sort</i></div><div class=\"icon-name\">sort</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">sort_down</i></div><div class=\"icon-name\">sort_down</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">sort_down_round</i></div><div class=\"icon-name\">sort_down_round</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">sort_down_round_fill</i></div><div class=\"icon-name\">sort_down_round_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">sort_round</i></div><div class=\"icon-name\">sort_round</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">sort_round_fill</i></div><div class=\"icon-name\">sort_round_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">sort_up</i></div><div class=\"icon-name\">sort_up</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">sort_up_round</i></div><div class=\"icon-name\">sort_up_round</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">sort_up_round_fill</i></div><div class=\"icon-name\">sort_up_round_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">star</i></div><div class=\"icon-name\">star</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">star_fill</i></div><div class=\"icon-name\">star_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">star_half</i></div><div class=\"icon-name\">star_half</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">star_round_fill</i></div><div class=\"icon-name\">star_round_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">stopwatch</i></div><div class=\"icon-name\">stopwatch</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">stopwatch_fill</i></div><div class=\"icon-name\">stopwatch_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">tablet_landscape</i></div><div class=\"icon-name\">tablet_landscape</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">tablet_portrait</i></div><div class=\"icon-name\">tablet_portrait</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">tabs</i></div><div class=\"icon-name\">tabs</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">tabs_fill</i></div><div class=\"icon-name\">tabs_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">tag</i></div><div class=\"icon-name\">tag</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">tag_fill</i></div><div class=\"icon-name\">tag_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">tags</i></div><div class=\"icon-name\">tags</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">tags_fill</i></div><div class=\"icon-name\">tags_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">tape</i></div><div class=\"icon-name\">tape</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">tape_fill</i></div><div class=\"icon-name\">tape_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">thumbs_down</i></div><div class=\"icon-name\">thumbs_down</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">thumbs_up</i></div><div class=\"icon-name\">thumbs_up</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">ticket</i></div><div class=\"icon-name\">ticket</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">ticket_fill</i></div><div class=\"icon-name\">ticket_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">tickets</i></div><div class=\"icon-name\">tickets</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">tickets_fill</i></div><div class=\"icon-name\">tickets_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">time</i></div><div class=\"icon-name\">time</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">time_fill</i></div><div class=\"icon-name\">time_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">timer</i></div><div class=\"icon-name\">timer</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">timer_fill</i></div><div class=\"icon-name\">timer_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">today</i></div><div class=\"icon-name\">today</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">today_fill</i></div><div class=\"icon-name\">today_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">trash</i></div><div class=\"icon-name\">trash</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">trash_fill</i></div><div class=\"icon-name\">trash_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">tree</i></div><div class=\"icon-name\">tree</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">tune</i></div><div class=\"icon-name\">tune</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">tune_fill</i></div><div class=\"icon-name\">tune_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">undo</i></div><div class=\"icon-name\">undo</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">unlock</i></div><div class=\"icon-name\">unlock</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">unlock_fill</i></div><div class=\"icon-name\">unlock_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">upload_round</i></div><div class=\"icon-name\">upload_round</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">upload_round_fill</i></div><div class=\"icon-name\">upload_round_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">videocam</i></div><div class=\"icon-name\">videocam</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">videocam_fill</i></div><div class=\"icon-name\">videocam_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">videocam_round</i></div><div class=\"icon-name\">videocam_round</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">videocam_round_fill</i></div><div class=\"icon-name\">videocam_round_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">volume</i></div><div class=\"icon-name\">volume</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">volume_fill</i></div><div class=\"icon-name\">volume_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">volume_low</i></div><div class=\"icon-name\">volume_low</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">volume_low_fill</i></div><div class=\"icon-name\">volume_low_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">volume_mute</i></div><div class=\"icon-name\">volume_mute</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">volume_mute_fill</i></div><div class=\"icon-name\">volume_mute_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">volume_off</i></div><div class=\"icon-name\">volume_off</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">waterdrop</i></div><div class=\"icon-name\">waterdrop</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">waterdrop_fill</i></div><div class=\"icon-name\">waterdrop_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">world</i></div><div class=\"icon-name\">world</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">world_fill</i></div><div class=\"icon-name\">world_fill</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">zoom_in</i></div><div class=\"icon-name\">zoom_in</div>"
+            },
+            {
+              "class": "col-33 tablet-15",
+              "text": "<div class=\"icon\"><i class=\"f7-icons\">zoom_out</i></div><div class=\"icon-name\">zoom_out</div>"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

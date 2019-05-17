@@ -1,0 +1,379 @@
+﻿{
+  "id": "grid",
+  "contentCls": "grid-demo",
+  "component": [
+    {
+      "type": "navbar",
+      "list": [
+        {
+          "type": "left",
+          "icoIos": "icon icon-back",
+          "icoMat": "icon icon-back",
+          "class": "back link",
+          "click": "#"
+        },
+        {
+          "type": "title",
+          "text": "Grid"
+        }
+      ]
+    },
+    {
+      "type": "content",
+      "list": [
+        {
+          "text": "AppBe framework comes with flexible layout grid:"
+        }
+      ]
+    },
+    {
+      "type": "title",
+      "shape": "sign",
+      "text": "Columns with gutter"
+    },
+    {
+      "type": "grid",
+      "extCls": "grid-demo",
+      "list": [
+        {
+          "item": [
+            {
+              "class": "col bg-color-red",
+              "text": ".col-50"
+            },
+            {
+              "class": "col bg-color-green",
+              "text": ".col-50"
+            }
+          ]
+        },
+        {
+          "item": [
+            {
+              "class": "col",
+              "text": ".col-25"
+            },
+            {
+              "class": "col",
+              "text": ".col-25"
+            },
+            {
+              "class": "col",
+              "text": ".col-25"
+            },
+            {
+              "class": "col",
+              "text": ".col-25"
+            }
+          ]
+        },
+        {
+          "item": [
+            {
+              "class": "col",
+              "text": ".col-33"
+            },
+            {
+              "class": "col",
+              "text": ".col-33"
+            },
+            {
+              "class": "col",
+              "text": ".col-33"
+            }
+          ]
+        },
+        {
+          "item": [
+            {
+              "class": "col-20",
+              "text": ".col-20"
+            },
+            {
+              "class": "col-20",
+              "text": ".col-20"
+            },
+            {
+              "class": "col-20",
+              "text": ".col-20"
+            },
+            {
+              "class": "col-20",
+              "text": ".col-20"
+            },
+            {
+              "class": "col-20",
+              "text": ".col-20"
+            }
+          ]
+        },
+        {
+          "item": [
+            {
+              "class": "col-33",
+              "text": ".col-33"
+            },
+            {
+              "class": "col-66",
+              "text": ".col-66"
+            }
+          ]
+        },
+        {
+          "item": [
+            {
+              "class": "col-25",
+              "text": ".col-25"
+            },
+            {
+              "class": "col-25",
+              "text": ".col-25"
+            },
+            {
+              "class": "col-50",
+              "text": ".col-50"
+            }
+          ]
+        },
+        {
+          "item": [
+            {
+              "class": "col-75",
+              "text": ".col-75"
+            },
+            {
+              "class": "col-25",
+              "text": ".col-25"
+            }
+          ]
+        },
+        {
+          "item": [
+            {
+              "class": "col-80",
+              "text": ".col-80"
+            },
+            {
+              "class": "col-20",
+              "text": ".col-20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "title",
+      "shape": "sign",
+      "text": "No gutter between columns"
+    },
+    {
+      "type": "grid",
+      "extCls": "grid-demo",
+      "list": [
+        {
+          "class": "row no-gap",
+          "item": [
+            {
+              "class": "col-50 bg-color-pink",
+              "text": ".col-50"
+            },
+            {
+              "class": "col-50 bg-color-pink",
+              "text": ".col-50"
+            }
+          ]
+        },
+        {
+          "class": "row no-gap",
+          "item": [
+            {
+              "class": "col-25",
+              "text": ".col-25"
+            },
+            {
+              "class": "col-25",
+              "text": ".col-25"
+            },
+            {
+              "class": "col-25",
+              "text": ".col-25"
+            },
+            {
+              "class": "col-25",
+              "text": ".col-25"
+            }
+          ]
+        },
+        {
+          "class": "row no-gap",
+          "item": [
+            {
+              "class": "col-33",
+              "text": ".col-33"
+            },
+            {
+              "class": "col-33",
+              "text": ".col-33"
+            },
+            {
+              "class": "col-33",
+              "text": ".col-33"
+            }
+          ]
+        },
+        {
+          "class": "row no-gap",
+          "item": [
+            {
+              "class": "col-20",
+              "text": ".col-20"
+            },
+            {
+              "class": "col-20",
+              "text": ".col-20"
+            },
+            {
+              "class": "col-20",
+              "text": ".col-20"
+            },
+            {
+              "class": "col-20",
+              "text": ".col-20"
+            },
+            {
+              "class": "col-20",
+              "text": ".col-20"
+            }
+          ]
+        },
+        {
+          "class": "row no-gap",
+          "item": [
+            {
+              "class": "col-33",
+              "text": ".col-33"
+            },
+            {
+              "class": "col-66",
+              "text": ".col-66"
+            }
+          ]
+        },
+        {
+          "class": "row no-gap",
+          "item": [
+            {
+              "class": "col-25",
+              "text": ".col-25"
+            },
+            {
+              "class": "col-25",
+              "text": ".col-25"
+            },
+            {
+              "class": "col-50",
+              "text": ".col-50"
+            }
+          ]
+        },
+        {
+          "class": "row no-gap",
+          "item": [
+            {
+              "class": "col-75",
+              "text": ".col-75"
+            },
+            {
+              "class": "col-25",
+              "text": ".col-25"
+            }
+          ]
+        },
+        {
+          "class": "row no-gap",
+          "item": [
+            {
+              "class": "col-80",
+              "text": ".col-80"
+            },
+            {
+              "class": "col-20",
+              "text": ".col-20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "title",
+      "shape": "sign",
+      "text": "Responsive Grid"
+    },
+    {
+      "type": "content",
+      "list": [
+        {
+          "content-block": "Grid cells have different size on Phone/Tablet"
+        }
+      ]
+    },
+    {
+      "type": "grid",
+      "extCls": "grid-demo",
+      "list": [
+        {
+          "item": [
+            {
+              "class": "col-100 tablet-50",
+              "text": ".col-100.tablet-50"
+            },
+            {
+              "class": "col-100 tablet-50",
+              "text": ".col-100.tablet-50"
+            }
+          ]
+        },
+        {
+          "item": [
+            {
+              "class": "col-50 tablet-25",
+              "text": ".col-50.tablet-25"
+            },
+            {
+              "class": "col-50 tablet-25",
+              "text": ".col-50.tablet-25"
+            },
+            {
+              "class": "col-50 tablet-25",
+              "text": ".col-50.tablet-25"
+            },
+            {
+              "class": "col-50 tablet-25",
+              "text": ".col-50.tablet-25"
+            }
+          ]
+        },
+        {
+          "item": [
+            {
+              "class": "col-100 tablet-40",
+              "text": ".col-100.tablet-40"
+            },
+            {
+              "class": "col-50 tablet-60",
+              "text": ".col-50.tablet-60"
+            },
+            {
+              "class": "col-50 tablet-66",
+              "text": ".col-50.tablet-66"
+            },
+            {
+              "class": "col-100 tablet-33",
+              "text": ".col-100.tablet-33"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

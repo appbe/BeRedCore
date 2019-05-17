@@ -1,0 +1,45 @@
+﻿{
+  "id": "searchbar",
+  "component": [
+    {
+      "type": "navbar",
+      "list": [
+        {
+          "type": "left",
+          "icoIos": "icon icon-back",
+          "icoMat": "icon icon-back",
+          "class": "back link",
+          "click": "#"
+        },
+        {
+          "type": "title",
+          "text": "Searchbars"
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "subtype": "icon",
+      "list": [
+        {
+          "title": "Fixed Searchbar after Navbar and Toolbar",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "click": "searchbar-fixed"
+        },
+        {
+          "title": "Fixed Searchbar inside of the Navbar",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "click": "searchbar-navbar"
+        },
+        {
+          "title": "Static Searchbar",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "click": "searchbar-static"
+        }
+      ]
+    }
+  ]
+}

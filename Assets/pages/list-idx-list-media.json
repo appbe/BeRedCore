@@ -1,0 +1,179 @@
+﻿{
+  "id": "list-idx-list-media",
+  "component": [
+    {
+      "type": "navbar",
+      "list": [
+        {
+          "type": "left",
+          "icoIos": "icon icon-back",
+          "icoMat": "icon icon-back",
+          "class": "back link",
+          "click": "#"
+        },
+        {
+          "type": "title",
+          "text": "Media Lists"
+        }
+      ]
+    },
+    {
+      "type": "list-media",
+      "subtype": "small-image",
+      "withSort": "1",
+      "list": [
+        {
+          "image": "{url}/assets/img/fashion-6.jpg",
+          "title": "Billie Jean",
+          "subtitle": "Michael Jackson",
+          "click": "#",
+          "sort": "B"
+        },
+        {
+          "image": "{url}/assets/img/fashion-6.jpg",
+          "title": "Billie 1",
+          "subtitle": "Michael Jackson",
+          "click": "#",
+          "sort": "B"
+        },
+        {
+          "image": "{url}/assets/img/fashion-6.jpg",
+          "title": "Billie 2",
+          "subtitle": "Michael Jackson",
+          "click": "#",
+          "sort": "B"
+        },
+        {
+          "image": "{url}/assets/img/fashion-6.jpg",
+          "title": "Billie 3",
+          "subtitle": "Michael Jackson",
+          "click": "#",
+          "sort": "B"
+        },
+        {
+          "image": "{url}/assets/img/fashion-6.jpg",
+          "title": "Billie 4",
+          "subtitle": "Michael Jackson",
+          "click": "#",
+          "sort": "B"
+        },
+        {
+          "image": "{url}/assets/img/fashion-6.jpg",
+          "title": "Billie 5",
+          "subtitle": "Michael Jackson",
+          "click": "#",
+          "sort": "B"
+        },
+        {
+          "image": "{url}/assets/img/fashion-5.jpg",
+          "title": "Don't Stop Me Now",
+          "subtitle": "Queen",
+          "click": "#",
+          "sort": "D"
+        },
+        {
+          "image": "{url}/assets/img/fashion-5.jpg",
+          "title": "Don't Stop Me 1",
+          "subtitle": "Queen",
+          "click": "#",
+          "sort": "D"
+        },
+        {
+          "image": "{url}/assets/img/fashion-5.jpg",
+          "title": "Don't Stop Me 2",
+          "subtitle": "Queen",
+          "click": "#",
+          "sort": "D"
+        },
+        {
+          "image": "{url}/assets/img/fashion-5.jpg",
+          "title": "Don't Stop Me 3",
+          "subtitle": "Queen",
+          "click": "#",
+          "sort": "D"
+        },
+        {
+          "image": "{url}/assets/img/fashion-5.jpg",
+          "title": "Don't Stop Me 4",
+          "subtitle": "Queen",
+          "click": "#",
+          "sort": "D"
+        },
+        {
+          "image": "{url}/assets/img/fashion-5.jpg",
+          "title": "Don't Stop Me 5",
+          "subtitle": "Queen",
+          "click": "#",
+          "sort": "D"
+        },
+        {
+          "image": "{url}/assets/img/fashion-5.jpg",
+          "title": "Don't Stop Me 6",
+          "subtitle": "Queen",
+          "click": "#",
+          "sort": "D"
+        },
+        {
+          "image": "{url}/assets/img/fashion-4.jpg",
+          "title": "Yellow Submarine",
+          "subtitle": "Beatles",
+          "click": "#",
+          "sort": "Y"
+        },
+        {
+          "image": "{url}/assets/img/fashion-4.jpg",
+          "title": "Yellow 1",
+          "subtitle": "Beatles",
+          "click": "#",
+          "sort": "Y"
+        },
+        {
+          "image": "{url}/assets/img/fashion-4.jpg",
+          "title": "Yellow 2",
+          "subtitle": "Beatles",
+          "click": "#",
+          "sort": "Y"
+        },
+        {
+          "image": "{url}/assets/img/fashion-4.jpg",
+          "title": "Yellow 3",
+          "subtitle": "Beatles",
+          "click": "#",
+          "sort": "Y"
+        },
+        {
+          "image": "{url}/assets/img/fashion-4.jpg",
+          "title": "Yellow 4",
+          "subtitle": "Beatles",
+          "click": "#",
+          "sort": "Y"
+        },
+        {
+          "image": "{url}/assets/img/fashion-4.jpg",
+          "title": "Yellow 5",
+          "subtitle": "Beatles",
+          "click": "#",
+          "sort": "Y"
+        }
+      ],
+      "catalog": {
+        "position": "left",
+        "width": "80",
+        "item": [
+          {
+            "title": "字母B开头",
+            "value": "B"
+          },
+          {
+            "title": "字母D开头",
+            "value": "D"
+          },
+          {
+            "title": "字母Y开头",
+            "value": "Y"
+          }
+        ]
+      }
+    }
+  ]
+}

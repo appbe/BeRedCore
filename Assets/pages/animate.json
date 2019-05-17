@@ -1,0 +1,50 @@
+﻿{
+  "id": "animate",
+  "component": [
+    {
+      "type": "navbar",
+      "list": [
+        {
+          "type": "left",
+          "icoIos": "icon icon-back",
+          "icoMat": "icon icon-back",
+          "class": "back link",
+          "click": "#"
+        },
+        {
+          "type": "title",
+          "text": "Custom Animate"
+        }
+      ]
+    },
+    {
+      "type": "animate",
+      "list": [
+        {
+          "class": "img1",
+          "image": "{url}/Assets/img/a1.png"
+        },
+        {
+          "class": "img2",
+          "image": "{url}/Assets/img/a2.png"
+        },
+        {
+          "class": "img3",
+          "image": "{url}/Assets/img/a3.png"
+        },
+        {
+          "class": "img4",
+          "image": "{url}/Assets/img/a4.png"
+        },
+        {
+          "class": "img5",
+          "image": "{url}/Assets/img/a5.png"
+        }
+      ]
+    },
+    {
+      "type": "style",
+      "data": ".animate-box{position:relative;width:100%;height:100%;background:#4889FE;}.animate-box.img1{position:absolute;bottom:0px;left:calc((100% - 374px)/2);}.animate-box.img2{position:absolute;bottom:180px;left:calc(50% - 146px);}.animate-box.img3{position:absolute;bottom:130px;left:calc(50% - 25px);}.animate-box.img4{position:absolute;top:220px;left:calc((100% - 338px)/2);}.animate-box.img5{position:absolute;top:10px;left:calc((100% - 324px)/2);}.animate-box.play.img1{-webkit-animation:fadeInUp1s1.2sbackwards;animation:fadeInUp1s1.2sbackwards;}.animate-box.play.img2{-webkit-animation:fadeInLeft1s2.4sbackwards;animation:fadeInLeft1s2.4sbackwards;}.animate-box.play.img3{-webkit-animation:fadeInRight1s3.6sbackwards;animation:fadeInRight1s3.6sbackwards;}.animate-box.play.img4{-webkit-animation:bounceInUp1s4.8sbackwards;animation:bounceInUp1s4.8sbackwards;}.animate-box.play.img5{-webkit-animation:zoomInUp1s6sbackwards;animation:zoomInUp1s6sbackwards;}"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+﻿{
+  "id": "location",
+  "component": [
+    {
+      "type": "navbar",
+      "list": [
+        {
+          "type": "left",
+          "icoIos": "icon icon-back",
+          "icoMat": "icon icon-back",
+          "class": "back link",
+          "click": "#"
+        },
+        {
+          "type": "title",
+          "text": "Location"
+        }
+      ]
+    },
+    {
+      "type": "button",
+      "subtype": "usual",
+      "list": [
+        {
+          "text": "读取最近位置数据",
+          "click": "Be.native.location.getLast()",
+          "clsIos": "button",
+          "clsMat": "button button-fill"
+        }
+      ]
+    },
+    {
+      "type": "button",
+      "subtype": "usual",
+      "list": [
+        {
+          "text": "读取当前位置数据",
+          "click": "Be.native.location.getCurrent()",
+          "clsIos": "button",
+          "clsMat": "button button-fill"
+        }
+      ]
+    },
+    {
+      "type": "content",
+      "list": [
+        {
+          "text": "<br /><div style=\"text-align:center;\" id=\"index-div-location\"></div>"
+        }
+      ]
+    }
+  ]
+}

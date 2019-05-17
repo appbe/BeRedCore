@@ -1,0 +1,157 @@
+﻿{
+  "id": "searchbar-fixed",
+  "component": [
+    {
+      "type": "navbar",
+      "list": [
+        {
+          "type": "left",
+          "icoIos": "icon icon-back",
+          "icoMat": "icon icon-back",
+          "class": "back link",
+          "click": "#"
+        },
+        {
+          "type": "title",
+          "text": "Search Bar"
+        }
+      ]
+    },
+    {
+      "type": "searchbar",
+      "subtype": "fixed",
+      "data": ".list",
+      "search": ".item-title",
+      "placeholder": "请输入查询关键词",
+      "cancelText": "取消"
+    },
+    {
+      "type": "list",
+      "subtype": "title",
+      "sortable": "0",
+      "searchBar": "1",
+      "list": [
+        {
+          "title": "Acura"
+        },
+        {
+          "title": "Audi"
+        },
+        {
+          "title": "BMW"
+        },
+        {
+          "title": "Cadillac"
+        },
+        {
+          "title": "Chevrolet"
+        },
+        {
+          "title": "Chrysler"
+        },
+        {
+          "title": "Dodge"
+        },
+        {
+          "title": "Ferrari"
+        },
+        {
+          "title": "Ford"
+        },
+        {
+          "title": "GMC"
+        },
+        {
+          "title": "Honda"
+        },
+        {
+          "title": "Hummer"
+        },
+        {
+          "title": "Hyundai"
+        },
+        {
+          "title": "Infiniti"
+        },
+        {
+          "title": "Isuzu"
+        },
+        {
+          "title": "Jaguar"
+        },
+        {
+          "title": "Jeep"
+        },
+        {
+          "title": "Kia"
+        },
+        {
+          "title": "Lamborghini"
+        },
+        {
+          "title": "Land Rover"
+        },
+        {
+          "title": "Lexus"
+        },
+        {
+          "title": "Lincoln"
+        },
+        {
+          "title": "Lotus"
+        },
+        {
+          "title": "Mazda"
+        },
+        {
+          "title": "Mercedes-Benz"
+        },
+        {
+          "title": "Mercury"
+        },
+        {
+          "title": "Mitsubishi"
+        },
+        {
+          "title": "Nissan"
+        },
+        {
+          "title": "Oldsmobile"
+        },
+        {
+          "title": "Peugeot"
+        },
+        {
+          "title": "Pontiac"
+        },
+        {
+          "title": "Porsche"
+        },
+        {
+          "title": "Regal"
+        },
+        {
+          "title": "Saab"
+        },
+        {
+          "title": "Saturn"
+        },
+        {
+          "title": "Subaru"
+        },
+        {
+          "title": "Suzuki"
+        },
+        {
+          "title": "Toyota"
+        },
+        {
+          "title": "Volkswagen"
+        },
+        {
+          "title": "Volvo"
+        }
+      ]
+    }
+  ]
+}

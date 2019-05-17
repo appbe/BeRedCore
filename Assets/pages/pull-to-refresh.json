@@ -1,0 +1,45 @@
+﻿{
+  "id": "pull-to-refresh",
+  "scroll": "pull",
+  "more-url": "more-ptr?type=html",
+  "component": [
+    {
+      "type": "navbar",
+      "list": [
+        {
+          "type": "left",
+          "icoIos": "icon icon-back",
+          "icoMat": "icon icon-back",
+          "class": "back link",
+          "click": "#"
+        },
+        {
+          "type": "title",
+          "text": "Pull To Refresh"
+        }
+      ]
+    },
+    {
+      "type": "list-media",
+      "subtype": "image",
+      "imgWidth": "44",
+      "list": [
+        {
+          "image": "{url}/assets/img/abstract-1.jpg",
+          "title": "Yellow Submarine",
+          "subtitle": "Beatles"
+        },
+        {
+          "image": "{url}/assets/img/abstract-2.jpg",
+          "title": "Don't Stop Me Now",
+          "subtitle": "Queen"
+        },
+        {
+          "image": "{url}/assets/img/abstract-3.jpg",
+          "title": "Billie Jean",
+          "subtitle": "Michael Jackson"
+        }
+      ]
+    }
+  ]
+}

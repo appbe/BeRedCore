@@ -1,0 +1,244 @@
+﻿{
+  "id": "native",
+  "component": [
+    {
+      "type": "navbar",
+      "list": [
+        {
+          "type": "left",
+          "icoIos": "icon icon-back",
+          "icoMat": "icon icon-back",
+          "class": "back link",
+          "click": "#"
+        },
+        {
+          "type": "title",
+          "text": "本地能力"
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "subtype": "icon",
+      "title": "本地能力列表",
+      "sortable": "0",
+      "searchBar": "0",
+      "list": [
+        {
+          "title": "全屏(隐藏状态栏)",
+          "icoIos": "bell",
+          "icoMat": "vibration",
+          "icoColor": "color-pink",
+          "after": "[I]",
+          "click": "Be.native.setFullscreen('1')"
+        },
+        {
+          "title": "非全屏(显示状态栏)",
+          "icoIos": "bell",
+          "icoMat": "vibration",
+          "icoColor": "color-pink",
+          "after": "[I]",
+          "click": "Be.native.setFullscreen('0')"
+        },
+        {
+          "title": "设置为横屏",
+          "icoIos": "arrow_right",
+          "icoMat": "screen_lock_landscape",
+          "icoColor": "color-pink",
+          "after": "[I]",
+          "click": "Be.native.landscape('native')"
+        },
+        {
+          "title": "设置为竖屏",
+          "icoIos": "arrow_down",
+          "icoMat": "screen_lock_portrait",
+          "icoColor": "color-pink",
+          "after": "[I]",
+          "click": "Be.native.portrait('native')"
+        },
+        {
+          "title": "应用设置",
+          "icoIos": "gear",
+          "icoMat": "settings",
+          "icoColor": "color-pink",
+          "after": "[I]",
+          "click": "Be.native.settings()"
+        },
+        {
+          "title": "读取电池状态",
+          "icoIos": "bolt_round",
+          "icoMat": "battery_alert",
+          "icoColor": "color-pink",
+          "after": "[I]",
+          "click": "Be.native.battery()"
+        },
+        {
+          "title": "震动提醒",
+          "icoIos": "bell",
+          "icoMat": "vibration",
+          "icoColor": "color-pink",
+          "after": "[I]",
+          "click": "Be.native.vibrate()"
+        },
+        {
+          "title": "闪光灯",
+          "icoIos": "bolt",
+          "icoMat": "highlight",
+          "icoColor": "color-pink",
+          "after": "[I]",
+          "click": "Be.native.flashlight()"
+        },
+        {
+          "title": "设备信息",
+          "icoIos": "info",
+          "icoMat": "android",
+          "icoColor": "color-pink",
+          "after": "[II]",
+          "click": "Be.native.device()"
+        },
+        {
+          "title": "联网状态",
+          "icoIos": "world",
+          "icoMat": "link",
+          "icoColor": "color-pink",
+          "after": "[II]",
+          "click": "Be.native.connectivity()"
+        },
+        {
+          "title": "打开浏览器",
+          "icoIos": "photos",
+          "icoMat": "launch",
+          "icoColor": "color-pink",
+          "after": "[III]",
+          "click": "Be.native.open('http://www.a60.com.cn','1')"
+        },
+        {
+          "title": "分享信息",
+          "icoIos": "share",
+          "icoMat": "share",
+          "icoColor": "color-pink",
+          "after": "[III]",
+          "click": "Be.native.share('智能投资服务','智炜数昂 - 智能投资服务平台','http://www.a60.com.cn')"
+        },
+        {
+          "title": "拨打电话",
+          "icoIos": "phone",
+          "icoMat": "phone",
+          "icoColor": "color-pink",
+          "after": "[III]",
+          "click": "Be.native.call('18911377887')"
+        },
+        {
+          "title": "发送短信",
+          "icoIos": "paper_plane",
+          "icoMat": "sms",
+          "icoColor": "color-pink",
+          "after": "[III]",
+          "click": "Be.native.sms('18911377887','Well hello there from Xam.Messaging.Plugin')"
+        },
+        {
+          "title": "扫描条形码/二维码",
+          "icoIos": "data",
+          "icoMat": "crop_free",
+          "icoColor": "color-pink",
+          "after": "[II]",
+          "click": "Be.native.scanner()"
+        },
+        {
+          "title": "拍照",
+          "icoIos": "camera",
+          "icoMat": "camera",
+          "icoColor": "color-pink",
+          "after": "[IV]",
+          "click": "Be.native.camera('1')"
+        },
+        {
+          "title": "录制视频",
+          "icoIos": "videocam",
+          "icoMat": "videocam",
+          "icoColor": "color-pink",
+          "after": "[IV]",
+          "click": "Be.native.video()"
+        },
+        {
+          "title": "读取图片",
+          "icoIos": "images",
+          "icoMat": "photo",
+          "icoColor": "color-pink",
+          "after": "[IV]",
+          "click": "Be.native.pick('image')"
+        },
+        {
+          "title": "身份证识别",
+          "icoIos": "ticket",
+          "icoMat": "aspect_ratio",
+          "icoColor": "color-blue",
+          "click": "ocr"
+        },
+        {
+          "title": "人脸识别",
+          "icoIos": "person",
+          "icoMat": "face",
+          "icoColor": "color-blue",
+          "click": "Be.native.face()"
+        },
+        {
+          "title": "播放音频文件",
+          "icoIos": "play",
+          "icoMat": "play_circle_outline",
+          "icoColor": "color-blue",
+          "after": "[IV]",
+          "click": "Be.ext.playAudio('http://be.a60.com.cn/data/heart-spa.mp3')"
+        },
+        {
+          "title": "下载文件",
+          "icoIos": "download_round",
+          "icoMat": "file_download",
+          "icoColor": "color-blue",
+          "after": "[IV]",
+          "click": "Be.native.download('让投资更简单.pptx')"
+        },
+        {
+          "title": "位置信息",
+          "icoIos": "navigation",
+          "icoMat": "place",
+          "icoColor": "color-orange",
+          "after": "[*]",
+          "click": "location"
+        },
+        {
+          "title": "方向数据/指南针",
+          "icoIos": "compass",
+          "icoMat": "near_me",
+          "icoColor": "color-orange",
+          "after": "[*]",
+          "click": "compass"
+        },
+        {
+          "title": "BLE设备",
+          "icoIos": "radio",
+          "icoMat": "bluetooth_connected",
+          "icoColor": "color-orange",
+          "after": "[*]",
+          "click": "ble"
+        },
+        {
+          "title": "发送邮件",
+          "icoIos": "paper_plane",
+          "icoMat": "mail",
+          "icoColor": "color-black",
+          "after": "[-]",
+          "click": "Be.native.email('mike_bj@126.com','应用贝','敏捷开发架构\\nhttp://www.appbe.net')"
+        },
+        {
+          "title": "读取视频",
+          "icoIos": "film",
+          "icoMat": "movie",
+          "icoColor": "color-black",
+          "after": "[IV]",
+          "click": "Be.native.pick('video')"
+        }
+      ]
+    }
+  ]
+}

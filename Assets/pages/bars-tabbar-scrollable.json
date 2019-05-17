@@ -1,0 +1,84 @@
+﻿{
+  "id": "bars-tabbar-scrollable",
+  "component": [
+    {
+      "type": "navbar",
+      "list": [
+        {
+          "type": "left",
+          "icoIos": "icon icon-back",
+          "icoMat": "icon icon-back",
+          "class": "back link",
+          "click": "#"
+        },
+        {
+          "type": "title",
+          "text": "Tab Bar Scrollable"
+        }
+      ]
+    },
+    {
+      "type": "tabbar",
+      "tabIdPrefix": "tab",
+      "activeIdx": "0",
+      "scrollable": "1",
+      "bottom": "1",
+      "list": [
+        {
+          "label": "Tab 1",
+          "click": "tabs-page-1"
+        },
+        {
+          "label": "Tab 2",
+          "click": "tabs-page-2"
+        },
+        {
+          "label": "Tab 3",
+          "click": "tabs-page-3"
+        },
+        {
+          "label": "Tab 4",
+          "click": "tabs-page-4"
+        },
+        {
+          "label": "Tab 5",
+          "click": "tabs-page-1"
+        },
+        {
+          "label": "Tab 6",
+          "click": "tabs-page-1"
+        },
+        {
+          "label": "Tab 7",
+          "click": "tabs-page-1"
+        },
+        {
+          "label": "Tab 8",
+          "click": "tabs-page-1"
+        },
+        {
+          "label": "Tab 9",
+          "click": "tabs-page-1"
+        },
+        {
+          "label": "Tab 10",
+          "click": "tabs-page-1"
+        },
+        {
+          "label": "Tab 11",
+          "click": "tabs-page-1"
+        },
+        {
+          "label": "Tab 12",
+          "click": "tabs-page-1"
+        }
+      ]
+    },
+    {
+      "type": "tabs",
+      "tabIdPrefix": "tab",
+      "activeIdx": "0",
+      "tabCount": "12"
+    }
+  ]
+}

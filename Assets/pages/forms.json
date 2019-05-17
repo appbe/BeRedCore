@@ -1,0 +1,55 @@
+﻿{
+  "id": "forms",
+  "component": [
+    {
+      "type": "navbar",
+      "list": [
+        {
+          "type": "left",
+          "icoIos": "icon icon-back",
+          "icoMat": "icon icon-back",
+          "class": "back link",
+          "click": "#"
+        },
+        {
+          "type": "title",
+          "text": "Forms"
+        }
+      ]
+    },
+    {
+      "type": "content",
+      "list": [
+        {
+          "text": "AppBe provides very flexible forms layout, you can use it with/out icons, with/out labels, or mixed layouts."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "subtype": "icon",
+      "sortable": "0",
+      "searchBar": "0",
+      "list": [
+        {
+          "title": "Form Elements",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "click": "forms-elements?static=1"
+        },
+        {
+          "title": "Checkboxes And Radios",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "click": "forms-checkboxes?static=1"
+        },
+        {
+          "title": "Buttons",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "click": "forms-buttons?static=1"
+        }
+      ]
+    }
+  ]
+}

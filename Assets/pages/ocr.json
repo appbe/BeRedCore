@@ -1,0 +1,45 @@
+﻿{
+  "id": "ocr",
+  "component": [
+    {
+      "type": "navbar",
+      "list": [
+        {
+          "type": "left",
+          "icoIos": "icon icon-back",
+          "icoMat": "icon icon-back",
+          "class": "back link",
+          "click": "#"
+        },
+        {
+          "type": "title",
+          "text": "OCR"
+        }
+      ]
+    },
+    {
+      "type": "button",
+      "subtype": "usual",
+      "list": [
+        {
+          "text": "识别身份证（正面）",
+          "click": "Be.native.ocr()",
+          "clsIos": "",
+          "clsMat": "button button-fill"
+        }
+      ]
+    },
+    {
+      "type": "button",
+      "subtype": "usual",
+      "list": [
+        {
+          "text": "识别身份证（反面）",
+          "click": "Be.native.ocr('1')",
+          "clsIos": "",
+          "clsMat": "button button-fill"
+        }
+      ]
+    }
+  ]
+}

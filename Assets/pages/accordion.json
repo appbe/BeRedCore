@@ -1,0 +1,105 @@
+﻿{
+  "id": "accordion",
+  "component": [
+    {
+      "type": "navbar",
+      "list": [
+        {
+          "type": "left",
+          "icoIos": "icon icon-back",
+          "icoMat": "icon icon-back",
+          "class": "back link",
+          "click": "#"
+        },
+        {
+          "type": "title",
+          "text": "Accordion"
+        }
+      ]
+    },
+    {
+      "type": "accordion",
+      "title": "List View Accordion",
+      "list": [
+        {
+          "type": "content",
+          "label": "Lorem Ipsum",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean elementum id neque nec commodo. Sed vel justo at turpis laoreet pellentesque quis sed lorem. Integer semper arcu nibh, non mollis arcu tempor vel. Sed pharetra tortor vitae est rhoncus, vel congue dui sollicitudin. Donec eu arcu dignissim felis viverra blandit suscipit eget ipsum."
+        },
+        {
+          "type": "list",
+          "label": "Nested List",
+          "item": [
+            {
+              "text": "Item 1",
+              "icoIos": "icon icon-be",
+              "icoMat": "icon icon-be"
+            },
+            {
+              "text": "Item 2",
+              "icoIos": "icon icon-be",
+              "icoMat": "icon icon-be"
+            },
+            {
+              "text": "Item 3",
+              "icoIos": "icon icon-be",
+              "icoMat": "icon icon-be"
+            },
+            {
+              "text": "Item 4",
+              "icoIos": "icon icon-be",
+              "icoMat": "icon icon-be"
+            }
+          ]
+        },
+        {
+          "type": "content",
+          "label": "Integer semper",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean elementum id neque nec commodo. Sed vel justo at turpis laoreet pellentesque quis sed lorem. Integer semper arcu nibh, non mollis arcu tempor vel. Sed pharetra tortor vitae est rhoncus, vel congue dui sollicitudin. Donec eu arcu dignissim felis viverra blandit suscipit eget ipsum."
+        }
+      ]
+    },
+    {
+      "type": "accordion",
+      "title": "Inset Accordion",
+      "list": [
+        {
+          "type": "content",
+          "label": "Lorem Ipsum",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean elementum id neque nec commodo. Sed vel justo at turpis laoreet pellentesque quis sed lorem. Integer semper arcu nibh, non mollis arcu tempor vel. Sed pharetra tortor vitae est rhoncus, vel congue dui sollicitudin. Donec eu arcu dignissim felis viverra blandit suscipit eget ipsum."
+        },
+        {
+          "type": "list",
+          "label": "Nested List",
+          "item": [
+            {
+              "text": "Item 1",
+              "icoIos": "icon icon-be",
+              "icoMat": "icon icon-be"
+            },
+            {
+              "text": "Item 2",
+              "icoIos": "icon icon-be",
+              "icoMat": "icon icon-be"
+            },
+            {
+              "text": "Item 3",
+              "icoIos": "icon icon-be",
+              "icoMat": "icon icon-be"
+            },
+            {
+              "text": "Item 4",
+              "icoIos": "icon icon-be",
+              "icoMat": "icon icon-be"
+            }
+          ]
+        },
+        {
+          "type": "content",
+          "label": "Integer semper",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean elementum id neque nec commodo. Sed vel justo at turpis laoreet pellentesque quis sed lorem. Integer semper arcu nibh, non mollis arcu tempor vel. Sed pharetra tortor vitae est rhoncus, vel congue dui sollicitudin. Donec eu arcu dignissim felis viverra blandit suscipit eget ipsum."
+        }
+      ]
+    }
+  ]
+}

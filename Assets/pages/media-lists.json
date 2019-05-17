@@ -1,0 +1,116 @@
+﻿{
+  "id": "media-lists",
+  "component": [
+    {
+      "type": "navbar",
+      "list": [
+        {
+          "type": "left",
+          "icoIos": "icon icon-back",
+          "icoMat": "icon icon-back",
+          "class": "back link",
+          "click": "#"
+        },
+        {
+          "type": "title",
+          "text": "Media Lists"
+        }
+      ]
+    },
+    {
+      "type": "content",
+      "list": [
+        {
+          "text": "Media Lists are almost the same as Data Lists, but with a more flexible layout for visualization of more complex data, like products, services, userc, etc."
+        }
+      ]
+    },
+    {
+      "type": "list-media",
+      "subtype": "image",
+      "title": "Songs",
+      "sortable": "0",
+      "searchBar": "0",
+      "list": [
+        {
+          "image": "{url}/assets/img/people-1.jpg",
+          "title": "Yellow Submarine",
+          "subtitle": "Beatles",
+          "after": "$15",
+          "click": "#",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sagittis tellus ut turpis condimentum, ut dignissim lacus tincidunt. Cras dolor metus, ultrices condimentum sodales sit amet, pharetra sodales eros. Phasellus vel felis tellus. Mauris rutrum ligula nec dapibus feugiat. In vel dui laoreet, commodo augue id, pulvinar lacus."
+        },
+        {
+          "image": "{url}/assets/img/people-2.jpg",
+          "title": "Don't Stop Me Now",
+          "subtitle": "Queen",
+          "after": "$22",
+          "click": "#",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sagittis tellus ut turpis condimentum, ut dignissim lacus tincidunt. Cras dolor metus, ultrices condimentum sodales sit amet, pharetra sodales eros. Phasellus vel felis tellus. Mauris rutrum ligula nec dapibus feugiat. In vel dui laoreet, commodo augue id, pulvinar lacus."
+        },
+        {
+          "image": "{url}/assets/img/people-3.jpg",
+          "title": "Billie Jean",
+          "subtitle": "Michael Jackson",
+          "after": "$16",
+          "click": "#",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sagittis tellus ut turpis condimentum, ut dignissim lacus tincidunt. Cras dolor metus, ultrices condimentum sodales sit amet, pharetra sodales eros. Phasellus vel felis tellus. Mauris rutrum ligula nec dapibus feugiat. In vel dui laoreet, commodo augue id, pulvinar lacus."
+        }
+      ]
+    },
+    {
+      "type": "list-media",
+      "subtype": "small-image",
+      "title": "Something more simple",
+      "sortable": "0",
+      "searchBar": "0",
+      "list": [
+        {
+          "image": "{url}/assets/img/fashion-1.jpg",
+          "title": "Yellow Submarine",
+          "subtitle": "Beatles",
+          "click": "callback()"
+        },
+        {
+          "image": "{url}/assets/img/fashion-2.jpg",
+          "title": "Don't Stop Me Now",
+          "subtitle": "Queen",
+          "click": "callback()"
+        },
+        {
+          "image": "{url}/assets/img/fashion-3.jpg",
+          "title": "Billie Jean",
+          "subtitle": "Michael Jackson",
+          "click": "callback()"
+        }
+      ]
+    },
+    {
+      "type": "list-media",
+      "subtype": "small-image",
+      "title": "Inset",
+      "sortable": "0",
+      "searchBar": "0",
+      "list": [
+        {
+          "image": "{url}/assets/img/fashion-4.jpg",
+          "title": "Yellow Submarine",
+          "subtitle": "Beatles",
+          "click": "callback()"
+        },
+        {
+          "image": "{url}/assets/img/fashion-5.jpg",
+          "title": "Don't Stop Me Now",
+          "subtitle": "Queen",
+          "click": "callback()"
+        },
+        {
+          "image": "{url}/assets/img/fashion-6.jpg",
+          "title": "Billie Jean",
+          "subtitle": "Michael Jackson",
+          "click": "callback()"
+        }
+      ]
+    }
+  ]
+}

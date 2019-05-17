@@ -1,0 +1,62 @@
+﻿{
+  "id": "home",
+  "component": [
+    {
+      "type": "navbar",
+      "list": [
+        {
+          "type": "title",
+          "text": "登录"
+        }
+      ]
+    },
+    {
+      "type": "content",
+      "list": [
+        {
+          "text": "<br /><br /><div style=\"text-align:center;\"><img src=\"http://appbe.a60.com.cn/assets/img/app-icon.png\" /></div><br />"
+        }
+      ]
+    },
+    {
+      "type": "input",
+      "subtype": "form",
+      "id": "form-login",
+      "list": [
+        {
+          "input": "email",
+          "name": "email",
+          "icoMat": "perm_identity",
+          "placeholder": "登录名"
+        },
+        {
+          "input": "password",
+          "name": "password",
+          "icoMat": "lock_outline",
+          "placeholder": "登录密码"
+        }
+      ]
+    },
+    {
+      "type": "grid",
+      "list": [
+        {
+          "item": [
+            {
+              "class": "col-100",
+              "text": "<a class='button  button-fill' onclick=\"doLogin()\">登录</a>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "content",
+      "list": [
+        {
+          "text": "<table style=\"width:100%\"><tr>\r\n               <td class=\"text-align-left\"><a href=\"register\" class='button button-small color-orange'>免费注册</a></td>\r\n               <td class=\"text-align-right\"><a href=\"#\" class='button button-small color-orange'>找回密码</a></td></tr></table>"
+        }
+      ]
+    }
+  ]
+}

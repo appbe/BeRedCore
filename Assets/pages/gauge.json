@@ -1,0 +1,161 @@
+﻿{
+  "id": "gauge",
+  "component": [
+    {
+      "type": "navbar",
+      "list": [
+        {
+          "type": "left",
+          "icoIos": "icon icon-back",
+          "icoMat": "icon icon-back",
+          "class": "back link",
+          "click": "#"
+        },
+        {
+          "type": "title",
+          "text": "Gauge"
+        }
+      ]
+    },
+    {
+      "type": "content",
+      "extCls": "block-strong",
+      "list": [
+        {
+          "text": "Framework7 comes with Gauge component. It produces nice looking fully responsive SVG gauges."
+        }
+      ]
+    },
+    {
+      "type": "content",
+      "extCls": "block-strong text-align-center",
+      "list": [
+        {
+          "text": "<div class=\"gauge demo-gauge\"></div>\r\n    <p class=\"segmented segmented-raised\">\r\n          <a href=\"#\" class=\"button value0\">0%</a>\r\n          <a href=\"#\" class=\"button value25\">25%</a>\r\n          <a href=\"#\" class=\"button value50\">50%</a>\r\n          <a href=\"#\" class=\"button value75\">75%</a>\r\n          <a href=\"#\" class=\"button value100\">100%</a>\r\n        </p>"
+        }
+      ]
+    },
+    {
+      "type": "gauge",
+      "title": "Circle Gauges",
+      "list": [
+        {
+          "item": [
+            {
+              "type": "circle",
+              "class": "col text-align-center",
+              "value": "0.44",
+              "text": "44%",
+              "textColor": "#ff9800",
+              "borderColor": "#ff9800"
+            },
+            {
+              "type": "circle",
+              "class": "col text-align-center",
+              "value": "0.12",
+              "text": "$120",
+              "textColor": "#4caf50",
+              "label": "of $1000 budget",
+              "labelColor": "#f44336",
+              "labelWeight": "700",
+              "borderColor": "#4caf50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "gauge",
+      "title": "Semicircle Gauges",
+      "list": [
+        {
+          "item": [
+            {
+              "type": "semicircle",
+              "class": "col text-align-center",
+              "value": "0.3",
+              "text": "30%",
+              "textColor": "#f44336",
+              "borderColor": "#f44336"
+            },
+            {
+              "type": "semicircle",
+              "class": "col text-align-center",
+              "value": "0.5",
+              "text": "30kg",
+              "textColor": "#e91e63",
+              "label": "of 60kg total",
+              "labelColor": "#333",
+              "borderColor": "#e91e63"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "gauge",
+      "title": "Customization",
+      "list": [
+        {
+          "item": [
+            {
+              "type": "circle",
+              "class": "col text-align-center",
+              "value": "0.35",
+              "text": "35%",
+              "textColor": "#4caf50",
+              "textSize": "51",
+              "textWeight": "700",
+              "borderColor": "#4caf50",
+              "borderWidth": "20",
+              "borderBgColor": "#ffeb3b",
+              "bgColor": "#ffeb3b"
+            },
+            {
+              "type": "circle",
+              "class": "col text-align-center",
+              "value": "0.67",
+              "text": "$670",
+              "textColor": "#000",
+              "label": "of $1000 spent",
+              "labelColor": "#4caf50",
+              "labelSize": "12",
+              "labelWeight": "800",
+              "borderColor": "#ff9800",
+              "borderWidth": "30"
+            }
+          ]
+        },
+        {
+          "item": [
+            {
+              "type": "semicircle",
+              "class": "col text-align-center",
+              "value": "0.5",
+              "text": "50%",
+              "textColor": "#ffeb3b",
+              "textSize": "41",
+              "textWeight": "700",
+              "borderColor": "#ffeb3b",
+              "borderWidth": "10",
+              "borderBgColor": "transparent"
+            },
+            {
+              "type": "semicircle",
+              "class": "col text-align-center",
+              "value": "0.77",
+              "text": "30kg",
+              "textColor": "#e91e63",
+              "label": "$770 spent so far",
+              "labelColor": "#ff9800",
+              "labelSize": "12",
+              "labelWeight": "800",
+              "borderColor": "#ff9800",
+              "borderWidth": "10"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

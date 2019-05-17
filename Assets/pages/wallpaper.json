@@ -1,0 +1,93 @@
+﻿{
+  "id": "wallpaper",
+  "wallpaper": "{url}/assets/img/wallpaper.jpg",
+  "component": [
+    {
+      "type": "navbar",
+      "subtype": "transparent",
+      "list": [
+        {
+          "type": "left",
+          "icoIos": "icon icon-back",
+          "icoMat": "icon icon-back",
+          "class": "back link",
+          "click": "#"
+        },
+        {
+          "type": "title",
+          "text": "Wall paper"
+        },
+        {
+          "type": "right",
+          "icoIos": "icon icon-next",
+          "icoMat": "icon icon-next",
+          "class": "link",
+          "click": "#"
+        }
+      ]
+    },
+    {
+      "type": "content",
+      "title": "Ultra Easy To Use",
+      "list": [
+        {
+          "text": "To create iOS or Android apps using AppBe is so easy as website creation. Try to start and you will be surprised how easy is it. All you need to make it work is a simple HTML layout and attached framework's CSS and JS files! AppBe doesn't force you to write some custom tags that will be converted by JavaScript to something else. It doesn't force you to write and describe all your content in JavaScript (or JSON). Just plain HTML and you always get exactly the same that you expect to get when you write this HTML."
+        }
+      ]
+    },
+    {
+      "type": "content",
+      "title": "Native Scrolling",
+      "list": [
+        {
+          "text": "It can sound even curious but one of the most important AppBe feature is that it uses only native scrolling. Moreover - it multiplies its advantages! So you can still have this awesome scrolling with momentum and resistance bounce without any scrolling issues!"
+        }
+      ]
+    },
+    {
+      "type": "content",
+      "title": "Library Agnostic",
+      "list": [
+        {
+          "text": "AppBe doesn't use and does not depend on any third party libraries. That is why it is ultra lightweight, performance and flexible."
+        }
+      ]
+    },
+    {
+      "type": "content",
+      "title": "Custom DOM Library",
+      "list": [
+        {
+          "text": "AppBe doesn't use any third party library, even for DOM operation, even jQuery. It has its own custom DOM library that utilizes most edge and high-performance methods for DOM manipulation. You can also use it and you don't need to learn something new for that, it has the same syntax as well known jQuery library with support of the most popular and widely used methods and jQuery-like chaining."
+        }
+      ]
+    },
+    {
+      "type": "content",
+      "title": "XHR + Caching + History + Preloading",
+      "list": [
+        {
+          "text": "his is an unbeatable combination to make your app routing as perfect as possible. AppBe is ready to route your app pages using XHR (optional) with its own internal methods and internal HTML configurable caching that allow to load pages faster and save a lot of time and traffic for your users! It loads page via Ajax only ones per specified caching period (10 minutes by default), other times it just gets it from memory. It allows to make further requests immediately!"
+        }
+      ]
+    },
+    {
+      "type": "content",
+      "title": "High-performance Animations",
+      "list": [
+        {
+          "text": "It is all about performance and AppBe uses only high performance hardware accelerated css animations and transitions to achieve the best result."
+        }
+      ]
+    },
+    {
+      "type": "content",
+      "title": "Easy To Customize",
+      "list": [
+        {
+          "text": "With AppBe everything is simple, all styles are divided by parts into small .less files, so you can really easy bring your own custom styles to your app"
+        }
+      ]
+    }
+  ]
+}

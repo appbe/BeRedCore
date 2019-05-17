@@ -1,0 +1,85 @@
+﻿{
+  "id": "autocomplete",
+  "component": [
+    {
+      "type": "navbar",
+      "list": [
+        {
+          "type": "left",
+          "icoIos": "icon icon-back",
+          "icoMat": "icon icon-back",
+          "class": "back link"
+        },
+        {
+          "type": "title",
+          "text": "Page Picker"
+        }
+      ]
+    },
+    {
+      "type": "content",
+      "list": [
+        {
+          "text": "Standalone selector provides better mobile UX by opening it in a new page or popup. Good to use when you need to get strict values without allowing free-type values."
+        }
+      ]
+    },
+    {
+      "type": "title",
+      "shape": "sign",
+      "text": "Simple Standalone"
+    },
+    {
+      "type": "input",
+      "subtype": "list",
+      "list": [
+        {
+          "input": "page-picker",
+          "name": "autocomplete-standalone",
+          "label": "Favorite Fruite",
+          "data": "Assets/data/fruit.json",
+          "title": "水果"
+        }
+      ]
+    },
+    {
+      "type": "title",
+      "shape": "sign",
+      "text": "Multiple Values Standalone"
+    },
+    {
+      "type": "input",
+      "subtype": "list",
+      "list": [
+        {
+          "input": "page-picker",
+          "name": "autocomplete-standalone-multiple",
+          "label": "Favorite Fruite",
+          "data": "Assets/data/fruit.json",
+          "title": "水果",
+          "multi": "1"
+        }
+      ]
+    },
+    {
+      "type": "title",
+      "shape": "sign",
+      "text": "Standalone With Ajax-Data"
+    },
+    {
+      "type": "input",
+      "subtype": "list",
+      "title": "Standalone With Ajax-Data",
+      "list": [
+        {
+          "input": "page-picker",
+          "name": "autocomplete-standalone-ajax",
+          "label": "Language",
+          "data": "Assets/data/language.json",
+          "title": "编程语言",
+          "multi": "1"
+        }
+      ]
+    }
+  ]
+}

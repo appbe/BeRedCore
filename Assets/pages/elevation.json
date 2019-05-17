@@ -1,0 +1,178 @@
+﻿{
+  "id": "elevation",
+  "component": [
+    {
+      "type": "navbar",
+      "list": [
+        {
+          "type": "left",
+          "icoIos": "icon icon-back",
+          "icoMat": "icon icon-back",
+          "class": "back link",
+          "click": "#"
+        },
+        {
+          "type": "title",
+          "text": "Elevation"
+        }
+      ]
+    },
+    {
+      "type": "elevation",
+      "list": [
+        {
+          "item": [
+            {
+              "class": "1",
+              "text": "1"
+            },
+            {
+              "class": "2",
+              "text": "2"
+            },
+            {
+              "class": "3",
+              "text": "3"
+            }
+          ]
+        },
+        {
+          "item": [
+            {
+              "class": "4",
+              "text": "4"
+            },
+            {
+              "class": "5",
+              "text": "5"
+            },
+            {
+              "class": "6",
+              "text": "6"
+            }
+          ]
+        },
+        {
+          "item": [
+            {
+              "class": "7",
+              "text": "7"
+            },
+            {
+              "class": "8",
+              "text": "8"
+            },
+            {
+              "class": "9",
+              "text": "9"
+            }
+          ]
+        },
+        {
+          "item": [
+            {
+              "class": "10",
+              "text": "10"
+            },
+            {
+              "class": "11",
+              "text": "11"
+            },
+            {
+              "class": "12",
+              "text": "12"
+            }
+          ]
+        },
+        {
+          "item": [
+            {
+              "class": "13",
+              "text": "13"
+            },
+            {
+              "class": "14",
+              "text": "14"
+            },
+            {
+              "class": "15",
+              "text": "15"
+            }
+          ]
+        },
+        {
+          "item": [
+            {
+              "class": "16",
+              "text": "16"
+            },
+            {
+              "class": "17",
+              "text": "17"
+            },
+            {
+              "class": "18",
+              "text": "18"
+            }
+          ]
+        },
+        {
+          "item": [
+            {
+              "class": "19",
+              "text": "19"
+            },
+            {
+              "class": "20",
+              "text": "20"
+            },
+            {
+              "class": "21",
+              "text": "21"
+            }
+          ]
+        },
+        {
+          "item": [
+            {
+              "class": "22",
+              "text": "22"
+            },
+            {
+              "class": "23",
+              "text": "23"
+            },
+            {
+              "class": "24",
+              "text": "24"
+            }
+          ]
+        },
+        {
+          "item": [
+            {
+              "class": "elevation-demo elevation-1 elevation-hover-24 elevation-active-12 elevation-transition-500",
+              "text": "1 + hover-24 + active-12"
+            }
+          ]
+        },
+        {
+          "item": [
+            {
+              "class": "elevation-demo elevation-6 elevation-hover-24 elevation-pressed-12 elevation-transition",
+              "text": "6 + hover-24 + pressed-12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "content",
+      "list": [
+        {
+          "text": "<p>Shadows provide important visual cues about objects' depth and directional movement. They are the only visual cue indicating the amount of separation between surfaces. An object’s elevation determines the appearance of its shadow. The elevation values are mapped out in a \"z-space\" and range from 1 to 24.</p>\r\n      <p>Elevation can be added to any element by adding <code>elevation-0</code>, <code>elevation-1</code>, ..., <code>elevation-24</code> classes.</p>\r\n      <p>To add different elevation only on hover (desktop), you can use <code>elevation-hover-0</code>, <code>elevation-hover-1</code>, ..., <code>elevation-hover-24</code> classes.</p>\r\n      <p>To specify elevation only when item pressed, you can use <code>elevation-pressed-0</code>, <code>elevation-pressed-1</code>, ..., <code>elevation-pressed-24</code> classes.</p>"
+        }
+      ]
+    }
+  ]
+}

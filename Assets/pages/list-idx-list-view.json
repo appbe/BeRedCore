@@ -1,0 +1,284 @@
+﻿{
+  "id": "list-idx-list-view",
+  "component": [
+    {
+      "type": "navbar",
+      "list": [
+        {
+          "type": "left",
+          "icoIos": "icon icon-back",
+          "icoMat": "icon icon-back",
+          "class": "back link",
+          "click": "#"
+        },
+        {
+          "type": "title",
+          "text": "List View"
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "subtype": "icon",
+      "title": "Data list, with icons",
+      "sortable": "0",
+      "searchBar": "0",
+      "withSort": "1",
+      "list": [
+        {
+          "title": "Ivan Petrov",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "after": "CEO",
+          "sort": "I"
+        },
+        {
+          "title": "Ivan 2",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "after": "CEO",
+          "sort": "I"
+        },
+        {
+          "title": "Ivan 3",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "after": "CEO",
+          "sort": "I"
+        },
+        {
+          "title": "Ivan 4",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "after": "CEO",
+          "sort": "I"
+        },
+        {
+          "title": "Ivan 5",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "after": "CEO",
+          "sort": "I"
+        },
+        {
+          "title": "John Doe",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "after": "5",
+          "badgeCls": "badge",
+          "sort": "J"
+        },
+        {
+          "title": "Jenna Smith",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "sort": "J"
+        },
+        {
+          "title": "Jenna 3",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "sort": "J"
+        },
+        {
+          "title": "Jenna 4",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "sort": "J"
+        },
+        {
+          "title": "Jenna 5",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "sort": "J"
+        },
+        {
+          "title": "Jenna 6",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "sort": "J"
+        },
+        {
+          "title": "Jenna 7",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "sort": "J"
+        },
+        {
+          "title": "Kama 1",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "sort": "K"
+        },
+        {
+          "title": "Kama 2",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "sort": "K"
+        },
+        {
+          "title": "Kama 3",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "sort": "K"
+        },
+        {
+          "title": "Kama 4",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "sort": "K"
+        },
+        {
+          "title": "Kama 5",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "sort": "K"
+        },
+        {
+          "title": "Kama 6",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "sort": "K"
+        },
+        {
+          "title": "Kama 7",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "sort": "K"
+        },
+        {
+          "title": "Kama 8",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "sort": "K"
+        },
+        {
+          "title": "Xixi 1",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "sort": "X"
+        },
+        {
+          "title": "Xixi 2",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "sort": "X"
+        },
+        {
+          "title": "Xixi 3",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "sort": "X"
+        },
+        {
+          "title": "Xixi 4",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "sort": "X"
+        },
+        {
+          "title": "Xixi 5",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "sort": "X"
+        },
+        {
+          "title": "Xixi 6",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "sort": "X"
+        },
+        {
+          "title": "Xixi 7",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "sort": "X"
+        },
+        {
+          "title": "Xixi 8",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "sort": "X"
+        },
+        {
+          "title": "Zoo 1",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "sort": "Z"
+        },
+        {
+          "title": "Zoo 2",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "sort": "Z"
+        },
+        {
+          "title": "Zoo 3",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "sort": "Z"
+        },
+        {
+          "title": "Zoo 4",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "sort": "Z"
+        },
+        {
+          "title": "Zoo 5",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "sort": "Z"
+        },
+        {
+          "title": "Zoo 6",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "sort": "Z"
+        },
+        {
+          "title": "Zoo 7",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "sort": "Z"
+        },
+        {
+          "title": "Zoo 8",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "sort": "Z"
+        },
+        {
+          "title": "Zoo 9",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "sort": "Z"
+        }
+      ],
+      "catalog": {
+        "item": [
+          {
+            "title": "I",
+            "value": "I"
+          },
+          {
+            "title": "J",
+            "value": "J"
+          },
+          {
+            "title": "K",
+            "value": "K"
+          },
+          {
+            "title": "X",
+            "value": "X"
+          },
+          {
+            "title": "Z",
+            "value": "Z"
+          }
+        ]
+      }
+    }
+  ]
+}

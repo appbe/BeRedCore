@@ -1,0 +1,54 @@
+﻿{
+  "id": "getpwd",
+  "component": [
+    {
+      "type": "navbar",
+      "list": [
+        {
+          "type": "left",
+          "icoIos": "icon icon-back",
+          "icoMat": "icon icon-back",
+          "class": "back link",
+          "click": "#"
+        },
+        {
+          "type": "title",
+          "text": "找回密码"
+        }
+      ]
+    },
+    {
+      "type": "content",
+      "list": [
+        {
+          "text": "<br /><br /><div style=\"text-align:center;\"><img src=\"http://appbe.a60.com.cn/assets/img/app-icon.png\" /></div><br />"
+        }
+      ]
+    },
+    {
+      "type": "input",
+      "subtype": "form",
+      "id": "form-getpwd",
+      "list": [
+        {
+          "input": "email",
+          "name": "email",
+          "icoMat": "perm_identity",
+          "placeholder": "请输入您的登录名"
+        }
+      ]
+    },
+    {
+      "type": "button",
+      "subtype": "usual",
+      "list": [
+        {
+          "text": "确定",
+          "click": "#",
+          "clsIos": "",
+          "clsMat": "button button-fill"
+        }
+      ]
+    }
+  ]
+}

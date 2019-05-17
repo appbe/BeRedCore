@@ -1,0 +1,53 @@
+﻿{
+  "id": "bars-tabbar-labels",
+  "component": [
+    {
+      "type": "navbar",
+      "list": [
+        {
+          "type": "left",
+          "icoIos": "icon icon-back",
+          "icoMat": "icon icon-back",
+          "class": "back link",
+          "click": "#"
+        },
+        {
+          "type": "title",
+          "text": "Tab Bar With Labels"
+        }
+      ]
+    },
+    {
+      "type": "tabbar",
+      "subtype": "tabbar",
+      "tabIdPrefix": "tab",
+      "activeIdx": "0",
+      "list": [
+        {
+          "icoIos": "at",
+          "icoMat": "email",
+          "label": "Inbox",
+          "click": "tabs-page-1"
+        },
+        {
+          "icoIos": "today",
+          "icoMat": "today",
+          "label": "Calendar",
+          "click": "tabs-page-2"
+        },
+        {
+          "icoIos": "cloud_upload",
+          "icoMat": "file_upload",
+          "label": "Upload",
+          "click": "tabs-page-3"
+        }
+      ]
+    },
+    {
+      "type": "tabs",
+      "tabIdPrefix": "tab",
+      "activeIdx": "0",
+      "tabCount": "3"
+    }
+  ]
+}

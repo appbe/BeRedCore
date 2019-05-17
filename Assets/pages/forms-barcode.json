@@ -1,0 +1,56 @@
+﻿{
+  "id": "forms-barcode",
+  "component": [
+    {
+      "type": "navbar",
+      "list": [
+        {
+          "type": "left",
+          "icoIos": "icon icon-back",
+          "icoMat": "icon icon-back",
+          "class": "back link",
+          "click": "#"
+        },
+        {
+          "type": "title",
+          "text": "Form Pay Bar Code"
+        }
+      ]
+    },
+    {
+      "type": "input",
+      "subtype": "form",
+      "title": "Pay Bar Code",
+      "id": "forms-bar-form",
+      "lblFloating": "0",
+      "list": [
+        {
+          "input": "textarea",
+          "name": "txtBarcode",
+          "icoIos": "data",
+          "icoMat": "brightness_low",
+          "label": "Bar Code",
+          "placeholder": "Bar Code"
+        }
+      ]
+    },
+    {
+      "type": "button",
+      "subtype": "grid",
+      "list": [
+        {
+          "text": "Scan",
+          "click": "Be.native.scanner('1')",
+          "clsIos": "button col",
+          "clsMat": "button col button-fill button-raised"
+        },
+        {
+          "text": "UA",
+          "click": "doUA()",
+          "clsIos": "button col",
+          "clsMat": "button col button-fill button-raised"
+        }
+      ]
+    }
+  ]
+}

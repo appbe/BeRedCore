@@ -1,0 +1,39 @@
+﻿{
+  "id": "floating-button",
+  "component": [
+    {
+      "type": "navbar",
+      "list": [
+        {
+          "type": "left",
+          "icoIos": "icon icon-back",
+          "icoMat": "icon icon-back",
+          "class": "back link",
+          "click": "#"
+        },
+        {
+          "type": "title",
+          "text": "Floating Action Button"
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "subtype": "icon",
+      "list": [
+        {
+          "title": "Static Floating Action Button",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "click": "floating-button-static?static=1"
+        },
+        {
+          "title": "Speed Dial",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "click": "floating-button-dial?static=1"
+        }
+      ]
+    }
+  ]
+}

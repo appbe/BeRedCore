@@ -1,0 +1,226 @@
+﻿{
+  "id": "list-view",
+  "component": [
+    {
+      "type": "navbar",
+      "list": [
+        {
+          "type": "left",
+          "icoIos": "icon icon-back",
+          "icoMat": "icon icon-back",
+          "class": "back link",
+          "click": "#"
+        },
+        {
+          "type": "title",
+          "text": "List View"
+        }
+      ]
+    },
+    {
+      "type": "content",
+      "list": [
+        {
+          "text": "AppBe allows you to be flexible with list views (table views). You can make them as navigation menus, you can use there icons, inputs, and any elements inside of the list, and even make them nested:"
+        }
+      ]
+    },
+    {
+      "type": "title",
+      "shape": "sign",
+      "text": "Data list, with icons"
+    },
+    {
+      "type": "list",
+      "subtype": "icon",
+      "list": [
+        {
+          "title": "Ivan Petrov",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "after": "CEO"
+        },
+        {
+          "title": "John Doe",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "after": "5",
+          "badgeCls": "badge"
+        },
+        {
+          "title": "Jenna Smith",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be"
+        }
+      ]
+    },
+    {
+      "type": "title",
+      "shape": "sign",
+      "text": "Links"
+    },
+    {
+      "type": "list",
+      "subtype": "icon",
+      "list": [
+        {
+          "title": "Ivan Petrov",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "after": "CEO",
+          "click": "#"
+        },
+        {
+          "title": "John Doe",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "after": "Cleaner",
+          "click": "#"
+        },
+        {
+          "title": "Jenna Smith",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "click": "#"
+        }
+      ]
+    },
+    {
+      "type": "title",
+      "shape": "sign",
+      "text": "Links, no icons"
+    },
+    {
+      "type": "list",
+      "subtype": "title",
+      "list": [
+        {
+          "title": "Ivan Petrov",
+          "after": "CEO",
+          "click": "#"
+        },
+        {
+          "title": "John Doe",
+          "after": "Cleaner",
+          "click": "#"
+        },
+        {
+          "title": "Jenna Smith",
+          "click": "#"
+        }
+      ]
+    },
+    {
+      "type": "title",
+      "shape": "sign",
+      "text": "Grouped with sticky titles"
+    },
+    {
+      "type": "list-group",
+      "subtype": "contact",
+      "list": [
+        {
+          "label": "A",
+          "item": [
+            {
+              "title": "Aaron"
+            },
+            {
+              "title": "Abbie"
+            },
+            {
+              "title": "Adam"
+            }
+          ]
+        },
+        {
+          "label": "B",
+          "item": [
+            {
+              "title": "Bailey"
+            },
+            {
+              "title": "Barclay"
+            },
+            {
+              "title": "Bartolo"
+            }
+          ]
+        },
+        {
+          "label": "C",
+          "item": [
+            {
+              "title": "Caiden"
+            },
+            {
+              "title": "Calvin"
+            },
+            {
+              "title": "Candy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "title",
+      "shape": "sign",
+      "text": "Inset"
+    },
+    {
+      "type": "list",
+      "subtype": "icon",
+      "extCls": "inset",
+      "list": [
+        {
+          "title": "Ivan Petrov",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "after": "CEO"
+        },
+        {
+          "title": "John Doe",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be"
+        },
+        {
+          "title": "With Switch",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "after": "{toggle}"
+        }
+      ]
+    },
+    {
+      "type": "title",
+      "shape": "sign",
+      "text": "Tablet inset"
+    },
+    {
+      "type": "list",
+      "subtype": "icon",
+      "extCls": "inset",
+      "label": "This list block will look like \"inset\" only on tablets (iPad)",
+      "list": [
+        {
+          "title": "Ivan Petrov",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "after": "CEO"
+        },
+        {
+          "title": "John Doe",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be"
+        },
+        {
+          "title": "With Switch",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "after": "{toggle}"
+        }
+      ]
+    }
+  ]
+}

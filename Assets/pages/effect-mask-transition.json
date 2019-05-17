@@ -1,0 +1,45 @@
+﻿{
+  "id": "effect-mask-transition",
+  "component": [
+    {
+      "type": "navbar",
+      "subtype": "cover",
+      "list": [
+        {
+          "type": "left",
+          "icoIos": "icon icon-back",
+          "icoMat": "icon icon-back",
+          "class": "back link",
+          "click": "#"
+        }
+      ]
+    },
+    {
+      "type": "css-effect",
+      "subtype": "mask-transition",
+      "effectIdx": "1",
+      "list": [
+        {
+          "image": "{url}/assets/img/css-nature-1.jpg",
+          "title": "Colossal",
+          "subtitle": "Photo by Andreas Rønningen"
+        },
+        {
+          "image": "{url}/assets/img/css-nature-2.jpg",
+          "title": "Into the wild",
+          "subtitle": "Photo by John Price"
+        },
+        {
+          "image": "{url}/assets/img/css-nature-3.jpg",
+          "title": "Is spring coming?",
+          "subtitle": "Photo by Thomas Lefebvre"
+        },
+        {
+          "image": "{url}/assets/img/css-nature-4.jpg",
+          "title": "Stay curious",
+          "subtitle": "Photo by Maria"
+        }
+      ]
+    }
+  ]
+}

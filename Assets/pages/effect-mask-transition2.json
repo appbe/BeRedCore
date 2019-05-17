@@ -1,0 +1,45 @@
+﻿{
+  "id": "effect-mask-transition2",
+  "component": [
+    {
+      "type": "navbar",
+      "subtype": "cover",
+      "list": [
+        {
+          "type": "left",
+          "icoIos": "icon icon-back",
+          "icoMat": "icon icon-back",
+          "class": "back link",
+          "click": "#"
+        }
+      ]
+    },
+    {
+      "type": "css-effect",
+      "subtype": "mask-transition",
+      "effectIdx": "2",
+      "list": [
+        {
+          "image": "{url}/assets/img/building-1.jpg",
+          "title": "SKYLINE",
+          "subtitle": "Photo by James Traf"
+        },
+        {
+          "image": "{url}/assets/img/building-2.jpg",
+          "title": "Architecture",
+          "subtitle": "Photo by Steve Richey"
+        },
+        {
+          "image": "{url}/assets/img/building-3.jpg",
+          "title": "Shadows",
+          "subtitle": "Photo by Samuel Zeller"
+        },
+        {
+          "image": "{url}/assets/img/building-4.jpg",
+          "title": "Perspective",
+          "subtitle": "Photo by Padurariu Alexandru"
+        }
+      ]
+    }
+  ]
+}

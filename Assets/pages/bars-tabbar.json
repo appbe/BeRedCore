@@ -1,0 +1,51 @@
+﻿{
+  "id": "bars-tabbar",
+  "hideNavbarOnScroll": "1",
+  "component": [
+    {
+      "type": "navbar",
+      "list": [
+        {
+          "type": "left",
+          "icoIos": "icon icon-back",
+          "icoMat": "icon icon-back",
+          "class": "back link",
+          "click": "#"
+        },
+        {
+          "type": "title",
+          "text": "Tab Bar"
+        }
+      ]
+    },
+    {
+      "type": "tabbar",
+      "tabIdPrefix": "tab",
+      "activeIdx": "0",
+      "list": [
+        {
+          "label": "Tab 1",
+          "click": "tabs-page-1"
+        },
+        {
+          "label": "Tab 2",
+          "click": "tabs-page-2"
+        },
+        {
+          "label": "Tab 3",
+          "click": "tabs-page-3"
+        },
+        {
+          "label": "Tab 4",
+          "click": "tabs-page-4"
+        }
+      ]
+    },
+    {
+      "type": "tabs",
+      "tabIdPrefix": "tab",
+      "activeIdx": "0",
+      "tabCount": "4"
+    }
+  ]
+}

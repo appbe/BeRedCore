@@ -1,0 +1,451 @@
+﻿{
+  "id": "forms-elements",
+  "component": [
+    {
+      "type": "navbar",
+      "list": [
+        {
+          "type": "left",
+          "icoIos": "icon icon-back",
+          "icoMat": "icon icon-back",
+          "class": "back link",
+          "click": "#"
+        },
+        {
+          "type": "title",
+          "text": "Form Elements"
+        }
+      ]
+    },
+    {
+      "type": "title",
+      "shape": "pillar",
+      "fill": "1",
+      "text": "Full Layout"
+    },
+    {
+      "type": "input",
+      "subtype": "form",
+      "id": "form-elements-form",
+      "lblFloating": "0",
+      "list": [
+        {
+          "input": "text",
+          "name": "name0",
+          "icoIos": "person",
+          "icoMat": "person_outline",
+          "label": "Name",
+          "placeholder": "Your name"
+        },
+        {
+          "input": "email",
+          "name": "email0",
+          "icoIos": "email",
+          "icoMat": "email",
+          "label": "E-mail",
+          "placeholder": "E-mail"
+        },
+        {
+          "input": "url",
+          "name": "url0",
+          "icoIos": "world",
+          "icoMat": "language",
+          "label": "URL",
+          "placeholder": "URL"
+        },
+        {
+          "input": "password",
+          "name": "password0",
+          "icoIos": "lock",
+          "icoMat": "lock_outline",
+          "label": "Password",
+          "placeholder": "Password"
+        },
+        {
+          "input": "tel",
+          "name": "phone0",
+          "icoIos": "phone",
+          "icoMat": "call",
+          "label": "Phone",
+          "placeholder": "Phone"
+        },
+        {
+          "input": "select",
+          "name": "gender0",
+          "icoIos": "persons",
+          "icoMat": "people_outline",
+          "label": "Gender",
+          "item": [
+            {
+              "value": "Male",
+              "text": "Male"
+            },
+            {
+              "value": "Female",
+              "text": "Female"
+            }
+          ]
+        },
+        {
+          "input": "date",
+          "name": "date0",
+          "value": "2014-04-30",
+          "icoIos": "calendar",
+          "icoMat": "today",
+          "label": "Birth date",
+          "placeholder": "Birth day"
+        },
+        {
+          "input": "datetime",
+          "name": "datetime0",
+          "value": "2014-06-01T10:55",
+          "icoIos": "calendar",
+          "icoMat": "today",
+          "label": "Date time",
+          "placeholder": "Date time"
+        },
+        {
+          "input": "time",
+          "name": "time0",
+          "value": "10:53",
+          "icoIos": "calendar",
+          "icoMat": "access_time",
+          "label": "Time",
+          "placeholder": "Time"
+        },
+        {
+          "input": "switch",
+          "name": "switch0",
+          "icoIos": "check",
+          "icoMat": "check",
+          "label": "Switch",
+          "checked": "1",
+          "color": "color-red"
+        },
+        {
+          "input": "range",
+          "name": "range0",
+          "value": "50",
+          "icoIos": "filter",
+          "icoMat": "settings",
+          "label": "Slider",
+          "min": "0",
+          "max": "100",
+          "step": "1"
+        },
+        {
+          "input": "stepper",
+          "name": "lblStepper0",
+          "value": "1",
+          "icoIos": "bag",
+          "icoMat": "add_shopping_cart",
+          "label": "shopping",
+          "type": "outer",
+          "min": "1",
+          "max": "10",
+          "step": "1",
+          "color": "#4caf50",
+          "extCls": "stepper-small stepper-fill stepper-round"
+        },
+        {
+          "input": "textarea",
+          "name": "textarea0",
+          "icoIos": "chat",
+          "icoMat": "chat_bubble_outline",
+          "label": "Resizeable Textarea"
+        },
+        {
+          "input": "color",
+          "name": "color0",
+          "icoIos": "color_filter",
+          "icoMat": "colorize",
+          "label": "Color",
+          "placeholder": "Color"
+        }
+      ]
+    },
+    {
+      "type": "title",
+      "shape": "pillar",
+      "fill": "1",
+      "text": "With Floating Labels"
+    },
+    {
+      "type": "input",
+      "subtype": "form",
+      "id": "form-elements-floating-form",
+      "lblFloating": "1",
+      "list": [
+        {
+          "input": "text",
+          "name": "name1",
+          "icoIos": "person",
+          "icoMat": "person_outline",
+          "label": "Name",
+          "placeholder": "Your name"
+        },
+        {
+          "input": "email",
+          "name": "email1",
+          "icoIos": "email",
+          "icoMat": "email",
+          "label": "E-mail",
+          "placeholder": "E-mail"
+        },
+        {
+          "input": "url",
+          "name": "url1",
+          "icoIos": "world",
+          "icoMat": "language",
+          "label": "URL",
+          "placeholder": "URL"
+        },
+        {
+          "input": "password",
+          "name": "password1",
+          "icoIos": "lock",
+          "icoMat": "lock_outline",
+          "label": "Password",
+          "placeholder": "Password"
+        },
+        {
+          "input": "tel",
+          "name": "phone1",
+          "icoIos": "phone",
+          "icoMat": "call",
+          "label": "Phone",
+          "placeholder": "Phone"
+        },
+        {
+          "input": "select",
+          "name": "gender1",
+          "icoIos": "persons",
+          "icoMat": "people_outline",
+          "label": "Gender",
+          "item": [
+            {
+              "value": "Male",
+              "text": "Male"
+            },
+            {
+              "value": "Female",
+              "text": "Female"
+            }
+          ]
+        },
+        {
+          "input": "stepper",
+          "name": "lblStepper1",
+          "value": "1",
+          "icoIos": "bag",
+          "icoMat": "add_shopping_cart",
+          "label": "shopping",
+          "type": "outer",
+          "min": "1",
+          "max": "10",
+          "step": "1",
+          "extCls": "stepper-small stepper-fill stepper-round"
+        },
+        {
+          "input": "textarea",
+          "name": "textarea1",
+          "icoIos": "chat",
+          "icoMat": "chat_bubble_outline",
+          "label": "Resizeable Textarea"
+        }
+      ]
+    },
+    {
+      "type": "title",
+      "shape": "pillar",
+      "fill": "1",
+      "text": "Icons and inputs"
+    },
+    {
+      "type": "input",
+      "subtype": "form",
+      "id": "form-elements-icons-form",
+      "lblFloating": "0",
+      "list": [
+        {
+          "input": "text",
+          "name": "name2",
+          "icoIos": "person",
+          "icoMat": "person_outline",
+          "placeholder": "Your name"
+        },
+        {
+          "input": "email",
+          "name": "email2",
+          "icoIos": "email",
+          "icoMat": "email",
+          "placeholder": "E-mail"
+        },
+        {
+          "input": "select",
+          "name": "gender2",
+          "icoIos": "persons",
+          "icoMat": "people_outline",
+          "item": [
+            {
+              "value": "Male",
+              "text": "Male"
+            },
+            {
+              "value": "Female",
+              "text": "Female"
+            }
+          ]
+        },
+        {
+          "input": "date",
+          "name": "date2",
+          "value": "2014-04-30",
+          "icoIos": "calendar",
+          "icoMat": "today",
+          "placeholder": "Birth day"
+        },
+        {
+          "input": "switch",
+          "name": "switch2",
+          "icoIos": "check",
+          "icoMat": "check"
+        },
+        {
+          "input": "stepper",
+          "name": "lblStepper2",
+          "value": "1",
+          "icoIos": "bag",
+          "icoMat": "add_shopping_cart",
+          "label": "shopping",
+          "type": "",
+          "min": "1",
+          "max": "10",
+          "step": "1",
+          "align": "left",
+          "extCls": "stepper-small stepper-fill stepper-round"
+        }
+      ]
+    },
+    {
+      "type": "title",
+      "shape": "pillar",
+      "fill": "1",
+      "text": "Labels and inputs"
+    },
+    {
+      "type": "input",
+      "subtype": "form",
+      "id": "form-elements-labels-form",
+      "lblFloating": "0",
+      "list": [
+        {
+          "input": "text",
+          "name": "name3",
+          "label": "Name",
+          "placeholder": "Your name"
+        },
+        {
+          "input": "email",
+          "name": "email3",
+          "label": "E-mail",
+          "placeholder": "E-mail"
+        },
+        {
+          "input": "select",
+          "name": "gender3",
+          "label": "Gender",
+          "item": [
+            {
+              "value": "Male",
+              "text": "Male"
+            },
+            {
+              "value": "Female",
+              "text": "Female"
+            }
+          ]
+        },
+        {
+          "input": "date",
+          "name": "date3",
+          "value": "2014-04-30",
+          "label": "Birth date",
+          "placeholder": "Birth day"
+        },
+        {
+          "input": "switch",
+          "name": "switch3",
+          "label": "Switch"
+        },
+        {
+          "input": "stepper",
+          "name": "lblStepper3",
+          "value": "1",
+          "label": "shopping",
+          "type": "",
+          "min": "1",
+          "max": "10",
+          "step": "1",
+          "align": "left",
+          "extCls": "stepper-small stepper-fill stepper-round"
+        }
+      ]
+    },
+    {
+      "type": "title",
+      "shape": "pillar",
+      "fill": "1",
+      "text": "Only inputs"
+    },
+    {
+      "type": "input",
+      "subtype": "form",
+      "id": "form-elements-just-form",
+      "lblFloating": "0",
+      "list": [
+        {
+          "input": "text",
+          "name": "name4",
+          "placeholder": "Your name"
+        },
+        {
+          "input": "email",
+          "name": "email4",
+          "placeholder": "E-mail"
+        },
+        {
+          "input": "select",
+          "name": "gender4",
+          "item": [
+            {
+              "value": "Male",
+              "text": "Male"
+            },
+            {
+              "value": "Female",
+              "text": "Female"
+            }
+          ]
+        },
+        {
+          "input": "date",
+          "name": "date4",
+          "value": "2014-04-30",
+          "placeholder": "Birth day"
+        },
+        {
+          "input": "stepper",
+          "name": "lblStepper4",
+          "value": "1",
+          "type": "",
+          "min": "1",
+          "max": "10",
+          "step": "1",
+          "align": "left",
+          "extCls": "stepper-small stepper-fill stepper-round"
+        }
+      ]
+    }
+  ]
+}

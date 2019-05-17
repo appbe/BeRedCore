@@ -1,0 +1,27 @@
+﻿{
+  "id": "picker-modal",
+  "type": "picker",
+  "component": [
+    {
+      "type": "toolbar",
+      "list": [
+        {
+          "text": ""
+        },
+        {
+          "class": "link sheet-close",
+          "text": "Done",
+          "click": "#"
+        }
+      ]
+    },
+    {
+      "type": "content",
+      "list": [
+        {
+          "text": "Integer mollis nulla id nibh elementum finibus. Maecenas eget fermentum ipsum. Sed sagittis condimentum nisl at tempus. Duis lacus libero, laoreet vitae ligula a, aliquet eleifend sapien. Nullam sodales viverra sodales."
+        }
+      ]
+    }
+  ]
+}

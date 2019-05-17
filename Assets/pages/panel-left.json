@@ -1,0 +1,21 @@
+﻿{
+  "id": "panel-left",
+  "component": [
+    {
+      "type": "card",
+      "subtype": "profile",
+      "image": "{url}/Assets/img/abstract-4.jpg",
+      "avatar": "{url}/Assets/img/users/avatar-001.jpg",
+      "name": "John Smith",
+      "click": "#"
+    },
+    {
+      "type": "content",
+      "list": [
+        {
+          "text": "\r\n        <p>Left Panel content here</p>\r\n        <p><a class=\"panel-close\" href=\"#\">Close me</a></p>\r\n        <p><a class=\"panel-open\" href=\"#\" data-panel=\"right\">Open Right Panel</a></p>"
+        }
+      ]
+    }
+  ]
+}

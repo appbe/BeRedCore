@@ -1,0 +1,51 @@
+﻿{
+  "id": "tabs-page",
+  "component": [
+    {
+      "type": "navbar",
+      "list": [
+        {
+          "type": "left",
+          "icoIos": "icon icon-back",
+          "icoMat": "icon icon-back",
+          "class": "back link",
+          "click": "#"
+        },
+        {
+          "type": "title",
+          "text": "Tabs Page"
+        }
+      ]
+    },
+    {
+      "type": "toolbar",
+      "subtype": "tabbar",
+      "tabIdPrefix": "tab",
+      "activeIdx": "0", 
+      "list": [
+        {
+          "click": "",
+          "label": "TAB 1",
+          "page": "tabs-page-1"
+        },
+        {
+          "click": "",
+          "label": "TAB 2",
+          "page": "tabs-page-2"
+        },
+        {
+          "click": "",
+          "label": "TAB 3",
+          "page": "tabs-page-3"
+        }
+      ]
+    },
+    {
+      "type": "tabs",
+      "tabIdPrefix": "tab",
+      "activeIdx": "0",
+      "tabCount": "3",
+      "effect": "animated"
+    }
+  ]
+}

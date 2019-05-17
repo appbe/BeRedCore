@@ -1,0 +1,150 @@
+﻿{
+  "id": "timeline-horizontal",
+  "component": [
+    {
+      "type": "navbar",
+      "extCls": "no-shadow",
+      "list": [
+        {
+          "type": "left",
+          "icoIos": "icon icon-back",
+          "icoMat": "icon icon-back",
+          "class": "back link",
+          "click": "#"
+        },
+        {
+          "type": "title",
+          "text": "Horizontal Timeline"
+        }
+      ]
+    },
+    {
+      "type": "timeline",
+      "direction": "horizontal",
+      "list": [
+        {
+          "type": "rich",
+          "date": "21 DEC",
+          "inner": "21 DEC",
+          "item": [
+            {
+              "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit",
+              "time": "12:56",
+              "subtitle": "Subtitle 1"
+            },
+            {
+              "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit",
+              "time": "13:15",
+              "subtitle": "Subtitle 2"
+            },
+            {
+              "text": "Do something",
+              "time": "14:45"
+            },
+            {
+              "text": "Do something else",
+              "time": "16:11"
+            }
+          ]
+        },
+        {
+          "type": "",
+          "date": "22 DEC",
+          "text": "Plain text goes here"
+        },
+        {
+          "type": "card",
+          "date": "23 DEC",
+          "item": [
+            {
+              "text": "Card content",
+              "header": "Card header",
+              "footer": "Card footer"
+            },
+            {
+              "text": "Another card content"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "date": "24 DEC",
+          "item": [
+            {
+              "title": "Item Title 1",
+              "click": "#"
+            },
+            {
+              "title": "Item Title 2",
+              "click": "#"
+            },
+            {
+              "title": "Item Title 3",
+              "click": "#"
+            }
+          ]
+        },
+        {
+          "type": "rich",
+          "date": "25 DEC",
+          "item": [
+            {
+              "text": "Task 1",
+              "time": "11:11"
+            },
+            {
+              "text": "Task 2",
+              "time": "12:33"
+            },
+            {
+              "text": "Task 3",
+              "time": "13:24"
+            },
+            {
+              "text": "Task 4",
+              "time": "14:55"
+            },
+            {
+              "text": "Task 5",
+              "time": "15:15"
+            },
+            {
+              "text": "Task 6",
+              "time": "16:54"
+            }
+          ]
+        },
+        {
+          "type": "rich",
+          "date": "26 DEC",
+          "item": [
+            {
+              "text": "Task 1",
+              "time": "11:11"
+            },
+            {
+              "text": "Task 2",
+              "time": "12:33"
+            },
+            {
+              "text": "Task 3",
+              "time": "13:24"
+            },
+            {
+              "text": "Task 4",
+              "time": "14:55"
+            },
+            {
+              "text": "Task 5",
+              "time": "15:15"
+            },
+            {
+              "text": "Task 6",
+              "time": "16:54"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

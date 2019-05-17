@@ -1,0 +1,81 @@
+﻿{
+  "id": "toast",
+  "component": [
+    {
+      "type": "navbar",
+      "list": [
+        {
+          "type": "left",
+          "icoIos": "icon icon-back",
+          "icoMat": "icon icon-back",
+          "class": "back link",
+          "click": "#"
+        },
+        {
+          "type": "title",
+          "text": "Toast"
+        }
+      ]
+    },
+    {
+      "type": "content",
+      "list": [
+        {
+          "text": "Toasts provide brief feedback about an operation through a message on the screen."
+        }
+      ]
+    },
+    {
+      "type": "button",
+      "subtype": "usual",
+      "list": [
+        {
+          "text": "Toast on Bottom",
+          "click": "",
+          "clsIos": "button toast-bottom",
+          "clsMat": "button button-raised toast-bottom"
+        },
+        {
+          "text": "Toast on Top",
+          "click": "",
+          "clsIos": "button toast-top",
+          "clsMat": "button button-raised toast-top"
+        },
+        {
+          "text": "Toast on Center",
+          "click": "",
+          "clsIos": "button toast-center",
+          "clsMat": "button button-raised toast-center"
+        },
+        {
+          "text": "Toast with icon",
+          "click": "",
+          "clsIos": "button toast-icon",
+          "clsMat": "button button-raised toast-icon"
+        },
+        {
+          "text": "Toast with close button",
+          "click": "",
+          "clsIos": "button toast-close",
+          "clsMat": "button button-raised toast-close"
+        },
+        {
+          "text": "Toast with custom button",
+          "click": "",
+          "clsIos": "button toast-custom",
+          "clsMat": "button button-raised toast-custom"
+        },
+        {
+          "text": "Toast with callback on close",
+          "click": "",
+          "clsIos": "button toast-callback",
+          "clsMat": "button button-raised toast-callback"
+        }
+      ]
+    },
+    {
+      "type": "script",
+      "data": "Be.page(\"toast\",function(){var oPage=$(this);var notiBottom = {text: 'This is default bottom positioned toast',closeTimeout: 2000};var notiTop = {text: 'Top positioned toast',position: 'top'};var notiCenter = {text: 'I\\'m on center',position: 'center',closeTimeout: 2000};var notiIcon = {icon:'star',text: 'I\\'m with icon',position: 'center',closeTimeout: 2000};var notiButton = {text: 'Toast with additional close button',closeButton: true};var notiCustom = {text: 'Custom close button',closeButton: true,closeButtonText: 'Close Me',closeButtonColor: 'red'};var notiCallback = {text: 'Callback on close',closeButton: true,onClick: function () {Be.app.alert('Toast closed');}};oPage.on('click','.toast-bottom', function (e) { Be.app.toast(notiBottom); });oPage.on('click','.toast-top', function (e) { Be.app.toast(notiTop); });oPage.on('click','.toast-center', function () { Be.app.toast(notiCenter); });oPage.on('click','.toast-icon', function () { Be.app.toast(notiIcon); });oPage.on('click','.toast-close', function () { Be.app.toast(notiButton); });oPage.on('click','.toast-custom', function () { Be.app.toast(notiCustom); });oPage.on('click','.toast-callback', function () { Be.app.toast(notiCallback); });});"
+    }
+  ]
+}
