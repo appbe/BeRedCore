@@ -26,8 +26,8 @@ A Hybrid APP Framework, which is a agile development framework, almost without h
 
 演示网址
 ====
-[红贝应用架构演示网址-iOS>>](http://app.appbe.net/?theme=ios)
-[红贝应用架构演示网址-Android>>](http://app.appbe.net)
+[红贝应用架构演示网址-iOS>>](http://demo.appbe.net/?theme=ios) <br>
+[红贝应用架构演示网址-Android>>](http://demo.appbe.net)
 
 小码哥
 2019/05/17 23:18
