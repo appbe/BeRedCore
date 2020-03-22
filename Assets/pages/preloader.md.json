@@ -1,5 +1,5 @@
 ﻿{
-  "id": "preloader",
+  "id": "preloader.{theme}",
   "component": [
     {
       "type": "navbar",
@@ -18,9 +18,12 @@
       ]
     },
     {
+      "type": "title",
+      "text": "Default"
+    },
+    {
       "type": "grid",
-      "title": "Default",
-      "extCls":"block-strong text-align-center",
+      "extCls": "block-strong text-align-center",
       "list": [
         {
           "item": [
@@ -45,9 +48,12 @@
       ]
     },
     {
+      "type": "title",
+      "text": "Color Preloaders"
+    },
+    {
       "type": "grid",
-      "title": "Color Preloaders",
-      "extCls":"block-strong text-align-center",
+      "extCls": "block-strong text-align-center",
       "list": [
         {
           "item": [
@@ -72,9 +78,12 @@
       ]
     },
     {
+      "type": "title",
+      "text": "Multi-color (MD-theme only)"
+    },
+    {
       "type": "grid",
-      "title": "Multi-color (MD-theme only)",
-      "extCls":"block-strong text-align-center",
+      "extCls": "block-strong text-align-center",
       "list": [
         {
           "item": [
@@ -91,7 +100,7 @@
       "title": "Preloader Modals",
       "list": [
         {
-          "text": "<p>With <b>app.preloader.show()</b> you can show small overlay with preloader indicator.</p>\r\n      <p><a class=\"button button-raised demo-indicator\" onclick=\"Be.app.preloader('red',1000)\">Open Small Indicator</a></p>\r\n      <p><a class=\"button button-raised demo-preloader\" onclick=\"Be.app.preloader('white',2000)\">Open Dialog Preloader</a></p>\r\n      <p><a class=\"button button-raised demo-preloader-custom\" onclick=\"Be.app.preloader('green',2000)\">Open Custom Dialog Preloader</a></p>"
+          "text": "<p>With <b>Be.app.preloader()</b> you can show small overlay with preloader indicator.</p>\r\n      <p><a class=\"button button-raised demo-indicator\" onclick=\"Be.app.preloader('red',1000)\">Show Default Indicator(1s)</a></p>\r\n      <p><a class=\"button button-raised demo-preloader\" onclick=\"Be.app.preloader('white',2000)\">Show White Preloader(2s)</a></p>\r\n      <p><a class=\"button button-raised demo-preloader-custom\" onclick=\"Be.app.preloader('green',3000)\">Show Green Preloader(3s)</a></p>"
         }
       ]
     }

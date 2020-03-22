@@ -1,5 +1,6 @@
 ﻿{
   "id": "panel-left",
+  "pageCls": "cust-panel",
   "component": [
     {
       "type": "card",
@@ -13,7 +14,7 @@
       "type": "content",
       "list": [
         {
-          "text": "\r\n        <p>Left Panel content here</p>\r\n        <p><a class=\"panel-close\" href=\"#\">Close me</a></p>\r\n        <p><a class=\"panel-open\" href=\"#\" data-panel=\"right\">Open Right Panel</a></p>"
+          "text": "\r\n<p>Left Panel content here</p>\r\n <p><a class=\"panel-close\" href=\"#\">Close me</a></p>\r\n<p><a class=\"panel-open\" href=\"#\" data-panel=\"right\">Open Right Panel</a></p>"
         }
       ]
     }

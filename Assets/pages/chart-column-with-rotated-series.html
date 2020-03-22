@@ -1,5 +1,5 @@
 <div class="page" data-name="chart-column-with-rotated-series">
-  <div class="navbar"><div class="navbar-inner"><div class="left"><a href="#back" class="back link"><i class="icon icon-back"></i></a></div><div class="title">Column With Rotated Series</div></div></div>
+  <div class="navbar"><div class="navbar-bg"></div><div class="navbar-inner"><div class="left"><a href="#back" class="back link"><i class="icon icon-back"></i></a></div><div class="title">Column With Rotated Series</div></div></div>
   <div class="page-content"><div id="chartdiv2" style="width: 100%; height: 400px;"></div>
   <div style="display:none;">
     <div id="dat-column-rotated">[{
@@ -50,41 +50,6 @@
             "country": "Canada",
             "visits": 441,
             "color": "#CD0D74"
-        }]</div></div></div>
-  <script>
-      Be.page("chart-column-with-rotated-series", function () {
-          var data = $('#dat-column-rotated').text();
-          var chartData = JSON.parse(data);
-          var chart = AmCharts.makeChart("chartdiv2", {
-              "type": "serial",
-              "marginRight": 70,
-              "dataProvider": chartData,
-              "valueAxes": [{
-                  "axisAlpha": 0,
-                  "position": "left",
-                  "title": "Visitors from country"
-              }],
-              "startDuration": 1,
-              "graphs": [{
-                  "balloonText": "<b>[[category]]: [[value]]</b>",
-                  "fillColorsField": "color",
-                  "fillAlphas": 0.9,
-                  "lineAlpha": 0.2,
-                  "type": "column",
-                  "valueField": "visits"
-              }],
-              "chartCursor": {
-                  "categoryBalloonEnabled": false,
-                  "cursorAlpha": 0,
-                  "zoomable": false
-              },
-              "categoryField": "country",
-              "categoryAxis": {
-                  "gridPosition": "start",
-                  "labelRotation": 45
-              }
-          });
-          $('#chartdiv2').css('height', (Be.height - 60) + 'px');
-      });
-  </script>
+        }]</div></div>
+    </div>  
   </div>

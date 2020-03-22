@@ -1,0 +1,108 @@
+﻿{
+  "id": "preloader.{theme}",
+  "component": [
+    {
+      "type": "navbar",
+      "list": [
+        {
+          "type": "left",
+          "icoIos": "icon icon-back",
+          "icoMat": "icon icon-back",
+          "class": "back link",
+          "click": "#"
+        },
+        {
+          "type": "title",
+          "text": "Preloader"
+        }
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Default"
+    },
+    {
+      "type": "grid",
+      "extCls": "block-strong text-align-center",
+      "list": [
+        {
+          "item": [
+            {
+              "class": "col-25",
+              "text": "<div class=\"preloader\"><span class=\"preloader-inner\"><span class=\"preloader-inner-line\"></span><span class=\"preloader-inner-line\"></span><span class=\"preloader-inner-line\"></span><span class=\"preloader-inner-line\"></span><span class=\"preloader-inner-line\"></span><span class=\"preloader-inner-line\"></span><span class=\"preloader-inner-line\"></span><span class=\"preloader-inner-line\"></span><span class=\"preloader-inner-line\"></span><span class=\"preloader-inner-line\"></span><span class=\"preloader-inner-line\"></span><span class=\"preloader-inner-line\"></span></span></span></div>"
+            },
+            {
+              "class": "col-25 bg-color-black",
+              "text": "<div class=\"preloader color-white\"><span class=\"preloader-inner\"><span class=\"preloader-inner-line\"></span><span class=\"preloader-inner-line\"></span><span class=\"preloader-inner-line\"></span><span class=\"preloader-inner-line\"></span><span class=\"preloader-inner-line\"></span><span class=\"preloader-inner-line\"></span><span class=\"preloader-inner-line\"></span><span class=\"preloader-inner-line\"></span><span class=\"preloader-inner-line\"></span><span class=\"preloader-inner-line\"></span><span class=\"preloader-inner-line\"></span><span class=\"preloader-inner-line\"></span></span></span></div>"
+            },
+            {
+              "class": "col-25",
+              "text": "<div style=\"width: 44px; height: 44px\" class=\"preloader\"><span class=\"preloader-inner\"><span class=\"preloader-inner-line\"></span><span class=\"preloader-inner-line\"></span><span class=\"preloader-inner-line\"></span><span class=\"preloader-inner-line\"></span><span class=\"preloader-inner-line\"></span><span class=\"preloader-inner-line\"></span><span class=\"preloader-inner-line\"></span><span class=\"preloader-inner-line\"></span><span class=\"preloader-inner-line\"></span><span class=\"preloader-inner-line\"></span><span class=\"preloader-inner-line\"></span><span class=\"preloader-inner-line\"></span></span></span></div>"
+            },
+            {
+              "class": "col-25 bg-color-black",
+              "text": "<div style=\"width: 44px; height: 44px\" class=\"preloader color-white\"><span class=\"preloader-inner\"><span class=\"preloader-inner-line\"></span><span class=\"preloader-inner-line\"></span><span class=\"preloader-inner-line\"></span><span class=\"preloader-inner-line\"></span><span class=\"preloader-inner-line\"></span><span class=\"preloader-inner-line\"></span><span class=\"preloader-inner-line\"></span><span class=\"preloader-inner-line\"></span><span class=\"preloader-inner-line\"></span><span class=\"preloader-inner-line\"></span><span class=\"preloader-inner-line\"></span><span class=\"preloader-inner-line\"></span></span></span></div>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Color Preloaders"
+    },
+    {
+      "type": "grid",
+      "extCls": "block-strong text-align-center",
+      "list": [
+        {
+          "item": [
+            {
+              "class": "col-25",
+              "text": "<div class=\"preloader color-red\"><span class=\"preloader-inner\"><span class=\"preloader-inner-line\"></span><span class=\"preloader-inner-line\"></span><span class=\"preloader-inner-line\"></span><span class=\"preloader-inner-line\"></span><span class=\"preloader-inner-line\"></span><span class=\"preloader-inner-line\"></span><span class=\"preloader-inner-line\"></span><span class=\"preloader-inner-line\"></span><span class=\"preloader-inner-line\"></span><span class=\"preloader-inner-line\"></span><span class=\"preloader-inner-line\"></span><span class=\"preloader-inner-line\"></span></span></span></div>"
+            },
+            {
+              "class": "col-25",
+              "text": "<div class=\"preloader color-green\"><span class=\"preloader-inner\"><span class=\"preloader-inner-line\"></span><span class=\"preloader-inner-line\"></span><span class=\"preloader-inner-line\"></span><span class=\"preloader-inner-line\"></span><span class=\"preloader-inner-line\"></span><span class=\"preloader-inner-line\"></span><span class=\"preloader-inner-line\"></span><span class=\"preloader-inner-line\"></span><span class=\"preloader-inner-line\"></span><span class=\"preloader-inner-line\"></span><span class=\"preloader-inner-line\"></span><span class=\"preloader-inner-line\"></span></span></span></div>"
+            },
+            {
+              "class": "col-25",
+              "text": "<div class=\"preloader color-orange\"><span class=\"preloader-inner\"><span class=\"preloader-inner-line\"></span><span class=\"preloader-inner-line\"></span><span class=\"preloader-inner-line\"></span><span class=\"preloader-inner-line\"></span><span class=\"preloader-inner-line\"></span><span class=\"preloader-inner-line\"></span><span class=\"preloader-inner-line\"></span><span class=\"preloader-inner-line\"></span><span class=\"preloader-inner-line\"></span><span class=\"preloader-inner-line\"></span><span class=\"preloader-inner-line\"></span><span class=\"preloader-inner-line\"></span></span></span></div>"
+            },
+            {
+              "class": "col-25",
+              "text": "<div class=\"preloader color-blue\"><span class=\"preloader-inner\"><span class=\"preloader-inner-line\"></span><span class=\"preloader-inner-line\"></span><span class=\"preloader-inner-line\"></span><span class=\"preloader-inner-line\"></span><span class=\"preloader-inner-line\"></span><span class=\"preloader-inner-line\"></span><span class=\"preloader-inner-line\"></span><span class=\"preloader-inner-line\"></span><span class=\"preloader-inner-line\"></span><span class=\"preloader-inner-line\"></span><span class=\"preloader-inner-line\"></span><span class=\"preloader-inner-line\"></span></span></span></div>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Multi-color (MD-theme only)"
+    },
+    {
+      "type": "grid",
+      "extCls": "block-strong text-align-center",
+      "list": [
+        {
+          "item": [
+            {
+              "class": "col",
+              "text": "<div class=\"preloader color-multi\"><span class=\"preloader-inner\"><span class=\"preloader-inner-line\"></span><span class=\"preloader-inner-line\"></span><span class=\"preloader-inner-line\"></span><span class=\"preloader-inner-line\"></span><span class=\"preloader-inner-line\"></span><span class=\"preloader-inner-line\"></span><span class=\"preloader-inner-line\"></span><span class=\"preloader-inner-line\"></span><span class=\"preloader-inner-line\"></span><span class=\"preloader-inner-line\"></span><span class=\"preloader-inner-line\"></span><span class=\"preloader-inner-line\"></span></span></span></div>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "content",
+      "title": "Preloader Modals",
+      "list": [
+        {
+          "text": "<p>With <b>Be.app.preloader()</b> you can show small overlay with preloader indicator.</p>\r\n      <p><a class=\"button button-raised demo-indicator\" onclick=\"Be.app.preloader('red',1000)\">Show Default Indicator(1s)</a></p>\r\n      <p><a class=\"button button-raised demo-preloader\" onclick=\"Be.app.preloader('white',2000)\">Show White Preloader(2s)</a></p>\r\n      <p><a class=\"button button-raised demo-preloader-custom\" onclick=\"Be.app.preloader('green',3000)\">Show Green Preloader(3s)</a></p>"
+        }
+      ]
+    }
+  ]
+}

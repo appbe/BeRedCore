@@ -1,46 +1,6 @@
 <div class="page" data-name="chart-simple-column" data-be-init="landscape">
-    <div class="navbar"><div class="navbar-inner"><div class="left"><a href="#back" class="back link"><i class="icon icon-back"></i></a></div><div class="title">Simple Column Chart</div></div></div>
+    <div class="navbar"><div class="navbar-bg"></div><div class="navbar-inner"><div class="left"><a href="#back" class="back link"><i class="icon icon-back"></i></a></div><div class="title">Simple Column Chart</div></div></div>
     <div class="page-content">
         <div id="chartdiv1" style="width: 100%; height:354px;"></div>
     </div>
-    <script>
-        Be.page("chart-simple-column", function () {
-            //var data = $('#dat-simple-column').text();
-            //var chartData = JSON.parse(data);
-            var chart = AmCharts.makeChart("chartdiv1", {
-                "type": "serial",
-                //"dataProvider": chartData,
-                "dataLoader": {
-                    "url": "/Assets/data/chart.json",
-                    "format": "json"
-                },
-                "valueAxes": [{
-                    "gridColor": "#FFFFFF",
-                    "gridAlpha": 0.2,
-                    "dashLength": 0
-                }],
-                "gridAboveGraphs": true,
-                "startDuration": 1,
-                "graphs": [{
-                    "balloonText": "[[category]]: <b>[[value]]</b>",
-                    "fillAlphas": 0.8,
-                    "lineAlpha": 0.2,
-                    "type": "column",
-                    "valueField": "visits"
-                }],
-                "chartCursor": {
-                    "categoryBalloonEnabled": false,
-                    "cursorAlpha": 0,
-                    "zoomable": false
-                },
-                "categoryField": "country",
-                "categoryAxis": {
-                    "gridPosition": "start",
-                    "gridAlpha": 0,
-                    "tickPosition": "start",
-                    "tickLength": 20
-                }
-            });
-        });
-    </script>
 </div>

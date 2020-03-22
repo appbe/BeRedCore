@@ -110,7 +110,7 @@
           "icoMat": "launch",
           "icoColor": "color-pink",
           "after": "[III]",
-          "click": "Be.native.open('http://www.a60.com.cn','1')"
+          "click": "Be.native.open('http://www.appbe.net','1')"
         },
         {
           "title": "分享信息",
@@ -118,7 +118,7 @@
           "icoMat": "share",
           "icoColor": "color-pink",
           "after": "[III]",
-          "click": "Be.native.share('智能投资服务','智炜数昂 - 智能投资服务平台','http://www.a60.com.cn')"
+          "click": "Be.native.share('应用贝技术分享网','红贝应用开发架构 - 节约60%开发量','http://www.appbe.net')"
         },
         {
           "title": "拨打电话",
@@ -126,7 +126,7 @@
           "icoMat": "phone",
           "icoColor": "color-pink",
           "after": "[III]",
-          "click": "Be.native.call('18911377887')"
+          "click": "Be.native.call('114')"
         },
         {
           "title": "发送短信",
@@ -169,36 +169,6 @@
           "click": "Be.native.pick('image')"
         },
         {
-          "title": "身份证识别",
-          "icoIos": "ticket",
-          "icoMat": "aspect_ratio",
-          "icoColor": "color-blue",
-          "click": "ocr"
-        },
-        {
-          "title": "人脸识别",
-          "icoIos": "person",
-          "icoMat": "face",
-          "icoColor": "color-blue",
-          "click": "Be.native.face()"
-        },
-        {
-          "title": "播放音频文件",
-          "icoIos": "play",
-          "icoMat": "play_circle_outline",
-          "icoColor": "color-blue",
-          "after": "[IV]",
-          "click": "Be.ext.playAudio('http://be.a60.com.cn/data/heart-spa.mp3')"
-        },
-        {
-          "title": "下载文件",
-          "icoIos": "download_round",
-          "icoMat": "file_download",
-          "icoColor": "color-blue",
-          "after": "[IV]",
-          "click": "Be.native.download('让投资更简单.pptx')"
-        },
-        {
           "title": "位置信息",
           "icoIos": "navigation",
           "icoMat": "place",
@@ -223,20 +193,18 @@
           "click": "ble"
         },
         {
-          "title": "发送邮件",
-          "icoIos": "paper_plane",
-          "icoMat": "mail",
-          "icoColor": "color-black",
-          "after": "[-]",
-          "click": "Be.native.email('mike_bj@126.com','应用贝','敏捷开发架构\\nhttp://www.appbe.net')"
+          "title": "身份证识别",
+          "icoIos": "ticket",
+          "icoMat": "aspect_ratio",
+          "icoColor": "color-blue",
+          "click": "ocr"
         },
         {
-          "title": "读取视频",
-          "icoIos": "film",
-          "icoMat": "movie",
-          "icoColor": "color-black",
-          "after": "[IV]",
-          "click": "Be.native.pick('video')"
+          "title": "人脸识别",
+          "icoIos": "person",
+          "icoMat": "face",
+          "icoColor": "color-blue",
+          "click": "Be.native.face()"
         }
       ]
     }

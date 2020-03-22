@@ -60,19 +60,19 @@
         {
           "text": "Button",
           "click": "",
-          "clsIos": "button col",
+          "clsIos": "button col button-raised",
           "clsMat": "button col button-raised"
         },
         {
           "text": "Button",
           "click": "",
-          "clsIos": "button col",
+          "clsIos": "button col button-raised",
           "clsMat": "button col button-raised"
         },
         {
           "text": "Button",
           "click": "",
-          "clsIos": "button col",
+          "clsIos": "button col button-raised",
           "clsMat": "button col button-raised"
         }
       ]
@@ -90,19 +90,19 @@
         {
           "text": "Button",
           "click": "",
-          "clsIos": "button col",
+          "clsIos": "button col button-fill button-raised",
           "clsMat": "button col button-fill button-raised"
         },
         {
           "text": "Button",
           "click": "",
-          "clsIos": "button col",
+          "clsIos": "button col button-fill button-raised",
           "clsMat": "button col button-fill button-raised"
         },
         {
           "text": "Button",
           "click": "",
-          "clsIos": "button col",
+          "clsIos": "button col button-fill button-raised",
           "clsMat": "button col button-fill button-raised"
         }
       ]
@@ -120,19 +120,19 @@
         {
           "text": "Red",
           "click": "",
-          "clsIos": "button col",
+          "clsIos": "button col color-red",
           "clsMat": "button col color-red"
         },
         {
           "text": "Green",
           "click": "",
-          "clsIos": "button col",
+          "clsIos": "button col color-green",
           "clsMat": "button col color-green"
         },
         {
           "text": "Blue",
           "click": "",
-          "clsIos": "button col",
+          "clsIos": "button col color-blue",
           "clsMat": "button col color-blue"
         }
       ]
@@ -144,19 +144,19 @@
         {
           "text": "Orange",
           "click": "",
-          "clsIos": "button col",
+          "clsIos": "button col color-orange",
           "clsMat": "button col color-orange"
         },
         {
           "text": "Pink",
           "click": "",
-          "clsIos": "button col",
+          "clsIos": "button col color-pink",
           "clsMat": "button col color-pink"
         },
         {
           "text": "Purple",
           "click": "",
-          "clsIos": "button col",
+          "clsIos": "button col color-purple",
           "clsMat": "button col color-purple"
         }
       ]
@@ -168,19 +168,19 @@
         {
           "text": "Cyan",
           "click": "",
-          "clsIos": "button col",
+          "clsIos": "button col color-cyan",
           "clsMat": "button col color-cyan"
         },
         {
           "text": "Teal",
           "click": "",
-          "clsIos": "button col",
+          "clsIos": "button col color-teal",
           "clsMat": "button col color-teal"
         },
         {
           "text": "Indigo",
           "click": "",
-          "clsIos": "button col",
+          "clsIos": "button col color-indigo",
           "clsMat": "button col color-indigo"
         }
       ]
@@ -198,19 +198,19 @@
         {
           "text": "Red",
           "click": "",
-          "clsIos": "button col",
+          "clsIos": "button col button-fill color-red",
           "clsMat": "button col button-fill color-red"
         },
         {
           "text": "Green",
           "click": "",
-          "clsIos": "button col",
+          "clsIos": "button col button-fill color-green",
           "clsMat": "button col button-fill color-green"
         },
         {
           "text": "Blue",
           "click": "",
-          "clsIos": "button col",
+          "clsIos": "button col button-fill color-blue",
           "clsMat": "button col button-fill color-blue"
         }
       ]
@@ -224,30 +224,34 @@
     {
       "type": "button",
       "subtype": "segmented",
+      "subCls": "segmented-raised",
+      "activeIdx": 2,
       "list": [
         {
           "text": "Red",
           "click": "",
           "clsIos": "button",
-          "clsMat": "button button-round button-fill color-red"
+          "clsMat": "button color-red"
         },
         {
           "text": "Green",
           "click": "",
           "clsIos": "button",
-          "clsMat": "button button-round button-fill color-green"
+          "clsMat": "button color-green"
         },
         {
           "text": "Blue",
           "click": "",
           "clsIos": "button",
-          "clsMat": "button button-round button-fill color-blue"
+          "clsMat": "button color-blue"
         }
       ]
     },
     {
       "type": "button",
       "subtype": "segmented",
+      "subCls": "segmented-strong",
+      "activeIdx": 2,
       "list": [
         {
           "text": "Orange",
@@ -272,23 +276,24 @@
     {
       "type": "button",
       "subtype": "segmented",
+      "activeIdx": 2,
       "list": [
         {
           "text": "Cyan",
           "click": "",
-          "clsIos": "button",
+          "clsIos": "button button-outline",
           "clsMat": "button button-raised button-fill color-cyan"
         },
         {
           "text": "Teal",
           "click": "",
-          "clsIos": "button",
+          "clsIos": "button button-outline",
           "clsMat": "button button-raised button-fill color-teal"
         },
         {
           "text": "Indigo",
           "click": "",
-          "clsIos": "button",
+          "clsIos": "button button-outline",
           "clsMat": "button button-raised button-fill color-indigo"
         }
       ]
@@ -296,49 +301,53 @@
     {
       "type": "button",
       "subtype": "segmented",
+      "subCls": "segmented-raised segmented-round",
+      "activeIdx": 2,
       "title": "Color Ripple Buttons",
       "list": [
         {
           "text": "Button",
           "click": "",
-          "clsIos": "button",
-          "clsMat": "button ripple-blue"
+          "clsIos": "button button-round",
+          "clsMat": "button button-round"
         },
         {
           "text": "Button",
           "click": "",
-          "clsIos": "button",
-          "clsMat": "button color-green ripple-pink"
+          "clsIos": "button button-round",
+          "clsMat": "button color-green button-round"
         },
         {
           "text": "Button",
           "click": "",
-          "clsIos": "button",
-          "clsMat": "button color-teal ripple-amber"
+          "clsIos": "button button-round",
+          "clsMat": "button color-teal button-round"
         }
       ]
     },
     {
       "type": "button",
       "subtype": "segmented",
+      "subCls": "segmented-round",
+      "activeIdx": 2,
       "list": [
         {
           "text": "Button",
           "click": "",
-          "clsIos": "button",
-          "clsMat": "button button-raised button-fill color-orange ripple-green"
+          "clsIos": "button button-round button-outline",
+          "clsMat": "button button-raised button-fill color-orange button-round button-outline"
         },
         {
           "text": "Button",
           "click": "",
-          "clsIos": "button",
-          "clsMat": "button button-raised button-fill color-pink ripple-blue"
+          "clsIos": "button button-round button-outline",
+          "clsMat": "button button-raised button-fill color-pink button-round button-outline"
         },
         {
           "text": "Button",
           "click": "",
-          "clsIos": "button",
-          "clsMat": "button button-raised button-fill color-purple ripple-yellow"
+          "clsIos": "button button-round button-outline",
+          "clsMat": "button button-raised button-fill color-purple button-round button-outline"
         }
       ]
     },
@@ -350,37 +359,37 @@
     },
     {
       "type": "button",
-      "subtype": "segmented",
+      "subtype": "grid",
       "list": [
         {
           "text": "Button",
           "click": "",
-          "clsIos": "button",
-          "clsMat": "button button-big color-green"
+          "clsIos": "col button button-large",
+          "clsMat": "col button button-large color-green"
         },
         {
           "text": "Button",
           "click": "",
-          "clsIos": "button",
-          "clsMat": "button button-big color-red"
+          "clsIos": "col button button-large button-fill",
+          "clsMat": "col button button-large color-red"
         }
       ]
     },
     {
       "type": "button",
-      "subtype": "segmented",
+      "subtype": "grid",
       "list": [
         {
           "text": "Button",
           "click": "",
-          "clsIos": "button",
-          "clsMat": "button button-big button-fill button-raised color-pink"
+          "clsIos": "col button button-large button-raised",
+          "clsMat": "col button button-large button-raised color-pink"
         },
         {
           "text": "Button",
           "click": "",
-          "clsIos": "button",
-          "clsMat": "button button-big button-fill button-raised color-teal"
+          "clsIos": "col button button-large button-fill button-raised",
+          "clsMat": "col button button-large button-fill button-raised color-teal"
         }
       ]
     }

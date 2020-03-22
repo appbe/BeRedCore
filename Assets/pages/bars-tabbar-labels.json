@@ -27,6 +27,8 @@
           "icoIos": "at",
           "icoMat": "email",
           "label": "Inbox",
+          "badge": "2",
+          "badgeCls": "badge color-blue",
           "click": "tabs-page-1"
         },
         {

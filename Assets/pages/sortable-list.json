@@ -17,7 +17,7 @@
         },
         {
           "type": "right",
-          "class": "link sortable-toggle icon-only",
+          "class": "link sortable-toggle",
           "text": "Edit"
         }
       ]
@@ -77,34 +77,6 @@
           "icoIos": "icon icon-be",
           "icoMat": "icon icon-be",
           "after": "Manager"
-        }
-      ]
-    },
-    {
-      "type": "list-media",
-      "subtype": "image",
-      "sortable": "1",
-      "list": [
-        {
-          "image": "{url}/assets/img/people-1.jpg",
-          "title": "Yellow Submarine",
-          "subtitle": "Beatles",
-          "after": "$15",
-          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sagittis tellus ut turpis condimentum, ut dignissim lacus tincidunt. Cras dolor metus, ultrices condimentum sodales sit amet, pharetra sodales eros. Phasellus vel felis tellus. Mauris rutrum ligula nec dapibus feugiat. In vel dui laoreet, commodo augue id, pulvinar lacus."
-        },
-        {
-          "image": "{url}/assets/img/people-2.jpg",
-          "title": "Don't Stop Me Now",
-          "subtitle": "Queen",
-          "after": "$22",
-          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sagittis tellus ut turpis condimentum, ut dignissim lacus tincidunt. Cras dolor metus, ultrices condimentum sodales sit amet, pharetra sodales eros. Phasellus vel felis tellus. Mauris rutrum ligula nec dapibus feugiat. In vel dui laoreet, commodo augue id, pulvinar lacus."
-        },
-        {
-          "image": "{url}/assets/img/people-3.jpg",
-          "title": "Billie Jean",
-          "subtitle": "Michael Jackson",
-          "after": "$16",
-          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sagittis tellus ut turpis condimentum, ut dignissim lacus tincidunt. Cras dolor metus, ultrices condimentum sodales sit amet, pharetra sodales eros. Phasellus vel felis tellus. Mauris rutrum ligula nec dapibus feugiat. In vel dui laoreet, commodo augue id, pulvinar lacus."
         }
       ]
     }

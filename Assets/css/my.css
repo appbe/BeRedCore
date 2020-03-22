@@ -1,0 +1,19 @@
+/**
+ *
+ * CSS Color
+ *
+ */
+/*
+:root {
+    --f7-bars-text-color: #fff;
+    --f7-bars-bg-color: #673ab7;
+    --f7-navbar-link-color: #fff;
+}*/
+.cust-panel{
+    background:#fff;
+}
+/*  已经添加到appbe-core.css文件中[.sortable .no-select-text]
+.no-select-text {-moz-user-select: none;-webkit-user-select: none;user-select: none;} */
+.timeline-item-divider {
+    background: var(--f7-theme-color);
+}

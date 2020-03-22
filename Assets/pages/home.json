@@ -18,7 +18,7 @@
         },
         {
           "type": "right",
-          "icoIos": "data",
+          "icoIos": "app",
           "icoMat": "apps",
           "class": "link icon-only",
           "click": "#"
@@ -77,18 +77,6 @@
           "icoIos": "icon icon-be",
           "icoMat": "icon icon-be",
           "click": "picker"
-        },
-        {
-          "title": "Calendar / Datepicker",
-          "icoIos": "icon icon-be",
-          "icoMat": "icon icon-be",
-          "click": "calendar"
-        },
-        {
-          "title": "Calendar Event",
-          "icoIos": "icon icon-be",
-          "icoMat": "icon icon-be",
-          "click": "calendar-event"
         },
         {
           "title": "Cards",
@@ -223,6 +211,13 @@
           "click": "audio-lists"
         },
         {
+          "title": "Menu",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "badgeCls": "badge bg-color-green",
+          "click": "menu"
+        },
+        {
           "title": "Messages",
           "icoIos": "icon icon-be",
           "icoMat": "icon icon-be",
@@ -270,7 +265,7 @@
           "title": "Preloader",
           "icoIos": "icon icon-be",
           "icoMat": "icon icon-be",
-          "click": "preloader"
+          "click": "preloader.{theme}"
         },
         {
           "title": "Progress Bar",
@@ -327,6 +322,14 @@
           "click": "toast"
         },
         {
+          "title": "Upload File",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "after": "NEW",
+          "badgeCls": "badge bg-color-green",
+          "click": "forms-upload"
+        },
+        {
           "title": "Virtual List",
           "icoIos": "icon icon-be",
           "icoMat": "icon icon-be",
@@ -363,28 +366,20 @@
           "click": "sample"
         },
         {
-          "title": "Video Player",
-          "icoIos": "icon icon-be",
-          "icoMat": "icon icon-be",
-          "after": "NEW",
-          "badgeCls": "badge bg-color-green",
-          "click": "video"
-        },
-        {
-          "title": "e-Shopping",
-          "icoIos": "icon icon-be",
-          "icoMat": "icon icon-be",
-          "after": "NEW",
-          "badgeCls": "badge bg-color-green",
-          "click": "e-shopping"
-        },
-        {
           "title": "Photo Cover",
           "icoIos": "icon icon-be",
           "icoMat": "icon icon-be",
           "after": "NEW",
           "badgeCls": "badge bg-color-green",
           "click": "photo-cover-1"
+        },
+        {
+          "title": "Video Player",
+          "icoIos": "icon icon-be",
+          "icoMat": "icon icon-be",
+          "after": "NEW",
+          "badgeCls": "badge bg-color-green",
+          "click": "video"
         },
         {
           "title": "Encrypt & Decrypt",

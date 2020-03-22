@@ -60,36 +60,6 @@
           "click": "effect-four-box3"
         },
         {
-          "title": "Animated Frame Slideshow 1",
-          "icoIos": "icon icon-be",
-          "icoMat": "icon icon-be",
-          "click": "effect-animated-frame"
-        },
-        {
-          "title": "Animated Frame Slideshow 2",
-          "icoIos": "icon icon-be",
-          "icoMat": "icon icon-be",
-          "click": "effect-animated-frame2"
-        },
-        {
-          "title": "Animated Frame Slideshow 3",
-          "icoIos": "icon icon-be",
-          "icoMat": "icon icon-be",
-          "click": "effect-animated-frame3"
-        },
-        {
-          "title": "Animated Frame Slideshow 4",
-          "icoIos": "icon icon-be",
-          "icoMat": "icon icon-be",
-          "click": "effect-animated-frame4"
-        },
-        {
-          "title": "Animated Frame Slideshow 5",
-          "icoIos": "icon icon-be",
-          "icoMat": "icon icon-be",
-          "click": "effect-animated-frame5"
-        },
-        {
           "title": "CSS Mask Transition 1",
           "icoIos": "icon icon-be",
           "icoMat": "icon icon-be",

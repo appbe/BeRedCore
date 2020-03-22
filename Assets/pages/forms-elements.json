@@ -129,6 +129,7 @@
           "icoIos": "filter",
           "icoMat": "settings",
           "label": "Slider",
+          "color": "color-green",
           "min": "0",
           "max": "100",
           "step": "1"

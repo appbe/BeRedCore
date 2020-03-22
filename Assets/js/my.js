@@ -203,16 +203,139 @@ function doMonthSelected(pageName,e, date, setEvent) {
 function doYearSelected(pageName,e, date, setEvent) {
     console.log('pageName=' + pageName +',yearSelected=' + date.format('YYYY-MM-DD'));
 }
+function doQr() {
+    var currPage = document.querySelector('.page[data-name="home"]');
+    var iTop = currPage.querySelector('.page-content').scrollTop;
+    console.log('>>' + iTop);
+}
+//Page Events
+//document.addEventListener("page.shown.home", homeShownEvt);
+//document.addEventListener("page.hidden.home", homeHiddenEvt);
+//document.addEventListener("page.shown.core-features", coreFeaturesHiddenEvt);
+//document.addEventListener("page.shown.picker", pickerShownEvt);
+//Be.dom.on("page.shown.home", homeShownEvt);
+Be.dom.on("page.shown.picker", pickerShownEvt);
+Be.dom.on("page.shown.notifications", notiShownEvt);
+Be.dom.on("page.shown.progressbar", progressbarShownEvt);
+Be.dom.on("page.shown.toast", toastShownEvt);
+Be.dom.on("page.drag.end", shortEndEvt);
+function shortEndEvt(e) {
+    console.log("****page.drag.end");
+    console.log(e.detail);
+}
+function homeShownEvt(e) {
+    console.log("****page.shown.home");
+    console.log(e);
+    console.log(e.detail);
+}
+function homeHiddenEvt(e) {
+    console.log("----page.hidden.home");
+    console.log(e);
+    console.log(e.detail);
+}
+function coreFeaturesHiddenEvt(e) {
+    console.log("----page.shown.core-features");
+    console.log(e);
+    console.log(e.detail);
+}
+function pickerShownEvt(e) {
+    var arrDevice = ["iPhone 4", "iPhone 4S", "iPhone 5", "iPhone 5S", "iPhone 6", "iPhone 6 Plus", "iPad 2", "iPad Retina", "iPad Air", "iPad mini", "iPad mini 2", "iPad mini 3"];
+    var weekdayArr = ["周日", "周一", "周二", "周三", "周四", "周五", "周六"];
+    var timeArr = ["08:30", "09:00", "09:30", "10:00", "10:30", "11:00", "11:30", "12:00", "12:30", "13:00", "13:30", "14:00", "14:30", "15:00", "15:30", "16:00", "16:30", "17:00", "17:30", "18:00", "18:30", "19:00", "19:30", "20:00", "20:30", "21:00"];
+    var numArr = ["1", "2", "3", "4", "5"];
+    var UplinkData = [{ id: "1", value: "兰博基尼" }, { id: "2", value: "劳斯莱斯", childs: [{ id: "1", value: "曜影" }, { id: "2", value: "幻影", childs: [{ id: "1", value: "标准版" }, { id: "2", value: "加长版" }, { id: "3", value: "巅峰之旅" }, { id: "4", value: "流光熠世" }, { id: "5", value: "都会典藏版" }] }, { id: "3", value: "古思特", childs: [{ id: "1", value: "加长版" }, { id: "2", value: "永恒之爱" }, { id: "3", value: "英骥" }, { id: "4", value: "阿尔卑斯典藏版" }] }, { id: "4", value: "魅影", childs: [{ id: "1", value: "标准版" }, { id: "2", value: "Black Badge" }] }] }, { id: "3", value: "宾利", childs: [{ id: "1", value: "慕尚", childs: [{ id: "1", value: "标准版" }, { id: "2", value: "极致版" }] }, { id: "2", value: "欧陆", childs: [{ id: "1", value: "尊贵版" }, { id: "2", value: "敞篷标准版" }, { id: "3", value: "敞篷尊贵版" }] }] }, { id: "4", value: "法拉利", childs: [{ id: "1", value: "LaFerrari" }, { id: "2", value: "法拉利488" }, { id: "3", value: "GTC4Lusso" }] }, { id: "5", value: "玛莎拉蒂", childs: [{ id: "1", value: "总裁" }, { id: "2", value: "玛莎拉蒂GT" }, { id: "3", value: "Levante" }] }];
+    var mobileSelect1 = new MobileSelect({ trigger: "#ks-picker-device", title: "", wheels: [{ data: arrDevice }], position: [2], callback: function (indexArr, data) { var $input = document.querySelector("#ks-picker-device"); $input.dataset.key = indexArr; } });
+    var mobileSelect2 = new MobileSelect({ trigger: "#ks-picker-describe", title: "双项选择", wheels: [{ data: weekdayArr }, { data: timeArr }], position: [1, 2], transitionEnd: function (indexArr, data) { }, callback: function (indexArr, data) { var $input = document.querySelector("#ks-picker-describe"); $input.dataset.key = indexArr; }});
+    var mobileSelect3 = new MobileSelect({ trigger: "#ks-picker-dependent", title: "车型选择", wheels: [{ data: UplinkData }], position: [2, 0], transitionEnd: function (indexArr, data) { }, callback: function (indexArr, data) { var $input = document.querySelector("#ks-picker-dependent"); $input.dataset.key = indexArr; } });
+    var mobileSelect4 = new MobileSelect({ trigger: "#ks-picker-dependent-1", title: "地区选择", wheels: [{ data: [{ id: "1", value: "附近", childs: [{ id: "1", value: "1000米" }, { id: "2", value: "2000米" }, { id: "3", value: "3000米" }, { id: "4", value: "5000米" }, { id: "5", value: "10000米" }] }, { id: "2", value: "上城区" }, { id: "3", value: "下城区" }, { id: "4", value: "江干区" }, { id: "5", value: "拱墅区" }, { id: "6", value: "西湖区" }] }], transitionEnd: function (indexArr, data) { }, callback: function (indexArr, data) { var $input = document.querySelector("#ks-picker-dependent-1"); $input.dataset.key = indexArr; } });
+    var mobileSelect5 = new MobileSelect({ trigger: "#ks-picker-mutil", title: "多项选择", wheels: [{ data: numArr }, { data: numArr }, { data: numArr }, { data: numArr }, { data: numArr }], position: [0, 1, 0, 1, 0], transitionEnd: function (indexArr, data) { }, callback: function (indexArr, data) { var $input = document.querySelector("#ks-picker-mutil"); $input.dataset.key = indexArr; } });
+}
+function notiShownEvt(e) {
+    var oPage = Be.dom.page(e.detail.name); 
+    var notiFull = { icon: '<i class="icon icon-be-18"></i>', title: 'AppBe', titleRightText: 'now', subtitle: 'This is a subtitle', text: 'This is a simple notification message', closeTimeout: 3000 };
+    var notiWithButton = { icon: '<i class="icon icon-be-18"></i>', title: 'AppBe', subtitle: 'Notification with close button', text: 'Click (x) button to close me', closeButton: true };
+    var notiCallbackOnClose = { icon: '<i class="icon icon-be-18"></i>', title: 'AppBe', titleRightText: 'now', subtitle: 'Notification with close on click', text: 'Click me to close', closeButton: true, onClick: function () { Be.app.alert('Notification closed'); } };
+    //Be.dom.on('click', function () { Be.app.notification(notiFull); }, Be.dom.$('.open-full', oPage));
+    Be.dom.on('click', function () { Be.app.notification(notiFull); }, Be.dom.$('.open-full', oPage));
+    Be.dom.on('click', function () { Be.app.notification(notiWithButton); }, Be.dom.$('.open-with-button', oPage));
+    Be.dom.on('click', function () { Be.app.notification(notiCallbackOnClose); }, Be.dom.$('.open-callback-on-close', oPage));
+}
+function progressbarShownEvt(e) {
+    var evtClick1 = function (e) {
+        var value = e.target.getAttribute('data-progress');
+        var pbar = Be.dom.$('#pbar-1');
+        Be.app.progressbar.set(pbar, value);
+    };
+    var evtClick2 = function (e) {
+        var pbar = Be.app.progressbar.show(0, 'red');
+        var progress = 0;
+        function simulateLoading() {
+            setTimeout(function () {
+                var progressBefore = progress;
+                progress += Math.random() * 20;
+                Be.app.progressbar.set(pbar, progress);
+                if (progressBefore < 100) { simulateLoading(); }
+                else Be.app.progressbar.hide(pbar);
+            }, Math.random() * 200 + 200);
+        }
+        simulateLoading();
+    };
+    var evtClick3 = function () {
+        Be.app.progressbar.show('', 'green');
+    };
+    var arrButton = Be.dom.$$('.ks-demo-progressbar-inline .button');
+    [].forEach.call(arrButton, function (oButton) { Be.dom.on('click', evtClick1, oButton); });
+    Be.dom.on('click', evtClick2, Be.dom.$('.ks-demo-progressbar-overlay .button'));
+    Be.dom.on('click', evtClick3, Be.dom.$('.ks-demo-progressbar-infinite-overlay .button'));
+}
+function toastShownEvt(e) {
+    var oPage = Be.dom.page(e.detail.name);
+    var notiBottom = { text: 'This is default bottom positioned toast', closeTimeout: 2000 };
+    var notiTop = { text: 'Top positioned toast', position: 'top' };
+    var notiCenter = { text: 'I\'m on center',position: 'center',closeTimeout: 2000};
+    var notiIcon = {icon:'star',text: 'I\'m with icon', position: 'center', closeTimeout: 2000 };
+    var notiButton = { text: 'Toast with additional close button', closeButton: true };
+    var notiCustom = { text: 'Custom close button', closeButton: true, closeButtonText: 'Close Me', closeButtonColor: 'red' };
+    var notiCallback = { text: 'Callback on close', closeButton: true, onClick: function () { Be.app.alert('Toast closed'); } };
+
+    Be.dom.on('click', function (e) { Be.app.toast(notiBottom); }, Be.dom.$('.toast-bottom',oPage));
+    Be.dom.on('click', function (e) { Be.app.toast(notiTop); },  Be.dom.$('.toast-top',oPage));
+    Be.dom.on('click', function () { Be.app.toast(notiCenter); },  Be.dom.$('.toast-center',oPage));
+    Be.dom.on('click', function () { Be.app.toast(notiIcon); },  Be.dom.$('.toast-icon',oPage));
+    Be.dom.on('click', function () { Be.app.toast(notiButton); },  Be.dom.$('.toast-close',oPage));
+    Be.dom.on('click', function () { Be.app.toast(notiCustom); },  Be.dom.$('.toast-custom',oPage));
+    Be.dom.on('click', function () { Be.app.toast(notiCallback); },  Be.dom.$('.toast-callback',oPage));
+}
+/*
+$(document).on('page.shown', '.page[data-name="home"]', function (event, target) {
+    var oPageContent = $(this).find('div.page-content');
+    Be.util.setupWebApp(oPageContent);
+});
+$(document).on('page.shown', function (event, target) {
+    console.log(event);
+    console.log(target);
+    var oPageContent = $(this).find('div.page-content');
+    console.log(oPageContent.data('name'));
+    Be.util.setupWebApp(oPageContent);
+});
+*/
+
 // Amcharts  
 // Column & Bar
-$(document).on('page.shown', '.page[data-name="simple-column-chart"]', function (event, target) {
-    var oPage = $(this);
-    Be.native.landscape(oPage, '#chartdiv1');
-    var data = $('#dat-simple-column').text();
-    var chartData = JSON.parse(data);
+Be.dom.on("page.shown.chart-simple-column", chartSimpleColumnShownEvt);
+Be.dom.on("page.shown.chart-column-with-rotated-series", chartColumnWithRotatedSeriesShownEvt);
+Be.dom.on("page.shown.chart-column-and-line-mix", chartColumnAndLineMixShownEvt);
+Be.dom.on("page.shown.chart-3d-column", chart3dColumnShownEvt);
+Be.dom.on("page.shown.chart-clustered-bar", chartClusteredBarShownEvt);
+Be.dom.on("page.shown.chart-3d-bar", chart3dBarShownEvt);
+function chartSimpleColumnShownEvt(e) {
     var chart = AmCharts.makeChart("chartdiv1", {
         "type": "serial",
-        "dataProvider": chartData,
+        //"dataProvider": chartData,
+        "dataLoader": {
+            "url": "/Assets/data/chart.json",
+            "format": "json"
+        },
         "valueAxes": [{
             "gridColor": "#FFFFFF",
             "gridAlpha": 0.2,
@@ -240,12 +363,9 @@ $(document).on('page.shown', '.page[data-name="simple-column-chart"]', function 
             "tickLength": 20
         }
     });
-});
-$(document).on('page.hidden', '.page[data-name="simple-column-chart"]', function (event, target) {
-    Be.native.unlock();
-});
-$(document).on('page.shown', '.page[data-name="column-with-rotated-series"]', function (event, target) {
-    var data = $('#dat-column-rotated').text();
+}
+function chartColumnWithRotatedSeriesShownEvt(e) {
+    var data = Be.dom.$('#dat-column-rotated').innerText;
     var chartData = JSON.parse(data);
     var chart = AmCharts.makeChart("chartdiv2", {
         "type": "serial",
@@ -277,9 +397,12 @@ $(document).on('page.shown', '.page[data-name="column-with-rotated-series"]', fu
         }
 
     });
-});
-$(document).on('page.shown', '.page[data-name="column-and-line-mix"]', function (event, target) {
-    var data = $('#dat-column-and-line').text();
+    Be.dom.$('#chartdiv2').style.height = (Be.height - 60) + 'px';
+}
+function chartColumnAndLineMixShownEvt(e) {
+    var oPage = Be.dom.page(e.detail.name);
+    var oContainer = Be.dom.$('#dat-column-and-line', oPage);
+    var data = Be.dom.text(oContainer);
     var chartData = JSON.parse(data);
     var chart = AmCharts.makeChart("chartdiv3", {
         "type": "serial",
@@ -333,9 +456,12 @@ $(document).on('page.shown', '.page[data-name="column-and-line-mix"]', function 
             "tickLength": 0
         }
     });
-});
-$(document).on('page.shown', '.page[data-name="3d-column-chart"]', function (event, target) {
-    var data = $('#dat-3d-column').text();
+    Be.dom.$('#chartdiv3').style.height = (Be.height - 60) + 'px';
+}
+function chart3dColumnShownEvt(e) {
+    var oPage = Be.dom.page(e.detail.name);
+    var oContainer = Be.dom.$('#dat-3d-column', oPage);
+    var data = Be.dom.text(oContainer);
     var chartData = JSON.parse(data);
     var chart = AmCharts.makeChart("chartdiv4", {
         "type": "serial",
@@ -365,11 +491,13 @@ $(document).on('page.shown', '.page[data-name="3d-column-chart"]', function (eve
             "gridPosition": "start",
             "labelRotation": 90
         }
-
     });
-});
-$(document).on('page.shown', '.page[data-name="clustered-bar-chart"]', function (event, target) {
-    var data = $('#dat-clustered-bar').text();
+    Be.dom.$('#chartdiv4').style.height = (Be.height - 120) + 'px';
+}
+function chartClusteredBarShownEvt(e) {
+    var oPage = Be.dom.page(e.detail.name);
+    var oContainer = Be.dom.$('#dat-clustered-bar', oPage);
+    var data = Be.dom.text(oContainer);
     var chartData = JSON.parse(data);
     var chart = AmCharts.makeChart("chartdiv5", {
         "type": "serial",
@@ -414,9 +542,12 @@ $(document).on('page.shown', '.page[data-name="clustered-bar-chart"]', function 
         "titles": [],
         "dataProvider": chartData
     });
-});
-$(document).on('page.shown', '.page[data-name="3d-bar-chart"]', function (event, target) {
-    var data = $('#dat-3d-bar').text();
+}
+function chart3dBarShownEvt(e) {
+    console.log(e);
+    var oPage = Be.dom.page(e.detail.name);
+    var oContainer = Be.dom.$('#dat-3d-bar', oPage);
+    var data = Be.dom.text(oContainer);
     var chartData = JSON.parse(data);
     var chart = AmCharts.makeChart("chartdiv6", {
         "theme": "none",
@@ -443,8 +574,8 @@ $(document).on('page.shown', '.page[data-name="3d-bar-chart"]', function (event,
             "position": "left"
         }
     });
-});
-
+}
+/*
 // Line & Area 
 $(document).on('page.shown', '.page[data-name="line-chart-with-scroll-and-zoom"]', function (event, target) {
     var oPage = $(this);
@@ -1307,24 +1438,52 @@ $(document).on('page.shown', '.page[data-name="polar-scatter"]', function (event
         }]
     });
 });
+*/
 
+function doUploadFile(inputId) {
+    var uploadInput = document.getElementById(inputId);
+    var postUrl = Be.config.url + '/' + Be.config.handlerPostName + '.ashx';
+    postUrl = Be.util.appendString(postUrl);
+
+    //console.log(uploadInput.files); // File listing!
+    //console.log('--------------------');
+    for (var i = 0, fileCount = uploadInput.files.length; i < fileCount; i++) {
+        //console.log(uploadInput.files[i]);
+        Be.util.upload(uploadInput.files[i], inputId, postUrl);
+    }
+}
+function doUploadPhoto(inputId) {
+    var uploadInput = document.getElementById(inputId);
+    var postUrl = Be.config.url + '/' + Be.config.handlerPostName + '.ashx';
+    postUrl = Be.util.appendString(postUrl);
+    var quality = 0.8, zoomRate = 2, ignoreSize = 1024 * 512; //设置压缩大于512KB的文件
+
+    for (var i = 0, fileCount = uploadInput.files.length; i < fileCount; i++) {
+        console.log(uploadInput.files[i]);
+        Be.util.compressImage(uploadInput.files[i], quality, zoomRate, ignoreSize, function (file) {
+            //console.log(file);
+            Be.util.upload(file, inputId, postUrl);
+            uploadInput.value = ''; //加不加都行，解决无法上传重复图片的问题。
+        });
+    }
+}
 function doEncrypt() {
-    var clear = $('#clear'), cipher = $('#cipher');
+    var clear = Be.dom.$('#clear'), cipher = Be.dom.$('#cipher');
     // Encrypt
-    var ciphertext =Be.util.crypto.encrypt(clear.val());
-    cipher.val(ciphertext);
+    var ciphertext = Be.util.crypto.encrypt(clear.value);
+    cipher.value = ciphertext;
 }
 function doDecrypt() {
-    var clear = $('#clear1'), cipher = $('#cipher');
+    var clear = Be.dom.$('#clear1'), cipher = Be.dom.$('#cipher');
     // Encrypt
-    var plaintext = Be.util.crypto.decrypt(cipher.val());
-    clear.val(plaintext);
+    var plaintext = Be.util.crypto.decrypt(cipher.value);
+    clear.value = plaintext;
 }
 function doMD5() {
-    var clear = $('#txtOrg'), cipher = $('#txtEncypt');
+    var clear = Be.dom.$('#txtOrg'), cipher = Be.dom.$('#txtEncypt');
     // Encrypt
-    var ciphertext =Be.util.md5(clear.val());
-    cipher.val(ciphertext);
+    var ciphertext = Be.util.md5(clear.value);
+    cipher.value = ciphertext;
 }
 
 function doCheckWifi(ssid) {
@@ -1336,8 +1495,9 @@ function doConnectWifi(ssid, password) {
         Be.native.postMessage("connect-wifi", function (responseAsJSON) {
             Be.app.alert('connect:' + responseAsJSON.result);
         }.toString(), { "ssid": ssid, "password": password });
-    }
+}
+
 //init home page
-Be.config.handlerPostfix='.json';  //use statice page
+Be.config.color = 'red';
 Be.app.init();
 if (Be.config.type === 'web') Be.util.loadScript(Be.config.url + '/Assets/js/amcharts.min.js');

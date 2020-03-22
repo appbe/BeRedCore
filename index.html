@@ -1,51 +1,469 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui, viewport-fit=cover" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="default" />
-    <meta http-equiv="Content-Security-Policy" content="default-src * 'self' 'unsafe-inline' 'unsafe-eval' data: gap:" />
     <title>应用贝</title>
     <link rel="apple-touch-icon" href="Assets/img/app-icon.png">
-    <link rel="icon" href="Assets/img/app-icon.png">
+    <link rel="icon" href="Assets/img/app-icon-white.png">
     <link rel="stylesheet" href="Assets/css/appbe-ext.min.css" />
-    <script type="text/javascript">
-        function getUrlParam (name) {
-            var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
-            var r = window.location.search.substr(1).match(reg);
-            if (r !== null) return unescape(r[2]);
-            return null;
+    <link rel="stylesheet" href="Assets/css/appbe-core.css" />
+    <style type="text/css">        
+        .scale-in-center {
+            -webkit-animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+            animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
         }
-        function loadCss (url) {
-            var head = document.getElementsByTagName('head')[0];
-            var link = document.createElement('link');
-            link.href = url;
-            link.rel = 'stylesheet';
-            link.type = 'text/css';
-            head.appendChild(link);
+        .slide-out-tr {
+            -webkit-animation: slide-out-tr 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+            animation: slide-out-tr 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
         }
-        var appTheme = getUrlParam('theme') || 'md';
-        loadCss('Assets/css/appbe-core.' + appTheme + '.min.css');
-    </script>
+        .slide-in-bottom {
+            -webkit-animation: slide-in-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+            animation: slide-in-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+        }
+        .slide-out-bottom {
+            -webkit-animation: slide-out-bottom 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+            animation: slide-out-bottom 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+        }
+        .rotate-center {
+            -webkit-animation: rotate-center 0.6s ease-in-out both;
+            animation: rotate-center 0.6s ease-in-out both;
+        }
+        .rotate-bl {
+            -webkit-animation: rotate-bl 0.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+            animation: rotate-bl 0.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+        }
+        .flip-in-hor-bottom {
+            -webkit-animation: flip-in-hor-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+            animation: flip-in-hor-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+        }
+        .flip-in-ver-right {
+            -webkit-animation: flip-in-ver-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+            animation: flip-in-ver-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+        }
+        .slide-in-left {
+            -webkit-animation: slide-in-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+            animation: slide-in-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+        }
+        .slide-in-right {
+            -webkit-animation: slide-in-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+            animation: slide-in-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+        }
+        .slide-out-left {
+            -webkit-animation: slide-out-left 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+            animation: slide-out-left 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+        }
+        .slide-out-right {
+            -webkit-animation: slide-out-right 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+            animation: slide-out-right 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+        }
+        /**
+         * ----------------------------------------
+         * animation slide-out-tr
+         * ----------------------------------------
+         */
+        @-webkit-keyframes slide-out-tr {
+            0% {
+                -webkit-transform: translateY(0) translateX(0);
+                transform: translateY(0) translateX(0);
+                opacity: 1;
+            }
+
+            100% {
+                -webkit-transform: translateY(-1000px) translateX(1000px);
+                transform: translateY(-1000px) translateX(1000px);
+                opacity: 0;
+            }
+        }
+
+        @keyframes slide-out-tr {
+            0% {
+                -webkit-transform: translateY(0) translateX(0);
+                transform: translateY(0) translateX(0);
+                opacity: 1;
+            }
+
+            100% {
+                -webkit-transform: translateY(-1000px) translateX(1000px);
+                transform: translateY(-1000px) translateX(1000px);
+                opacity: 0;
+            }
+        }
+
+        /**
+         * ----------------------------------------
+         * animation scale-in-center
+         * ----------------------------------------
+         */
+        @-webkit-keyframes scale-in-center {
+            0% {
+                -webkit-transform: scale(0);
+                transform: scale(0);
+                opacity: 1;
+            }
+            100% {
+                -webkit-transform: scale(1);
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+
+        @keyframes scale-in-center {
+            0% {
+                -webkit-transform: scale(0);
+                transform: scale(0);
+                opacity: 1;
+            }
+            100% {
+                -webkit-transform: scale(1);
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+
+        /**
+         * ----------------------------------------
+         * animation slide-in-bottom
+         * ----------------------------------------
+         */
+        @-webkit-keyframes slide-in-bottom {
+            0% {
+                -webkit-transform: translateY(1000px);
+                transform: translateY(1000px);
+                opacity: 0;
+            }
+
+            100% {
+                -webkit-transform: translateY(0);
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        @keyframes slide-in-bottom {
+            0% {
+                -webkit-transform: translateY(1000px);
+                transform: translateY(1000px);
+                opacity: 0;
+            }
+
+            100% {
+                -webkit-transform: translateY(0);
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+
+        /**
+         * ----------------------------------------
+         * animation slide-out-bottom
+         * ----------------------------------------
+         */
+        @-webkit-keyframes slide-out-bottom {
+            0% {
+                -webkit-transform: translateY(0);
+                transform: translateY(0);
+                opacity: 1;
+            }
+
+            100% {
+                -webkit-transform: translateY(1000px);
+                transform: translateY(1000px);
+                opacity: 0;
+            }
+        }
+
+        @keyframes slide-out-bottom {
+            0% {
+                -webkit-transform: translateY(0);
+                transform: translateY(0);
+                opacity: 1;
+            }
+
+            100% {
+                -webkit-transform: translateY(1000px);
+                transform: translateY(1000px);
+                opacity: 0;
+            }
+        }
+        /**
+         * ----------------------------------------
+         * animation rotate-center
+         * ----------------------------------------
+         */
+        @-webkit-keyframes rotate-center {
+            0% {
+                -webkit-transform: rotate(0);
+                transform: rotate(0);
+            }
+
+            100% {
+                -webkit-transform: rotate(360deg);
+                transform: rotate(360deg);
+            }
+        }
+        @keyframes rotate-center {
+            0% {
+                -webkit-transform: rotate(0);
+                transform: rotate(0);
+            }
+
+            100% {
+                -webkit-transform: rotate(360deg);
+                transform: rotate(360deg);
+            }
+        }
+        /**
+         * ----------------------------------------
+         * animation rotate-bl
+         * ----------------------------------------
+         */
+        @-webkit-keyframes rotate-bl {
+            0% {
+                -webkit-transform: rotate(0);
+                transform: rotate(0);
+                -webkit-transform-origin: bottom left;
+                transform-origin: bottom left;
+            }
+
+            100% {
+                -webkit-transform: rotate(360deg);
+                transform: rotate(360deg);
+                -webkit-transform-origin: bottom left;
+                transform-origin: bottom left;
+            }
+        }
+
+        @keyframes rotate-bl {
+            0% {
+                -webkit-transform: rotate(0);
+                transform: rotate(0);
+                -webkit-transform-origin: bottom left;
+                transform-origin: bottom left;
+            }
+
+            100% {
+                -webkit-transform: rotate(360deg);
+                transform: rotate(360deg);
+                -webkit-transform-origin: bottom left;
+                transform-origin: bottom left;
+            }
+        }
+        /**
+         * ----------------------------------------
+         * animation flip-in-hor-bottom
+         * ----------------------------------------
+         */
+        @-webkit-keyframes flip-in-hor-bottom {
+            0% {
+                -webkit-transform: rotateX(80deg);
+                transform: rotateX(80deg);
+                opacity: 0;
+            }
+
+            100% {
+                -webkit-transform: rotateX(0);
+                transform: rotateX(0);
+                opacity: 1;
+            }
+        }
+
+        @keyframes flip-in-hor-bottom {
+            0% {
+                -webkit-transform: rotateX(80deg);
+                transform: rotateX(80deg);
+                opacity: 0;
+            }
+
+            100% {
+                -webkit-transform: rotateX(0);
+                transform: rotateX(0);
+                opacity: 1;
+            }
+        }
+        /**
+         * ----------------------------------------
+         * animation flip-in-ver-right
+         * ----------------------------------------
+         */
+        @-webkit-keyframes flip-in-ver-right {
+            0% {
+                -webkit-transform: rotateY(-80deg);
+                transform: rotateY(-80deg);
+                opacity: 0;
+            }
+
+            100% {
+                -webkit-transform: rotateY(0);
+                transform: rotateY(0);
+                opacity: 1;
+            }
+        }
+
+        @keyframes flip-in-ver-right {
+            0% {
+                -webkit-transform: rotateY(-80deg);
+                transform: rotateY(-80deg);
+                opacity: 0;
+            }
+
+            100% {
+                -webkit-transform: rotateY(0);
+                transform: rotateY(0);
+                opacity: 1;
+            }
+        }
+        /**
+         * ----------------------------------------
+         * animation slide-in-left
+         * ----------------------------------------
+         */
+        @-webkit-keyframes slide-in-left {
+            0% {
+                -webkit-transform: translateX(-1000px);
+                transform: translateX(-1000px);
+                opacity: 0;
+            }
+
+            100% {
+                -webkit-transform: translateX(0);
+                transform: translateX(0);
+                opacity: 1;
+            }
+        }
+
+        @keyframes slide-in-left {
+            0% {
+                -webkit-transform: translateX(-1000px);
+                transform: translateX(-1000px);
+                opacity: 0;
+            }
+
+            100% {
+                -webkit-transform: translateX(0);
+                transform: translateX(0);
+                opacity: 1;
+            }
+        }
+        /**
+         * ----------------------------------------
+         * animation slide-in-right
+         * ----------------------------------------
+         */
+        @-webkit-keyframes slide-in-right {
+            0% {
+                -webkit-transform: translateX(1000px);
+                transform: translateX(1000px);
+                opacity: 0;
+            }
+
+            100% {
+                -webkit-transform: translateX(0);
+                transform: translateX(0);
+                opacity: 1;
+            }
+        }
+
+        @keyframes slide-in-right {
+            0% {
+                -webkit-transform: translateX(1000px);
+                transform: translateX(1000px);
+                opacity: 0;
+            }
+
+            100% {
+                -webkit-transform: translateX(0);
+                transform: translateX(0);
+                opacity: 1;
+            }
+        }
+        /**
+         * ----------------------------------------
+         * animation slide-out-left
+         * ----------------------------------------
+         */
+        @-webkit-keyframes slide-out-left {
+            0% {
+                -webkit-transform: translateX(0);
+                transform: translateX(0);
+                opacity: 1;
+            }
+
+            100% {
+                -webkit-transform: translateX(-1000px);
+                transform: translateX(-1000px);
+                opacity: 0;
+            }
+        }
+
+        @keyframes slide-out-left {
+            0% {
+                -webkit-transform: translateX(0);
+                transform: translateX(0);
+                opacity: 1;
+            }
+
+            100% {
+                -webkit-transform: translateX(-1000px);
+                transform: translateX(-1000px);
+                opacity: 0;
+            }
+        }
+        /**
+         * ----------------------------------------
+         * animation slide-out-right
+         * ----------------------------------------
+         */
+        @-webkit-keyframes slide-out-right {
+            0% {
+                -webkit-transform: translateX(0);
+                transform: translateX(0);
+                opacity: 1;
+            }
+
+            100% {
+                -webkit-transform: translateX(1000px);
+                transform: translateX(1000px);
+                opacity: 0;
+            }
+        }
+
+        @keyframes slide-out-right {
+            0% {
+                -webkit-transform: translateX(0);
+                transform: translateX(0);
+                opacity: 1;
+            }
+
+            100% {
+                -webkit-transform: translateX(1000px);
+                transform: translateX(1000px);
+                opacity: 0;
+            }
+        }
+
+    </style>
 </head>
 <body>
     <div id="app">
-        <div class="statusbar"></div>
         <div class="panel-backdrop"></div>
         <div class="panel panel-left panel-cover"></div>
-        <div class="panel panel-right panel-reveal"></div>
-        <div class="view view-main ios-edges"></div>
+        <div class="panel panel-right panel-cover"></div>
+        <div class="view view-main safe-areas"></div>
     </div>
-    <script src="Assets/js/jquery.min.js"></script>
     <script src="Assets/js/appbe-core.min.js"></script>
     <script src="Assets/js/appbe-ext.min.js"></script>
     <script type="text/javascript">
         var timestamp = Be.util.getTimestamp();
-        var appUrl = Be.util.getUrlParam('url') || 'http://be2.dev.com';
+        var appUrl = Be.util.getUrlParam('url') || 'http://be5.dev.com';
+        var appTheme = Be.util.getUrlParam('theme') || 'md';
         Be.config.type = 'web';
         Be.config.url = appUrl;
         Be.config.theme = appTheme;
+        Be.util.loadCss(appUrl + '/Assets/css/my.css?' + timestamp);
         Be.util.loadScript(appUrl + '/Assets/js/my.js?' + timestamp);
     </script>
 </body>

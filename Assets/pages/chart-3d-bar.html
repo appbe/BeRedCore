@@ -1,5 +1,5 @@
 <div class="page" data-name="chart-3d-bar">
-  <div class="navbar"><div class="navbar-inner"><div class="left"><a href="#back" class="back link"><i class="icon icon-back"></i></a></div><div class="title">3D Bar Chart</div></div></div>
+  <div class="navbar"><div class="navbar-bg"></div><div class="navbar-inner"><div class="left"><a href="#back" class="back link"><i class="icon icon-back"></i></a></div><div class="title">3D Bar Chart</div></div></div>
   <div class="page-content">
   <div class="block"><p><div id="chartdiv6" style="width: 100%; height: 450px;"></div></p></div>
   <div style="display:none;"><div id="dat-3d-bar">[{
@@ -18,35 +18,4 @@
             "year": 2009,
             "income": 24.6
         }]</div></div></div>
-  <script>
-      Be.page("chart-3d-bar", function () {
-          var data = $('#dat-3d-bar').text();
-          var chartData = JSON.parse(data);
-          var chart = AmCharts.makeChart("chartdiv6", {
-              "theme": "none",
-              "type": "serial",
-              "dataProvider": chartData,
-              "valueAxes": [{
-                  "title": "Income in millions, USD"
-              }],
-              "graphs": [{
-                  "balloonText": "Income in [[category]]:[[value]]",
-                  "fillAlphas": 1,
-                  "lineAlpha": 0.2,
-                  "title": "Income",
-                  "type": "column",
-                  "valueField": "income"
-              }],
-              "depth3D": 20,
-              "angle": 30,
-              "rotate": true,
-              "categoryField": "year",
-              "categoryAxis": {
-                  "gridPosition": "start",
-                  "fillAlpha": 0.05,
-                  "position": "left"
-              }
-          });
-      });
-  </script>
 </div>

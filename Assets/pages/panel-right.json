@@ -1,5 +1,6 @@
 ﻿{
   "id": "panel-right",
+  "pageCls": "cust-panel",
   "component": [
     {
       "type": "navbar",

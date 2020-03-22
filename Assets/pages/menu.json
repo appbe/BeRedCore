@@ -1,0 +1,211 @@
+﻿{
+  "id": "menu",
+  "component": [
+    {
+      "type": "navbar",
+      "list": [
+        {
+          "type": "left",
+          "icoIos": "icon icon-back",
+          "icoMat": "icon icon-back",
+          "class": "back link",
+          "click": "#"
+        },
+        {
+          "type": "title",
+          "text": "Menu"
+        }
+      ]
+    },
+    {
+      "type": "title",
+      "shape": "sign",
+      "text": "Plain Links"
+    },
+    {
+      "type": "menu",
+      "list": [
+        {
+          "text": "Item 1",
+          "click": "#"
+        },
+        {
+          "text": "Item 2",
+          "click": "#"
+        },
+        {
+          "text": "",
+          "icoIos": "pencil",
+          "icoMat": "edit",
+          "click": "#"
+        },
+        {
+          "text": "",
+          "icoIos": "square_arrow_up",
+          "icoMat": "share",
+          "click": "#"
+        }
+      ]
+    },
+    {
+      "type": "title",
+      "shape": "sign",
+      "text": "Dropdowns"
+    },
+    {
+      "type": "menu",
+      "list": [
+        {
+          "text": "Left",
+          "dropdown": "1",
+          "align": "left",
+          "item": [
+            {
+              "text": "Menu Item 1",
+              "click": "#"
+            },
+            {
+              "text": "Menu Item 2",
+              "click": "#"
+            },
+            {
+              "text": "Menu Item 3",
+              "click": "#"
+            },
+            {
+              "text": "Menu Item 4",
+              "click": "#"
+            },
+            {
+              "text": "-"
+            },
+            {
+              "text": "Menu Item 5",
+              "click": "#"
+            },
+            {
+              "text": "Menu Item 6",
+              "click": "#"
+            }
+          ]
+        },
+        {
+          "text": "Center",
+          "dropdown": "1",
+          "align": "center",
+          "item": [
+            {
+              "text": "Menu Item 1",
+              "click": "#"
+            },
+            {
+              "text": "Menu Item 2",
+              "click": "#"
+            },
+            {
+              "text": "Menu Item 3",
+              "click": "#"
+            },
+            {
+              "text": "Menu Item 4",
+              "click": "#"
+            },
+            {
+              "text": "-"
+            },
+            {
+              "text": "Menu Item 5",
+              "click": "#"
+            },
+            {
+              "text": "Menu Item 6",
+              "click": "#"
+            },
+            {
+              "text": "Menu Item 7",
+              "click": "#"
+            },
+            {
+              "text": "-"
+            },
+            {
+              "text": "Menu Item 8",
+              "click": "#"
+            },
+            {
+              "text": "Menu Item 9",
+              "click": "#"
+            },
+            {
+              "text": "Menu Item 10",
+              "click": "#"
+            }
+          ]
+        },
+        {
+          "text": "Right",
+          "dropdown": "1",
+          "align": "right",
+          "item": [
+            {
+              "text": "Menu Item 1",
+              "click": "#"
+            },
+            {
+              "text": "Menu Item 2",
+              "click": "#"
+            },
+            {
+              "text": "Menu Item 3",
+              "click": "#"
+            },
+            {
+              "text": "Menu Item 4",
+              "click": "#"
+            },
+            {
+              "text": "-"
+            },
+            {
+              "text": "Menu Item 5",
+              "click": "#"
+            },
+            {
+              "text": "Menu Item 6",
+              "click": "#"
+            }
+          ]
+        },
+        {
+          "text": "",
+          "icoIos": "square_arrow_up",
+          "icoMat": "share",
+          "dropdown": "1",
+          "align": "right",
+          "clsMenu": "menu-right",
+          "item": [
+            {
+              "text": "Share on Facebook",
+              "icoIos": "logo_facebook",
+              "icoMat": "message",
+              "align": "left",
+              "click": "#"
+            },
+            {
+              "text": "Share on Twitter",
+              "icoIos": "logo_twitter",
+              "icoMat": "message",
+              "click": "#"
+            }
+          ]
+        },
+        {
+          "text": "",
+          "icoIos": "pencil",
+          "icoMat": "edit",
+          "click": "#"
+        }
+      ]
+    }
+  ]
+}

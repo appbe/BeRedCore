@@ -1,0 +1,56 @@
+﻿{
+  "id": "forms-upload",
+  "component": [
+    {
+      "type": "navbar",
+      "list": [
+        {
+          "type": "left",
+          "icoIos": "icon icon-back",
+          "icoMat": "icon icon-back",
+          "class": "back link",
+          "click": "#"
+        },
+        {
+          "type": "title",
+          "text": "Form Upload"
+        }
+      ]
+    },
+    {
+      "type": "input",
+      "subtype": "form",
+      "id": "forms-upload-file",
+      "lblFloating": "0",
+      "list": [
+        {
+          "input": "file",
+          "name": "txtFile",
+          "icoIos": "attachment",
+          "icoMat": "attach_file",
+          "label": "Upload File",
+          "placeholder": "Select File...",
+          "multi": "1",
+          "onchange": "doUploadFile('txtFile')"
+        }
+      ]
+    },
+    {
+      "type": "input",
+      "subtype": "form",
+      "id": "forms-upload-photo",
+      "lblFloating": "0",
+      "list": [
+        {
+          "input": "file",
+          "name": "txtPhoto",
+          "icoIos": "camera",
+          "icoMat": "photo",
+          "label": "Upload Photo",
+          "placeholder": "Select Photo...",
+          "onchange": "doUploadPhoto('txtPhoto')"
+        }
+      ]
+    }
+  ]
+}
